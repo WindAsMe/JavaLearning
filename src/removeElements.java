@@ -65,9 +65,9 @@ public class removeElements {
         node.next = new ListNode(1);
         node.next = new ListNode(1);
         node.next.next = new ListNode(3);
-//        node.next.next.next = new ListNode(1);
-//        node.next.next.next.next = new ListNode(5);
-//        node.next.next.next.next.next = new ListNode(3);
+        node.next.next.next = new ListNode(1);
+        node.next.next.next.next = new ListNode(5);
+        node.next.next.next.next.next = new ListNode(3);
 
         ListNode result = removeElementsResult(node, 1);
         while (result != null){
