@@ -14,6 +14,7 @@ public class removeElements {
     }
 
     private static ListNode removeElementsResult(ListNode head, int val) {
+
         // Like Cpp pointer *
         ListNode point = head;
 
