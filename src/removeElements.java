@@ -62,6 +62,7 @@ public class removeElements {
 
     public static void main(String[] args){
         ListNode node = new ListNode(1);
+
         node.next = new ListNode(1);
         node.next = new ListNode(1);
         node.next.next = new ListNode(3);
