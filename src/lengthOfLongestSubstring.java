@@ -7,6 +7,7 @@
  * Function   : LeeCode No.3
  */
 public class lengthOfLongestSubstring {
+
     private static int lengthOfLongestSubstringResult(String s){
         if (s.length() == 0){
             return 0;

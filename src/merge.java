@@ -8,6 +8,7 @@ import java.util.Arrays;
  * Function   : LeeCode No.88
  */
 public class merge {
+
     // Solution 1: Insert directly and Arrays.sort()
     // Solution 2: Insert and judge, move the position
     private static void mergeResult(int[] nums1, int m, int[] nums2, int n) {
