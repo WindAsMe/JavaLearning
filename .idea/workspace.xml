@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="" />
+    <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/plusOne.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,19 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="strStr.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strStr.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="38" column="25" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="38" selection-end-column="25" />
-              <folding>
-                <element signature="e#1606#1607#0" expanded="true" />
-                <element signature="e#1669#1670#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="removeElements.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/removeElements.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -35,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="searchInsert.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/searchInsert.java">
+      <file leaf-file-name="removeElement.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/removeElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+            <state relative-caret-position="360">
+              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -48,8 +38,8 @@
       <file leaf-file-name="combinationSum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/combinationSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="270">
+              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,11 +47,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="plusOne.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/plusOne.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="40" column="23" lean-forward="false" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="merge.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/merge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="11" column="52" lean-forward="false" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+            <state relative-caret-position="180">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -70,22 +70,52 @@
       <file leaf-file-name="maxSubArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/maxSubArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+            <state relative-caret-position="144">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mySqrt.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lengthOfLongestSubstring.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lengthOfLongestSubstring.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="intToRoman.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/intToRoman.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mySqrt.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mySqrt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="396">
+              <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
               <folding>
                 <element signature="e#1153#1154#0" expanded="true" />
                 <element signature="e#1213#1214#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="removeDuplicates.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/removeDuplicates.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -112,17 +142,18 @@
       <list>
         <option value="$PROJECT_DIR$/src/generateParenthesis.java" />
         <option value="$PROJECT_DIR$/src/removeDuplicates.java" />
-        <option value="$PROJECT_DIR$/src/lengthOfLongestSubstring.java" />
         <option value="$PROJECT_DIR$/src/addTwoNumbers.java" />
-        <option value="$PROJECT_DIR$/src/intToRoman.java" />
         <option value="$PROJECT_DIR$/src/removeElement.java" />
         <option value="$PROJECT_DIR$/src/strStr.java" />
         <option value="$PROJECT_DIR$/src/removeElements.java" />
         <option value="$PROJECT_DIR$/src/searchInsert.java" />
         <option value="$PROJECT_DIR$/src/combinationSum.java" />
+        <option value="$PROJECT_DIR$/src/mySqrt.java" />
         <option value="$PROJECT_DIR$/src/merge.java" />
         <option value="$PROJECT_DIR$/src/maxSubArray.java" />
-        <option value="$PROJECT_DIR$/src/mySqrt.java" />
+        <option value="$PROJECT_DIR$/src/lengthOfLongestSubstring.java" />
+        <option value="$PROJECT_DIR$/src/intToRoman.java" />
+        <option value="$PROJECT_DIR$/src/plusOne.java" />
       </list>
     </option>
   </component>
@@ -133,7 +164,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="111" />
+    <option name="x" value="237" />
     <option name="y" value="24" />
     <option name="width" value="1163" />
     <option name="height" value="744" />
@@ -198,7 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.mySqrt">
+  <component name="RunManager" selected="Application.plusOne">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -276,9 +307,9 @@
       <module name="JavaForLeeCode2" />
       <envs />
     </configuration>
-    <configuration name="searchInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="plusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="searchInsert" />
+      <option name="MAIN_CLASS_NAME" value="plusOne" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -351,19 +382,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.searchInsert" />
-      <item index="1" class="java.lang.String" itemvalue="Application.combinationSum" />
-      <item index="2" class="java.lang.String" itemvalue="Application.merge" />
-      <item index="3" class="java.lang.String" itemvalue="Application.maxSubArray" />
-      <item index="4" class="java.lang.String" itemvalue="Application.mySqrt" />
+      <item index="0" class="java.lang.String" itemvalue="Application.combinationSum" />
+      <item index="1" class="java.lang.String" itemvalue="Application.merge" />
+      <item index="2" class="java.lang.String" itemvalue="Application.maxSubArray" />
+      <item index="3" class="java.lang.String" itemvalue="Application.mySqrt" />
+      <item index="4" class="java.lang.String" itemvalue="Application.plusOne" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.mySqrt" />
-        <item index="1" class="java.lang.String" itemvalue="Application.maxSubArray" />
-        <item index="2" class="java.lang.String" itemvalue="Application.merge" />
-        <item index="3" class="java.lang.String" itemvalue="Application.combinationSum" />
-        <item index="4" class="java.lang.String" itemvalue="Application.searchInsert" />
+        <item index="0" class="java.lang.String" itemvalue="Application.plusOne" />
+        <item index="1" class="java.lang.String" itemvalue="Application.mySqrt" />
+        <item index="2" class="java.lang.String" itemvalue="Application.maxSubArray" />
+        <item index="3" class="java.lang.String" itemvalue="Application.merge" />
+        <item index="4" class="java.lang.String" itemvalue="Application.combinationSum" />
       </list>
     </recent_temporary>
   </component>
@@ -388,15 +419,16 @@
       <workItem from="1527573326636" duration="1973000" />
       <workItem from="1527595838296" duration="127000" />
       <workItem from="1527597986274" duration="2102000" />
-      <workItem from="1527655329630" duration="9114000" />
+      <workItem from="1527655329630" duration="14055000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35444000" />
+    <option name="totallyTimeSpent" value="40385000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="111" y="24" width="1163" height="744" extended-state="0" />
+    <frame x="237" y="24" width="1163" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -406,9 +438,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26948053" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28084415" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28084415" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15700267" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -580,34 +612,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/generateParenthesis.java" />
     <entry file="file://$PROJECT_DIR$/src/addTwoNumbers.java" />
-    <entry file="file://$PROJECT_DIR$/src/removeDuplicates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lengthOfLongestSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/intToRoman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="51" column="33" lean-forward="false" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/removeElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/jdk-9.0.4/lib/src.zip!/java.base/java/lang/StringLatin1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
@@ -617,20 +621,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/strStr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="25" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="38" selection-end-column="25" />
+        <state relative-caret-position="177">
+          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
           <folding>
             <element signature="e#1606#1607#0" expanded="true" />
             <element signature="e#1669#1670#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/removeElements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -642,40 +638,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/combinationSum.java">
+    <entry file="file://$PROJECT_DIR$/src/removeElements.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/merge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="11" column="52" lean-forward="false" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+        <state relative-caret-position="1152">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/maxSubArray.java">
+    <entry file="file://$PROJECT_DIR$/src/removeElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        <state relative-caret-position="360">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/removeDuplicates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mySqrt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        <state relative-caret-position="396">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
           <folding>
             <element signature="e#1153#1154#0" expanded="true" />
             <element signature="e#1213#1214#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/merge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maxSubArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lengthOfLongestSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intToRoman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/combinationSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/plusOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="40" column="23" lean-forward="false" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
