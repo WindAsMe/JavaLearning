@@ -21,7 +21,7 @@ public class plusOne {
                 }
             }
 
-
+            // Top position add 1
             if (digits[0] == 10){
                 int index = length + 1;
                 int[] arr = new int[index];
