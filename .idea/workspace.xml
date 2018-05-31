@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/hasPathSum.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/isSameTree.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -61,14 +61,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hasPathSum.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hasPathSum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hasPathSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="42" column="14" lean-forward="false" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+            <state relative-caret-position="468">
+              <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
               <folding>
                 <element signature="e#424#425#0" expanded="true" />
                 <element signature="e#484#485#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="isSameTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/isSameTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,6 +131,7 @@
         <option value="$PROJECT_DIR$/src/longestPalindrome.java" />
         <option value="$PROJECT_DIR$/src/myAtoi.java" />
         <option value="$PROJECT_DIR$/src/hasPathSum.java" />
+        <option value="$PROJECT_DIR$/src/isSameTree.java" />
       </list>
     </option>
   </component>
@@ -129,8 +142,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="53" />
-    <option name="y" value="24" />
+    <option name="x" value="122" />
+    <option name="y" value="46" />
     <option name="width" value="917" />
     <option name="height" value="744" />
   </component>
@@ -194,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.hasPathSum">
+  <component name="RunManager" selected="Application.isSameTree">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -244,9 +257,9 @@
       <module name="JavaForLeeCode2" />
       <envs />
     </configuration>
-    <configuration name="longestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="isSameTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="longestPalindrome" />
+      <option name="MAIN_CLASS_NAME" value="isSameTree" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -258,9 +271,9 @@
       <module name="JavaForLeeCode2" />
       <envs />
     </configuration>
-    <configuration name="searchMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="longestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="searchMatrix" />
+      <option name="MAIN_CLASS_NAME" value="longestPalindrome" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -347,19 +360,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.searchMatrix" />
-      <item index="1" class="java.lang.String" itemvalue="Application.uniquePathsWithObstacles" />
-      <item index="2" class="java.lang.String" itemvalue="Application.findMedianSortedArrays" />
-      <item index="3" class="java.lang.String" itemvalue="Application.longestPalindrome" />
-      <item index="4" class="java.lang.String" itemvalue="Application.hasPathSum" />
+      <item index="0" class="java.lang.String" itemvalue="Application.uniquePathsWithObstacles" />
+      <item index="1" class="java.lang.String" itemvalue="Application.findMedianSortedArrays" />
+      <item index="2" class="java.lang.String" itemvalue="Application.longestPalindrome" />
+      <item index="3" class="java.lang.String" itemvalue="Application.hasPathSum" />
+      <item index="4" class="java.lang.String" itemvalue="Application.isSameTree" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.hasPathSum" />
-        <item index="1" class="java.lang.String" itemvalue="Application.longestPalindrome" />
-        <item index="2" class="java.lang.String" itemvalue="Application.findMedianSortedArrays" />
-        <item index="3" class="java.lang.String" itemvalue="Application.uniquePathsWithObstacles" />
-        <item index="4" class="java.lang.String" itemvalue="Application.searchMatrix" />
+        <item index="0" class="java.lang.String" itemvalue="Application.isSameTree" />
+        <item index="1" class="java.lang.String" itemvalue="Application.hasPathSum" />
+        <item index="2" class="java.lang.String" itemvalue="Application.longestPalindrome" />
+        <item index="3" class="java.lang.String" itemvalue="Application.findMedianSortedArrays" />
+        <item index="4" class="java.lang.String" itemvalue="Application.uniquePathsWithObstacles" />
       </list>
     </recent_temporary>
   </component>
@@ -387,15 +400,15 @@
       <workItem from="1527655329630" duration="14171000" />
       <workItem from="1527685093130" duration="762000" />
       <workItem from="1527741457396" duration="8368000" />
-      <workItem from="1527755672570" duration="10887000" />
+      <workItem from="1527755672570" duration="12843000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60518000" />
+    <option name="totallyTimeSpent" value="62474000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="24" width="917" height="744" extended-state="0" />
+    <frame x="122" y="46" width="917" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -438,16 +451,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/combinationSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/merge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -854,11 +857,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hasPathSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="42" column="14" lean-forward="false" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+        <state relative-caret-position="468">
+          <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
           <folding>
             <element signature="e#424#425#0" expanded="true" />
             <element signature="e#484#485#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/isSameTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
