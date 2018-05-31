@@ -14,23 +14,27 @@ public class generateMatrix {
         int x = 0,y = 0;
         while(num <= sum)
         {
-            while(y < n && result[x][y] == 0)//向右
+            // Move right
+            while(y < n && result[x][y] == 0)
                 result[x][y++] = num++;
             // Move down
             x++;
             y--;
 
-            while(x < n && result[x][y] == 0)//向下
+            // Move down
+            while(x < n && result[x][y] == 0)
                 result[x++][y] = num++;
             y--;
             x--;
 
-            while(y >= 0 && result[x][y] == 0)//向左
+            // Move left
+            while(y >= 0 && result[x][y] == 0)
                 result[x][y--] = num++;
             x--;
             y++;
 
-            while(x >= 0 && result[x][y] == 0)//向上
+            // Move up
+            while(x >= 0 && result[x][y] == 0)
                 result[x--][y] = num++;
             y++;
             x++;
