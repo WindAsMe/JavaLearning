@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/minimumTotal.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/isSymmetric.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,7 +30,7 @@
       <file leaf-file-name="uniquePaths.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/uniquePaths.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="306">
               <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
               <folding>
                 <element signature="e#1240#1241#0" expanded="true" />
@@ -76,7 +76,7 @@
       <file leaf-file-name="hasPathSum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hasPathSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
+            <state relative-caret-position="648">
               <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
               <folding>
                 <element signature="e#424#425#0" expanded="true" />
@@ -89,7 +89,7 @@
       <file leaf-file-name="isSameTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/isSameTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="972">
+            <state relative-caret-position="954">
               <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding />
             </state>
@@ -109,7 +109,7 @@
       <file leaf-file-name="pathSum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pathSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="864">
               <caret line="49" column="21" lean-forward="false" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -118,13 +118,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="minimumTotal.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="minimumTotal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/minimumTotal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="37" column="65" lean-forward="false" selection-start-line="37" selection-start-column="65" selection-end-line="37" selection-end-column="65" />
+            <state relative-caret-position="612">
+              <caret line="35" column="43" lean-forward="false" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="isSymmetric.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/isSymmetric.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="25" selection-end-column="9" />
+              <folding>
+                <element signature="e#365#366#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -179,6 +192,7 @@
         <option value="$PROJECT_DIR$/src/isValidBST.java" />
         <option value="$PROJECT_DIR$/src/pathSum.java" />
         <option value="$PROJECT_DIR$/src/minimumTotal.java" />
+        <option value="$PROJECT_DIR$/src/isSymmetric.java" />
       </list>
     </option>
   </component>
@@ -210,9 +224,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -229,7 +240,10 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -240,7 +254,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/deep-dev_doubibobo" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -254,7 +268,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.minimumTotal">
+  <component name="RunManager" selected="Application.isSymmetric">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -276,9 +290,9 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="hasPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="isSameTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="hasPathSum" />
+      <option name="MAIN_CLASS_NAME" value="isSameTree" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -290,9 +304,9 @@
       <module name="JavaForLeeCode2" />
       <envs />
     </configuration>
-    <configuration name="isSameTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="isSymmetric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="isSameTree" />
+      <option name="MAIN_CLASS_NAME" value="isSymmetric" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -407,19 +421,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.hasPathSum" />
-      <item index="1" class="java.lang.String" itemvalue="Application.isSameTree" />
-      <item index="2" class="java.lang.String" itemvalue="Application.isValidBST" />
-      <item index="3" class="java.lang.String" itemvalue="Application.pathSum" />
-      <item index="4" class="java.lang.String" itemvalue="Application.minimumTotal" />
+      <item index="0" class="java.lang.String" itemvalue="Application.isSameTree" />
+      <item index="1" class="java.lang.String" itemvalue="Application.isValidBST" />
+      <item index="2" class="java.lang.String" itemvalue="Application.pathSum" />
+      <item index="3" class="java.lang.String" itemvalue="Application.minimumTotal" />
+      <item index="4" class="java.lang.String" itemvalue="Application.isSymmetric" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.minimumTotal" />
-        <item index="1" class="java.lang.String" itemvalue="Application.pathSum" />
-        <item index="2" class="java.lang.String" itemvalue="Application.isValidBST" />
-        <item index="3" class="java.lang.String" itemvalue="Application.isSameTree" />
-        <item index="4" class="java.lang.String" itemvalue="Application.hasPathSum" />
+        <item index="0" class="java.lang.String" itemvalue="Application.isSymmetric" />
+        <item index="1" class="java.lang.String" itemvalue="Application.minimumTotal" />
+        <item index="2" class="java.lang.String" itemvalue="Application.pathSum" />
+        <item index="3" class="java.lang.String" itemvalue="Application.isValidBST" />
+        <item index="4" class="java.lang.String" itemvalue="Application.isSameTree" />
       </list>
     </recent_temporary>
   </component>
@@ -449,12 +463,14 @@
       <workItem from="1527741457396" duration="8368000" />
       <workItem from="1527755672570" duration="15440000" />
       <workItem from="1527831031409" duration="5277000" />
-      <workItem from="1527838771391" duration="4382000" />
+      <workItem from="1527838771391" duration="4595000" />
+      <workItem from="1527845841523" duration="1353000" />
+      <workItem from="1527847542492" duration="3116000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74730000" />
+    <option name="totallyTimeSpent" value="79412000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="-6" width="1309" height="774" extended-state="6" />
@@ -468,19 +484,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32817337" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45665634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34300342" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34210527" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16495658" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16969219" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39935064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -500,13 +516,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/intToRoman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/mySqrt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -777,7 +786,7 @@
     <entry file="file://$PROJECT_DIR$/src/myAtoi.java" />
     <entry file="file://$PROJECT_DIR$/src/uniquePaths.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="306">
           <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
           <folding>
             <element signature="e#1240#1241#0" expanded="true" />
@@ -815,7 +824,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hasPathSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
+        <state relative-caret-position="648">
           <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
           <folding>
             <element signature="e#424#425#0" expanded="true" />
@@ -826,7 +835,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/isSameTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
+        <state relative-caret-position="954">
           <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding />
         </state>
@@ -842,7 +851,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pathSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="864">
           <caret line="49" column="21" lean-forward="false" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -854,19 +863,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
           <caret line="127" column="34" lean-forward="false" selection-start-line="127" selection-start-column="34" selection-end-line="127" selection-end-column="34" />
-          <folding>
-            <element signature="e#6326#6327#0" expanded="true" />
-            <element signature="e#6394#6395#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/minimumTotal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="37" column="65" lean-forward="false" selection-start-line="37" selection-start-column="65" selection-end-line="37" selection-end-column="65" />
+        <state relative-caret-position="612">
+          <caret line="35" column="43" lean-forward="false" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/isSymmetric.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="25" selection-end-column="9" />
+          <folding>
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
           </folding>
         </state>
       </provider>
