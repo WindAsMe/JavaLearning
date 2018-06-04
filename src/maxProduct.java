@@ -33,6 +33,7 @@ public class maxProduct {
         return res;
     }
 
+
     public static void main(String[] args){
         int[] nums = {-2, -2, -1, 3, 4};
         System.out.println(maxProductResult(nums));
