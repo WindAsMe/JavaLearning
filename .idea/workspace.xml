@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/reverseWords.java" afterPath="$PROJECT_DIR$/src/reverseWords.java" />
+      <change beforePath="$PROJECT_DIR$/src/reverseList.java" afterPath="$PROJECT_DIR$/src/reverseList.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,17 +50,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reverseList.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="reverseList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/reverseList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="34" column="45" lean-forward="false" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
-              <folding />
+            <state relative-caret-position="67">
+              <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="36" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reverseWords.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="reverseWords.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/reverseWords.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
@@ -134,8 +136,8 @@
         <option value="$PROJECT_DIR$/src/compareVersion.java" />
         <option value="$PROJECT_DIR$/src/isIsomorphic.java" />
         <option value="$PROJECT_DIR$/src/rightSideView.java" />
-        <option value="$PROJECT_DIR$/src/reverseList.java" />
         <option value="$PROJECT_DIR$/src/reverseWords.java" />
+        <option value="$PROJECT_DIR$/src/reverseList.java" />
       </list>
     </option>
   </component>
@@ -211,7 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.reverseWords">
+  <component name="RunManager" selected="Application.reverseList">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -372,8 +374,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.reverseWords" />
-        <item index="1" class="java.lang.String" itemvalue="Application.reverseList" />
+        <item index="0" class="java.lang.String" itemvalue="Application.reverseList" />
+        <item index="1" class="java.lang.String" itemvalue="Application.reverseWords" />
         <item index="2" class="java.lang.String" itemvalue="Application.rightSideView" />
         <item index="3" class="java.lang.String" itemvalue="Application.isIsomorphic" />
         <item index="4" class="java.lang.String" itemvalue="Application.compareVersion" />
@@ -416,12 +418,12 @@
       <workItem from="1528017055053" duration="2699000" />
       <workItem from="1528086997351" duration="11002000" />
       <workItem from="1528100366919" duration="12504000" />
-      <workItem from="1528260715352" duration="1670000" />
+      <workItem from="1528260715352" duration="3297000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126735000" />
+    <option name="totallyTimeSpent" value="128362000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -445,7 +447,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2840909" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2840909" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35551947" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -852,19 +854,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reverseList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="34" column="45" lean-forward="false" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/reverseWords.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reverseList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="36" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

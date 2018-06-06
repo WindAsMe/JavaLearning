@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Author     : WindAsMe
  * File       : reverseList.java
@@ -18,31 +21,22 @@ public class reverseList {
         if (head == null) {
             return null;
         } else {
-            int len = 0;
-            ListNode temp = head;
-            while (temp.next != null) {
-                len ++;
-                temp = temp.next;
+            List<Integer> list = new ArrayList<>();
+            while (head != null) {
+                list.add(head.val);
+                head = head.next;
             }
 
-            ListNode node = new ListNode(head.val);
-            addList(len, head, node);
-            return node;
+            ListNode node = new ListNode(list.get(list.size() - 1));
+            ListNode result = node;
+            for (int i = list.size() - 2 ; i >= 0 ; i -- ) {
+                node.next = new ListNode(list.get(i));
+                node = node.next;
+            }
+            return result;
         }
     }
 
-    private static void addList(int index, ListNode head, ListNode node) {
-        System.out.println("Index: " + index );
-        for (int i = 0 ; i < index ; i ++ ) {
-            ListNode temp = head;
-            for (int j = index - i ; j >= 1 ; j -- ) {
-                temp = temp.next;
-                System.out.println("i:" + i + "   " + "j:" + j + "    value:" + temp.val);
-            }
-            node.next = new ListNode(temp.val);
-            node = node.next;
-        }
-    }
 
     public static void main(String[] args) {
         ListNode node = new ListNode(1);
@@ -56,6 +50,7 @@ public class reverseList {
         ListNode result = reverseListResult(node);
         while (result != null) {
             System.out.println(result.val + " ");
+            result = result.next;
         }
 
     }
