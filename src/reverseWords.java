@@ -8,39 +8,30 @@
 public class reverseWords {
 
     private static String reverseWordsResult(String s) {
-        if (s.length() == 0){
-            return "";
-        } else if (s.length() == 1){
-            return s;
-        } else {
-            String str = new StringBuffer(s).reverse().toString();
+        StringBuilder temp = new StringBuilder(s.trim());
+        StringBuilder result = new StringBuilder();
+        temp.reverse();
 
-            StringBuilder result = new StringBuilder();
-            StringBuilder temp = new StringBuilder();
-            for (int i = 0; i < str.length(); i++) {
-                // System.out.println("i:" + i);
-                if (str.charAt(i) == ' ') {
-                    temp = temp.reverse();
-                    temp.append(" ");
-                    result.append(temp);
-                    temp = new StringBuilder("");
-                } else {
-                    temp.append(str.charAt(i));
+        StringBuilder word = new StringBuilder();
+        for (int i = 0 ; i < temp.length() ; i ++ ) {
+            if (temp.charAt(i) != ' ') {
+                word.append(temp.charAt(i));
+            } else {
+                word.reverse();
+                result.append(word).append(" ");
+                word = new StringBuilder();
+                while (temp.charAt(i + 1) == ' ') {
+                    i ++;
                 }
             }
-            temp = temp.reverse();
-            result.append(temp);
-            if (' ' == (result.toString().charAt(0))){
-                return "";
-            } else {
-                return result.toString();
-            }
         }
+        word.reverse();
+        result.append(word);
+        return result.toString();
     }
 
     public static void main(String[] args){
-        String s = reverseWordsResult("    ");
-
-        System.out.println(s.length());
+        String s = reverseWordsResult(" hello    world    my love   ");
+        System.out.println(s);
     }
 }
