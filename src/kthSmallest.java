@@ -21,6 +21,7 @@ public class kthSmallest {
         Deque<TreeNode> leftDeque = new ArrayDeque<>();
         Deque<TreeNode> rightDeque = new ArrayDeque<>();
         addToDeque(leftDeque, root.left);
+        // k <= left tree node counts
         if (k <= leftDeque.size()) {
             int temp = leftDeque.size();
             while (temp - k > 0) {
@@ -29,8 +30,10 @@ public class kthSmallest {
             }
             System.out.println("k:" + k );
             return leftDeque.pop().val;
+        // k == root
         } else if (k == leftDeque.size() + 1) {
             return root.val;
+        // k > left tree node counts
         } else {
             k -= (1 + leftDeque.size());
             addToDeque(rightDeque, root.right);
