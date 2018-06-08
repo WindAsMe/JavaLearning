@@ -10,24 +10,19 @@ import java.util.Arrays;
 public class minSubArrayLen {
 
     private static int minSubArrayLenResult(int s, int[] nums) {
-        Arrays.sort(nums);
-        int sum = 0;
-        int count = 0;
-        for (int i = nums.length - 1 ; i >= 0 ; i -- ) {
-            System.out.print(nums[i] + " ");
+        if (nums == null || nums.length == 0)
+            return 0;
+        int i = 0, j = 0, sum = 0, min = Integer.MAX_VALUE;
+        while (j < nums.length) {
+            sum += nums[j++];
+            while (sum >= s) {
+                min = Math.min(min, j - i);
+                sum -= nums[i++];
+            }
         }
-        System.out.println();
-        for (int i = nums.length - 1 ; i >= 0 ; i -- ) {
-            System.out.print(sum + " ");
-             if (sum + nums[i] >= s) {
-                 count ++;
-                 return count;
-             } else {
-                 sum += nums[i];
-                 count ++;
-             }
-        }
-        return 0;
+        return min == Integer.MAX_VALUE ? 0 : min;
+
+
     }
 
     public static void main(String[] args) {
