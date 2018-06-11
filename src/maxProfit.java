@@ -28,6 +28,18 @@ public class maxProfit {
         return sdp[prices.length - 1];
     }
 
+
+//    private static int maxProfitResult(int[] prices) {
+//        int p1 = 0;
+//        int p2 = 0;
+//        for(int i = 1; i < prices.length; i++){
+//            int c = p1;
+//            p1 = Math.max(p1 - prices[i - 1] + prices[i],p2);
+//            p2 = Math.max(c,p2);
+//        }
+//        return Math.max(p1,p2);
+//    }
+
     public static void main(String[] args) {
         int[] num = {1,2,3,0,2};
         System.out.println(maxProfitResult(num));
