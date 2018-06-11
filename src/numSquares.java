@@ -33,7 +33,19 @@ public class numSquares {
         return sum[0][n];
     }
 
-
+    // Work out in math solution
+    private static int numSquaresResult2(int n){
+        while (n % 4 == 0)
+            n /= 4;
+        if (n % 8 == 7)
+            return 4;
+        for (int a = 0 ; a * a <= n ; ++ a ) {
+            int b = (int) Math.sqrt(n - a * a);
+            if (a * a + b * b == n)
+                return (a == 0 ? 0 : 1) + (b == 0 ? 0 : 1);
+        }
+        return 3;
+    }
 
 //    Has Something Wrong
 //    private static int numSquaresResult(int n) {
@@ -83,15 +95,13 @@ public class numSquares {
 //        return minCount;
 //    }
 
-
-
-    private static boolean isDivisor(int maxDivisor) {
-        return ((int) Math.sqrt(maxDivisor) * (int)Math.sqrt(maxDivisor)) == maxDivisor;
-    }
+//    private static boolean isDivisor(int maxDivisor) {
+//        return ((int) Math.sqrt(maxDivisor) * (int)Math.sqrt(maxDivisor)) == maxDivisor;
+//    }
 
 
     public static void main(String[] args) {
-        System.out.println(numSquaresResult(12));
+        System.out.println(numSquaresResult2(12));
     }
 
 }
