@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/missingNumber.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/numSquares.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -74,16 +74,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rob.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rob.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="searchMatrix2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/searchMatrix2.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -119,12 +109,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="missingNumber.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="missingNumber.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/missingNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
+            <state relative-caret-position="124">
               <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="21" selection-end-column="17" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="numSquares.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/numSquares.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+              <folding>
+                <element signature="e#2058#2059#0" expanded="true" />
+                <element signature="e#2114#2115#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -169,7 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/lengthOfLongestSubstring.java" />
         <option value="$PROJECT_DIR$/src/intToRoman.java" />
         <option value="$PROJECT_DIR$/src/plusOne.java" />
         <option value="$PROJECT_DIR$/src/climbStairs.java" />
@@ -220,6 +222,7 @@
         <option value="$PROJECT_DIR$/src/isUgly.java" />
         <option value="$PROJECT_DIR$/src/deleteNode.java" />
         <option value="$PROJECT_DIR$/src/missingNumber.java" />
+        <option value="$PROJECT_DIR$/src/numSquares.java" />
       </list>
     </option>
   </component>
@@ -230,8 +233,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="520" />
-    <option name="y" value="135" />
+    <option name="x" value="40" />
+    <option name="y" value="24" />
     <option name="width" value="1309" />
     <option name="height" value="744" />
   </component>
@@ -295,7 +298,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.isUgly">
+  <component name="RunManager" selected="Application.numSquares">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -345,9 +348,9 @@
       <module name="JavaForLeeCode2" />
       <envs />
     </configuration>
-    <configuration name="minSubArrayLen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="numSquares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="minSubArrayLen" />
+      <option name="MAIN_CLASS_NAME" value="numSquares" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -448,19 +451,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.minSubArrayLen" />
-      <item index="1" class="java.lang.String" itemvalue="Application.rob" />
-      <item index="2" class="java.lang.String" itemvalue="Application.searchMatrix2" />
-      <item index="3" class="java.lang.String" itemvalue="Application.binaryTreePaths" />
-      <item index="4" class="java.lang.String" itemvalue="Application.isUgly" />
+      <item index="0" class="java.lang.String" itemvalue="Application.rob" />
+      <item index="1" class="java.lang.String" itemvalue="Application.searchMatrix2" />
+      <item index="2" class="java.lang.String" itemvalue="Application.binaryTreePaths" />
+      <item index="3" class="java.lang.String" itemvalue="Application.isUgly" />
+      <item index="4" class="java.lang.String" itemvalue="Application.numSquares" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.isUgly" />
-        <item index="1" class="java.lang.String" itemvalue="Application.binaryTreePaths" />
-        <item index="2" class="java.lang.String" itemvalue="Application.searchMatrix2" />
-        <item index="3" class="java.lang.String" itemvalue="Application.rob" />
-        <item index="4" class="java.lang.String" itemvalue="Application.minSubArrayLen" />
+        <item index="0" class="java.lang.String" itemvalue="Application.numSquares" />
+        <item index="1" class="java.lang.String" itemvalue="Application.isUgly" />
+        <item index="2" class="java.lang.String" itemvalue="Application.binaryTreePaths" />
+        <item index="3" class="java.lang.String" itemvalue="Application.searchMatrix2" />
+        <item index="4" class="java.lang.String" itemvalue="Application.rob" />
       </list>
     </recent_temporary>
   </component>
@@ -505,12 +508,12 @@
       <workItem from="1528374137218" duration="519000" />
       <workItem from="1528427578608" duration="13881000" />
       <workItem from="1528454521474" duration="940000" />
-      <workItem from="1528684823456" duration="1475000" />
+      <workItem from="1528684823456" duration="5958000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177107000" />
+    <option name="totallyTimeSpent" value="181590000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -522,19 +525,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="520" y="135" width="1309" height="744" extended-state="0" />
-    <editor active="true" />
+    <frame x="40" y="24" width="1309" height="744" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792208" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26136363" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28246754" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24025974" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34902596" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24025974" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16653512" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -549,7 +552,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26136363" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24350649" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -594,13 +596,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/removeDuplicates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/generateMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -1016,9 +1011,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/missingNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
+        <state relative-caret-position="124">
           <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="21" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/numSquares.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+          <folding>
+            <element signature="e#2058#2059#0" expanded="true" />
+            <element signature="e#2114#2115#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
