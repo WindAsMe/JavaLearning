@@ -7,52 +7,81 @@
  */
 public class numSquares {
 
+    // f(n) = min(f(i) + f(n - i))
     private static int numSquaresResult(int n) {
-        if (n < 1) {
-            return 0;
-        } else if (n == 1) {
-            return 1;
-        }
-        int minCount = Integer.MAX_VALUE;
-        int count = 0;
-        int maxDivisor = n;
-        while (maxDivisor != 1) {
-            // Calculate all the possibility
-            int tempMaxDivisor = maxDivisor;
-            if (isDivisor(tempMaxDivisor)) {
-                int temp = n;
-                while (tempMaxDivisor > 0) {
-                    if (isDivisor(tempMaxDivisor)){
-                        if (temp - tempMaxDivisor == 0) {
-                            System.out.println("equal:" + tempMaxDivisor);
-                            count++;
-                            break;
-                        }
-                        if (temp - tempMaxDivisor > 0) {
-                            System.out.println("add:" + tempMaxDivisor);
-                            temp -= tempMaxDivisor;
-                            count ++;
-                        }
-                        if (temp - tempMaxDivisor < 0) {
-                            tempMaxDivisor --;
-                        }
+        int[][] sum = new int[2][n + 1];
+        sum[0][0] = 0;
 
-                    } else {
-                        tempMaxDivisor --;
-                    }
+        for (int j = 1; j <= n; j++) {
+            int temp = n;
+            for (int i = 1; i <= j; i++) {
+                if (i * i <= j && temp >= 1 + sum[0][j - i * i]) {
+                    temp = 1 + sum[0][j - i * i];
+                    sum[1][j] = i;
                 }
-                maxDivisor --;
-                minCount = Math.min(minCount, count);
-                System.out.println("------------------------------------------------");
-                count = 0;
-            } else {
-                maxDivisor --;
+
             }
+            sum[0][j] = temp;
         }
-        // The biggest is for all one
-        minCount = Math.min(minCount, n);
-        return minCount;
+
+        for (int i = 0 ; i < 2 ; i ++) {
+            for (int j = 0 ; j < n + 1 ; j ++ ) {
+                System.out.print(sum[i][j] + " ");
+            }
+            System.out.println();
+        }
+        return sum[0][n];
     }
+
+
+
+//    Has Something Wrong
+//    private static int numSquaresResult(int n) {
+//        if (n < 1) {
+//            return 0;
+//        } else if (n == 1) {
+//            return 1;
+//        }
+//        int minCount = Integer.MAX_VALUE;
+//        int count = 0;
+//        int maxDivisor = n;
+//        while (maxDivisor != 1) {
+//            // Calculate all the possibility
+//            int tempMaxDivisor = maxDivisor;
+//            if (isDivisor(tempMaxDivisor)) {
+//                int temp = n;
+//                while (tempMaxDivisor > 0) {
+//                    if (isDivisor(tempMaxDivisor)){
+//                        if (temp - tempMaxDivisor == 0) {
+//                            System.out.println("equal:" + tempMaxDivisor);
+//                            count++;
+//                            break;
+//                        }
+//                        if (temp - tempMaxDivisor > 0) {
+//                            System.out.println("add:" + tempMaxDivisor);
+//                            temp -= tempMaxDivisor;
+//                            count ++;
+//                        }
+//                        if (temp - tempMaxDivisor < 0) {
+//                            tempMaxDivisor --;
+//                        }
+//
+//                    } else {
+//                        tempMaxDivisor --;
+//                    }
+//                }
+//                maxDivisor --;
+//                minCount = Math.min(minCount, count);
+//                System.out.println("------------------------------------------------");
+//                count = 0;
+//            } else {
+//                maxDivisor --;
+//            }
+//        }
+//        // The biggest is for all one
+//        minCount = Math.min(minCount, n);
+//        return minCount;
+//    }
 
 
 
@@ -62,7 +91,7 @@ public class numSquares {
 
 
     public static void main(String[] args) {
-        System.out.println(numSquaresResult(43));
+        System.out.println(numSquaresResult(12));
     }
 
 }
