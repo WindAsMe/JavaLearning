@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/numSquares.java" afterPath="$PROJECT_DIR$/src/numSquares.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/isPalindrome.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,16 +74,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="searchMatrix2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/searchMatrix2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="12" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="binaryTreePaths.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/binaryTreePaths.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -118,7 +109,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="numSquares.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="numSquares.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/numSquares.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="99">
@@ -127,6 +118,16 @@
                 <element signature="e#3299#3300#0" expanded="true" />
                 <element signature="e#3356#3357#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="isPalindrome.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/isPalindrome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -171,7 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/intToRoman.java" />
         <option value="$PROJECT_DIR$/src/plusOne.java" />
         <option value="$PROJECT_DIR$/src/climbStairs.java" />
         <option value="$PROJECT_DIR$/src/uniquePaths.java" />
@@ -222,6 +222,7 @@
         <option value="$PROJECT_DIR$/src/deleteNode.java" />
         <option value="$PROJECT_DIR$/src/missingNumber.java" />
         <option value="$PROJECT_DIR$/src/numSquares.java" />
+        <option value="$PROJECT_DIR$/src/isPalindrome.java" />
       </list>
     </option>
   </component>
@@ -297,7 +298,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.numSquares">
+  <component name="RunManager" selected="Application.isPalindrome">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -333,6 +334,20 @@
       <module name="JavaForLeeCode2" />
       <envs />
     </configuration>
+    <configuration name="isPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="isPalindrome" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaForLeeCode2" />
+      <envs />
+    </configuration>
     <configuration name="isUgly" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="isUgly" />
@@ -350,20 +365,6 @@
     <configuration name="numSquares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="numSquares" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaForLeeCode2" />
-      <envs />
-    </configuration>
-    <configuration name="rob" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="rob" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -450,19 +451,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.rob" />
-      <item index="1" class="java.lang.String" itemvalue="Application.searchMatrix2" />
-      <item index="2" class="java.lang.String" itemvalue="Application.binaryTreePaths" />
-      <item index="3" class="java.lang.String" itemvalue="Application.isUgly" />
-      <item index="4" class="java.lang.String" itemvalue="Application.numSquares" />
+      <item index="0" class="java.lang.String" itemvalue="Application.searchMatrix2" />
+      <item index="1" class="java.lang.String" itemvalue="Application.binaryTreePaths" />
+      <item index="2" class="java.lang.String" itemvalue="Application.isUgly" />
+      <item index="3" class="java.lang.String" itemvalue="Application.numSquares" />
+      <item index="4" class="java.lang.String" itemvalue="Application.isPalindrome" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.numSquares" />
-        <item index="1" class="java.lang.String" itemvalue="Application.isUgly" />
-        <item index="2" class="java.lang.String" itemvalue="Application.binaryTreePaths" />
-        <item index="3" class="java.lang.String" itemvalue="Application.searchMatrix2" />
-        <item index="4" class="java.lang.String" itemvalue="Application.rob" />
+        <item index="0" class="java.lang.String" itemvalue="Application.isPalindrome" />
+        <item index="1" class="java.lang.String" itemvalue="Application.numSquares" />
+        <item index="2" class="java.lang.String" itemvalue="Application.isUgly" />
+        <item index="3" class="java.lang.String" itemvalue="Application.binaryTreePaths" />
+        <item index="4" class="java.lang.String" itemvalue="Application.searchMatrix2" />
       </list>
     </recent_temporary>
   </component>
@@ -507,12 +508,12 @@
       <workItem from="1528374137218" duration="519000" />
       <workItem from="1528427578608" duration="13881000" />
       <workItem from="1528454521474" duration="940000" />
-      <workItem from="1528684823456" duration="10724000" />
+      <workItem from="1528684823456" duration="13276000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186356000" />
+    <option name="totallyTimeSpent" value="188908000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -536,7 +537,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34902596" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36201298" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24025974" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -596,13 +597,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/generateMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="52" column="33" lean-forward="false" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lengthOfLastWord.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -1025,6 +1019,14 @@
             <element signature="e#3299#3300#0" expanded="true" />
             <element signature="e#3356#3357#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/isPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
