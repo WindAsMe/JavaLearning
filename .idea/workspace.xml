@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/addStrings.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/getSum.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,15 +37,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addStrings.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="addStrings.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/addStrings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
+            <state relative-caret-position="272">
               <caret line="54" column="12" lean-forward="false" selection-start-line="54" selection-start-column="12" selection-end-line="56" selection-end-column="13" />
               <folding>
                 <element signature="e#2255#2256#0" expanded="true" />
                 <element signature="e#2318#2319#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getSum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/getSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="11" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -80,7 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/minPathSum.java" />
         <option value="$PROJECT_DIR$/src/lengthOfLastWord.java" />
         <option value="$PROJECT_DIR$/src/generateMatrix.java" />
         <option value="$PROJECT_DIR$/src/searchMatrix.java" />
@@ -131,6 +140,7 @@
         <option value="$PROJECT_DIR$/src/maxProfit1.java" />
         <option value="$PROJECT_DIR$/src/maxProfit.java" />
         <option value="$PROJECT_DIR$/src/addStrings.java" />
+        <option value="$PROJECT_DIR$/src/getSum.java" />
       </list>
     </option>
   </component>
@@ -417,12 +427,12 @@
       <workItem from="1528427578608" duration="13881000" />
       <workItem from="1528454521474" duration="940000" />
       <workItem from="1528684823456" duration="18448000" />
-      <workItem from="1528802594963" duration="3007000" />
+      <workItem from="1528802594963" duration="3169000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197087000" />
+    <option name="totallyTimeSpent" value="197249000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -446,8 +456,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2631579" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24025974" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2631579" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23993808" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16890292" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -506,13 +516,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/uniquePaths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/uniquePathsWithObstacles.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1458">
@@ -935,12 +938,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/addStrings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
+        <state relative-caret-position="272">
           <caret line="54" column="12" lean-forward="false" selection-start-line="54" selection-start-column="12" selection-end-line="56" selection-end-column="13" />
           <folding>
             <element signature="e#2255#2256#0" expanded="true" />
             <element signature="e#2318#2319#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/getSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="11" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
