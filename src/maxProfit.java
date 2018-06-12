@@ -34,6 +34,8 @@ public class maxProfit {
 //        int p2 = 0;
 //        for(int i = 1; i < prices.length; i++){
 //            int c = p1;
+            // p1: the current profit(greedy)
+            // p2: the last profit
 //            p1 = Math.max(p1 - prices[i - 1] + prices[i],p2);
 //            p2 = Math.max(c,p2);
 //        }
