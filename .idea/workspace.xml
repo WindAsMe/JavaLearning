@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/lastRemaining.java" afterPath="$PROJECT_DIR$/src/lastRemaining.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/kSmallestPairs.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,15 +27,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="lastRemaining.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/lastRemaining.java">
+      <file leaf-file-name="kSmallestPairs.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/kSmallestPairs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="55" selection-end-column="5" />
-              <folding>
-                <element signature="e#2608#2609#0" expanded="true" />
-                <element signature="e#2672#2673#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="290">
+              <caret line="35" column="19" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="35" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reconstructQueue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reconstructQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="602">
+              <caret line="47" column="33" lean-forward="false" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -59,7 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/myAtoi.java" />
         <option value="$PROJECT_DIR$/src/hasPathSum.java" />
         <option value="$PROJECT_DIR$/src/isSameTree.java" />
         <option value="$PROJECT_DIR$/src/isValidBST.java" />
@@ -110,6 +117,7 @@
         <option value="$PROJECT_DIR$/src/canConstruct.java" />
         <option value="$PROJECT_DIR$/src/reconstructQueue.java" />
         <option value="$PROJECT_DIR$/src/lastRemaining.java" />
+        <option value="$PROJECT_DIR$/src/kSmallestPairs.java" />
       </list>
     </option>
   </component>
@@ -120,8 +128,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-26" />
-    <option name="y" value="-6" />
+    <option name="x" value="128" />
     <option name="width" value="1307" />
     <option name="height" value="768" />
   </component>
@@ -172,6 +179,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/deep-dev_doubibobo" />
+    <property name="SearchEverywhereHistoryKey" value="Con&#9;FILE&#9;file:///home/zhongrui/JavaForLeeCode2/src/reconstructQueue.java" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -185,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.lastRemaining">
+  <component name="RunManager" selected="Application.kSmallestPairs">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -235,9 +243,9 @@
       <module name="JavaForLeeCode2" />
       <envs />
     </configuration>
-    <configuration name="lastRemaining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="kSmallestPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="lastRemaining" />
+      <option name="MAIN_CLASS_NAME" value="kSmallestPairs" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -249,9 +257,9 @@
       <module name="JavaForLeeCode2" />
       <envs />
     </configuration>
-    <configuration name="maxProfit1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="lastRemaining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="maxProfit1" />
+      <option name="MAIN_CLASS_NAME" value="lastRemaining" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -338,19 +346,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.maxProfit1" />
-      <item index="1" class="java.lang.String" itemvalue="Application.addStrings" />
-      <item index="2" class="java.lang.String" itemvalue="Application.canConstruct" />
-      <item index="3" class="java.lang.String" itemvalue="Application.reconstructQueue" />
-      <item index="4" class="java.lang.String" itemvalue="Application.lastRemaining" />
+      <item index="0" class="java.lang.String" itemvalue="Application.addStrings" />
+      <item index="1" class="java.lang.String" itemvalue="Application.canConstruct" />
+      <item index="2" class="java.lang.String" itemvalue="Application.reconstructQueue" />
+      <item index="3" class="java.lang.String" itemvalue="Application.lastRemaining" />
+      <item index="4" class="java.lang.String" itemvalue="Application.kSmallestPairs" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.lastRemaining" />
-        <item index="1" class="java.lang.String" itemvalue="Application.reconstructQueue" />
-        <item index="2" class="java.lang.String" itemvalue="Application.canConstruct" />
-        <item index="3" class="java.lang.String" itemvalue="Application.addStrings" />
-        <item index="4" class="java.lang.String" itemvalue="Application.maxProfit1" />
+        <item index="0" class="java.lang.String" itemvalue="Application.kSmallestPairs" />
+        <item index="1" class="java.lang.String" itemvalue="Application.lastRemaining" />
+        <item index="2" class="java.lang.String" itemvalue="Application.reconstructQueue" />
+        <item index="3" class="java.lang.String" itemvalue="Application.canConstruct" />
+        <item index="4" class="java.lang.String" itemvalue="Application.addStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -399,12 +407,12 @@
       <workItem from="1528802594963" duration="3353000" />
       <workItem from="1528866676251" duration="2310000" />
       <workItem from="1528875453427" duration="9512000" />
-      <workItem from="1528952663313" duration="3426000" />
+      <workItem from="1528952663313" duration="7213000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="212681000" />
+    <option name="totallyTimeSpent" value="216468000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -428,8 +436,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36532506" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23993808" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33436534" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25409836" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17600632" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -488,13 +496,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/isValidBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1314">
-          <caret line="73" column="8" lean-forward="false" selection-start-line="73" selection-start-column="8" selection-end-line="77" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/preorderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -792,17 +793,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-9.0.4/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="500" column="48" lean-forward="true" selection-start-line="500" selection-start-column="48" selection-end-line="500" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/kthSmallest1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="49" column="23" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="49" selection-end-column="23" />
+        <state relative-caret-position="828">
+          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/canConstruct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        <state relative-caret-position="186">
+          <caret line="35" column="42" lean-forward="true" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
           <folding>
             <element signature="e#1006#1007#0" expanded="true" />
             <element signature="e#1077#1078#0" expanded="true" />
@@ -810,31 +820,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/jdk-9.0.4/lib/src.zip!/java.base/java/util/ArrayList.java">
+    <entry file="file://$PROJECT_DIR$/src/lastRemaining.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="500" column="48" lean-forward="true" selection-start-line="500" selection-start-column="48" selection-end-line="500" selection-end-column="48" />
+        <state relative-caret-position="324">
+          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="e#2608#2609#0" expanded="true" />
+            <element signature="e#2672#2673#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/reconstructQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="602">
           <caret line="47" column="33" lean-forward="false" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lastRemaining.java">
+    <entry file="file://$PROJECT_DIR$/src/kSmallestPairs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="55" selection-end-column="5" />
-          <folding>
-            <element signature="e#2608#2609#0" expanded="true" />
-            <element signature="e#2672#2673#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="290">
+          <caret line="35" column="19" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="35" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
