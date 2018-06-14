@@ -12,7 +12,10 @@ import java.util.List;
  */
 public class reconstructQueue {
 
-    public int[][] reconstructQueueResul(int[][] people) {
+    // LEARN list function: add(int index, E element) and set(int index, E element)
+    private static int[][] reconstructQueueResult(int[][] people) {
+
+        // Arrangement in height lower and number higher
         Arrays.sort(people,new Comparator<Object>(){
             @Override
             public int compare(Object o1,Object o2){
@@ -31,12 +34,25 @@ public class reconstructQueue {
 
         List<int[]> list = new ArrayList<>();
         for (int[] aPeople : people) {
+            // If the position waiting add has element
+            // the old element move back
+            // the new element add in position
+            System.out.println(Arrays.toString(aPeople));
+            // KEY procedure
+            // SORT in add proceeding
             list.add(aPeople[1], aPeople);
         }
+
         int[][] res = new int[people.length][2];
-        for(int i = 0 ; i < list.size() ; i++){
+        for(int i = 0 ; i < list.size() ; i ++ ){
             res[i] = list.get(i);
         }
         return res;
+    }
+
+
+    public static void main(String[] args) {
+        int[][] people = {{7,0}, {4,4}, {7,1}, {5,0}, {6,1}, {5,2}};
+        reconstructQueueResult(people);
     }
 }
