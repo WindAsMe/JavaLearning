@@ -10,11 +10,13 @@ import java.util.Arrays;
 public class lastRemaining {
 
     private static int lastRemainingResult(int n) {
-        int[] nums = new int[n];
-        for (int i = 0 ; i < n ; i ++ ) {
-            nums[i] = i + 1;
+        if (n == 1)
+            return 1;
+        int[] nums = new int[n / 2];
+        for (int i = 0 ; i < n / 2; i ++ ) {
+            nums[i] = 2 * (i + 1);
         }
-        return getLast(true, nums);
+        return getLast(false, nums);
     }
 
     // If read from left: isLeft = true
@@ -43,6 +45,6 @@ public class lastRemaining {
 
 
     public static void main(String[] args) {
-        System.out.println(lastRemainingResult(100000));
+        System.out.println(lastRemainingResult(1000000000));
     }
 }
