@@ -36,9 +36,38 @@ public class kSmallestPairs {
         return res;
     }
 
+
+    private static void kSmallestPairsResult1(int[] nums1, int[] nums2, int k){
+        List<int[]> list = new ArrayList<>();
+        for (int aNums1 : nums1) {
+            for (int aNums2 : nums2) {
+                int[] temp = new int[2];
+                temp[0] = aNums1;
+                temp[1] = aNums2;
+                list.add(temp);
+            }
+        }
+        list.sort(new Comparator<int[]>() {
+            @Override
+            public int compare(int[] o1, int[] o2) {
+                int temp = (o1[0] + o1[1]) - (o2[0] + o2[1]);
+                if (temp == 0) {
+                    return o2[0] - o1[0];
+                }
+                return temp;
+            }
+        });
+
+        for (int[] aList : list) {
+            System.out.println(Arrays.toString(aList));
+        }
+    }
+
+
+
     public static void main(String[] args) {
-        int[] nums1 = {1, 7, 11};
-        int[] nums2 = {2, 4, 6};
-        kSmallestPairsResult(nums1, nums2, 1);
+        int[] nums1 = {1, 1, 2};
+        int[] nums2 = {1, 2, 3};
+        kSmallestPairsResult1(nums1, nums2, 1);
     }
 }

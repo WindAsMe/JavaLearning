@@ -38,8 +38,7 @@ public class classSort {
                 return temp;
             }
         });
-        for (int i = 0 ; i < list.size() ; i ++ )
-            System.out.println(list.get(i).a + "  " + list.get(i).b + "  " + (list.get(i).a + list.get(i).b));
+        for (Tuple aList : list) System.out.println(aList.a + "  " + aList.b + "  " + (aList.a + aList.b));
     }
 
     public static void main(String[] args) {
