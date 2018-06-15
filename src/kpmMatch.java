@@ -9,6 +9,12 @@ import java.util.Arrays;
  */
 public class kpmMatch {
 
+    // KPM matched Algorithm:
+    // 1. Calculate the next Array
+    // 2. Match and move the text
+    // 3. IF match the part of matched and the next is unmatched:
+    //    j = next[j] + 1 (j is index the matched)
+    // 4. IF j == matched.length() - 1, match ending, success.
     private static int kpmMatchResult(String text, String matched) {
         if (text.length() < matched.length()) {
             return -1;
@@ -55,6 +61,6 @@ public class kpmMatch {
     }
 
     public static void main(String[] args) {
-        System.out.println(kpmMatchResult("abcaabcdabcqqababc", "abcdabcqqab"));
+        System.out.println(kpmMatchResult("abcaabcdabcqqababc", "abcabaaa"));
     }
 }
