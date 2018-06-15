@@ -7,6 +7,7 @@
  */
 public class islandPerimeter {
 
+    // Simulator like DFS
     private static int islandPerimeterResult(int[][] grid) {
         int count = 0;
         for (int i = 0; i < grid.length; i++) {
