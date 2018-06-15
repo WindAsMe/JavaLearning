@@ -39,12 +39,12 @@ public class kpmMatch {
     }
 
 
+    // The premier procedure in KPM
     // Set array next
     private static void setNext(String matched, int[] next) {
         next[0] = -1;
         int j = 0;
         int k = -1;
-
         while (j < matched.length() - 1) {
             // matched.charAt(j) is prefix
             // matched.charAt(k) is postfix
