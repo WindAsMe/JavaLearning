@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/compress.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/minMoves2.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -53,11 +53,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="compress.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="compress.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/compress.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
               <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="28" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="minMoves2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/minMoves2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="38" column="7" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="38" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -96,7 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/finMin.java" />
         <option value="$PROJECT_DIR$/src/numTrees.java" />
         <option value="$PROJECT_DIR$/src/MinStack.java" />
         <option value="$PROJECT_DIR$/src/maxSlidingWindow.java" />
@@ -147,6 +156,7 @@
         <option value="$PROJECT_DIR$/src/arrangeCoins.java" />
         <option value="$PROJECT_DIR$/src/minMutation.java" />
         <option value="$PROJECT_DIR$/src/compress.java" />
+        <option value="$PROJECT_DIR$/src/minMoves2.java" />
       </list>
     </option>
   </component>
@@ -156,11 +166,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="443" />
-    <option name="y" value="77" />
-    <option name="width" value="1035" />
-    <option name="height" value="714" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="103" />
+    <option name="y" value="24" />
+    <option name="width" value="1309" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -225,7 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.compress">
+  <component name="RunManager" selected="Application.minMoves2">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -275,9 +285,9 @@
       <module name="JavaForLeeCode2" />
       <envs />
     </configuration>
-    <configuration name="frequencySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="kpmMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="frequencySort" />
+      <option name="MAIN_CLASS_NAME" value="kpmMatch" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -289,9 +299,9 @@
       <module name="JavaForLeeCode2" />
       <envs />
     </configuration>
-    <configuration name="kpmMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="minMoves2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="kpmMatch" />
+      <option name="MAIN_CLASS_NAME" value="minMoves2" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -378,19 +388,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.frequencySort" />
-      <item index="1" class="java.lang.String" itemvalue="Application.kpmMatch" />
-      <item index="2" class="java.lang.String" itemvalue="Application.repeatedSubstringPattern" />
-      <item index="3" class="java.lang.String" itemvalue="Application.arrangeCoins" />
-      <item index="4" class="java.lang.String" itemvalue="Application.compress" />
+      <item index="0" class="java.lang.String" itemvalue="Application.kpmMatch" />
+      <item index="1" class="java.lang.String" itemvalue="Application.repeatedSubstringPattern" />
+      <item index="2" class="java.lang.String" itemvalue="Application.arrangeCoins" />
+      <item index="3" class="java.lang.String" itemvalue="Application.compress" />
+      <item index="4" class="java.lang.String" itemvalue="Application.minMoves2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.compress" />
-        <item index="1" class="java.lang.String" itemvalue="Application.arrangeCoins" />
-        <item index="2" class="java.lang.String" itemvalue="Application.kpmMatch" />
-        <item index="3" class="java.lang.String" itemvalue="Application.repeatedSubstringPattern" />
-        <item index="4" class="java.lang.String" itemvalue="Application.frequencySort" />
+        <item index="0" class="java.lang.String" itemvalue="Application.minMoves2" />
+        <item index="1" class="java.lang.String" itemvalue="Application.compress" />
+        <item index="2" class="java.lang.String" itemvalue="Application.arrangeCoins" />
+        <item index="3" class="java.lang.String" itemvalue="Application.kpmMatch" />
+        <item index="4" class="java.lang.String" itemvalue="Application.repeatedSubstringPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -442,12 +452,12 @@
       <workItem from="1528952663313" duration="9948000" />
       <workItem from="1528966262050" duration="1787000" />
       <workItem from="1529033048675" duration="10608000" />
-      <workItem from="1529124824035" duration="4064000" />
+      <workItem from="1529124824035" duration="7309000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="235662000" />
+    <option name="totallyTimeSpent" value="238907000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -459,7 +469,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="443" y="77" width="1035" height="714" extended-state="0" />
+    <frame x="57" y="-6" width="1309" height="774" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -471,11 +481,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25938568" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29522184" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25851393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26780185" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17824773" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13970008" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24350649" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -531,13 +541,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/reverseList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="36" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/largestNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -897,6 +900,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="28" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/minMoves2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="38" column="7" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="38" selection-end-column="7" />
           <folding />
         </state>
       </provider>
