@@ -7,6 +7,11 @@
  */
 public class arrangeCoins {
 
+    // Work out in Math
+//    private static int arrangeCoinsResult(int n) {
+//        return (int)((-1 + Math.sqrt(1 + 8 * (long)n)) / 2);
+//    }
+
     private static int arrangeCoinsResult(int n) {
         int start = 0;
         int end = n;
