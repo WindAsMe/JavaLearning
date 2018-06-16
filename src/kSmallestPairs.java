@@ -37,6 +37,7 @@ public class kSmallestPairs {
     }
 
 
+
     private static void kSmallestPairsResult1(int[] nums1, int[] nums2, int k){
         List<int[]> list = new ArrayList<>();
         for (int aNums1 : nums1) {
