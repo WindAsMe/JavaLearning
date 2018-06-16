@@ -61,6 +61,6 @@ public class kpmMatch {
     }
 
     public static void main(String[] args) {
-        System.out.println(kpmMatchResult("abcaabcdabcqqababc", "abcabc"));
+        System.out.println(kpmMatchResult("abcweaabcdabcqqababc", "abcabc"));
     }
 }
