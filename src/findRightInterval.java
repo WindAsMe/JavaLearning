@@ -20,7 +20,6 @@ public class findRightInterval {
 
     private static int[] findRightIntervalResult(Interval[] intervals) {
         int[] result = new int[intervals.length];
-
         java.util.NavigableMap<Integer, Integer> map = new TreeMap<>();
         // Map.put(start, index)
         for (int i = 0; i < intervals.length; ++i) {
