@@ -1,5 +1,4 @@
-import java.util.Arrays;
-import java.util.Comparator;
+import java.util.Arrays;8
 
 /**
  * Author     : WindAsMe
@@ -10,6 +9,7 @@ import java.util.Comparator;
  */
 public class findMaxForm {
 
+    // DP Algorithm
     private static int findMaxFormResult(String[] strs, int m, int n) {
         int[][] dp = new int[m + 1][n + 1];
         for (String str : strs) {
@@ -29,9 +29,11 @@ public class findMaxForm {
                     dp[i][j] = Math.max(dp[i][j], dp[i - zeros][j - ones] + 1);
                 }
             }
+
+            for (int[] arr : dp)
+                System.out.println(Arrays.toString(arr));
+            System.out.println("-----------------------------");
         }
-        for (int[] arr : dp)
-            System.out.println(Arrays.toString(arr));
         return dp[m][n];
     }
 
