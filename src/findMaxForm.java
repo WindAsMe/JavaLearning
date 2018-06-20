@@ -14,6 +14,7 @@ public class findMaxForm {
         int[][] dp = new int[m + 1][n + 1];
         for (String str : strs) {
             int zeros = 0, ones = 0;
+            // Get the corresponding str and initiate the variable
             for (int i = 0 ; i < str.length() ; i ++) {
                 if (str.charAt(i) == '0') {
                     zeros ++;
@@ -21,12 +22,16 @@ public class findMaxForm {
                     ones ++;
                 }
             }
-            for (int i = m; i >= zeros; --i) {
-                for (int j = n; j >= ones; --j) {
+
+            for (int i = m; i >= zeros; -- i) {
+                for (int j = n; j >= ones; -- j) {
+                    // Current str nums and minus zero and one can construct str
                     dp[i][j] = Math.max(dp[i][j], dp[i - zeros][j - ones] + 1);
                 }
             }
         }
+        for (int[] arr : dp)
+            System.out.println(Arrays.toString(arr));
         return dp[m][n];
     }
 
