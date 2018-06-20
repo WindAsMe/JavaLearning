@@ -32,12 +32,12 @@ public class eraseOverlapIntervals {
             }
         });
 
-//        for (Interval temp : intervals) {
-//            System.out.print(temp.start + " " + temp.end);
-//            System.out.println();
-//        }
+        for (Interval temp : intervals) {
+            System.out.print(temp.start + " " + temp.end);
+            System.out.println();
+        }
 
-        // Comparing
+        // Comparing the last end and current begin
         int length = intervals.length;
         int count = 1;
         int last = 0;
