@@ -10,42 +10,17 @@ import java.util.*;
 public class find132pattern {
 
     private static boolean find132patternResult(int[] nums) {
-        int min = Integer.MAX_VALUE;
-        int max = Integer.MIN_VALUE;
-        Map<Integer, Integer> ranges = new TreeMap<>();
-        Set<Integer> keys = new TreeSet<>();
-        for (int num : nums) {
-            if (min > num) {
-                min = num;
+        int third = Integer.MIN_VALUE;
+        Stack<Integer> stack = new Stack<>();
+        // Iteration from end to begin
+        for (int i = nums.length - 1; i >= 0; --i) {
+            if (nums[i] < third) {
+                return true;
+            } else while (!stack.empty() && nums[i] > stack.peek()) {
+                third = stack.peek();
+                stack.pop();
             }
-            if (max < num) {
-                max = num;
-            }
-            if (ranges.isEmpty()) {
-                ranges.put(num, num);
-                keys.add(num);
-            } else {
-                for (int key : keys) {
-                    if (key < num) {
-                        if (num < ranges.get(key)) {
-                            return true;
-                        } else {
-                            ranges.put(key, num);
-                            if (max == num) {
-                                ranges.clear();
-                                keys.clear();
-                                ranges.put(key, num);
-                                keys.add(key);
-                                break;
-                            }
-                        }
-                    } else if (key > num) {
-                        ranges.put(num, num);
-                        keys.add(num);
-                        break;
-                    }
-                }
-            }
+            stack.push(nums[i]);
         }
         return false;
     }
