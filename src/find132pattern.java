@@ -5,7 +5,7 @@ import java.util.*;
  * File       : find132pattern.java
  * Time       : Create on 18-6-21
  * Location   : ../Home/JavaForLeeCode2/find132pattern.java
- * Function   :
+ * Function   : LeeCode No.456
  */
 public class find132pattern {
 
