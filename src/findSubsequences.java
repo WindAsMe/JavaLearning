@@ -1,5 +1,7 @@
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 /**
  * Author     : WindAsMe
@@ -11,30 +13,23 @@ import java.util.List;
 public class findSubsequences {
 
     private static List<List<Integer>> findSubsequencesResult(int[] nums) {
-        List<List<Integer>> lists = new ArrayList<>();
-        if (nums.length <= 1) {
-            return lists;
-        } else {
-            int index = 0;
-            while (index < nums.length - 1) {
-                List<Integer> list = new ArrayList<>();
-                int temp = nums[index];
-                int compare = temp;
-                list.add(temp);
-
-                for (int i = index + 1; i < nums.length ; i ++ ) {
-                    if (nums[i] >= compare) {
-                        list.add(nums[i]);
-                        compare = nums[i];
-                        lists.add(list);
-                    }
-                }
-                index ++;
-            }
-            return lists;
-        }
+        Set<List<Integer>> res = new HashSet<List<Integer>>();
+        helper(res, new ArrayList<Integer>(), nums, 0);
+        return new ArrayList<List<Integer>>(res);
     }
 
+    private static void helper(Set<List<Integer>> res, List<Integer> subList, int[] nums, int start) {
+        if (subList.size() >= 2) {
+            res.add(new ArrayList<Integer>(subList));
+        }
+        for (int i = start; i < nums.length; i++) {
+            if (subList.size() == 0 || subList.get(subList.size() - 1) <= nums[i]) {
+                subList.add(nums[i]);
+                helper(res, subList, nums, i + 1);
+                subList.remove(subList.size() - 1);
+            }
+        }
+    }
 
     public static void main(String[] args) {
         int[] nums = {4,6,7,7};
