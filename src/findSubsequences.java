@@ -18,6 +18,7 @@ public class findSubsequences {
         return new ArrayList<List<Integer>>(res);
     }
 
+    // DFS
     private static void helper(Set<List<Integer>> res, List<Integer> subList, int[] nums, int start) {
         if (subList.size() >= 2) {
             res.add(new ArrayList<Integer>(subList));
@@ -26,6 +27,8 @@ public class findSubsequences {
             if (subList.size() == 0 || subList.get(subList.size() - 1) <= nums[i]) {
                 subList.add(nums[i]);
                 helper(res, subList, nums, i + 1);
+                // If nums[] = {4, 6, 7, 7}
+                // Then the {4, 7, 7} is a kind of answer
                 subList.remove(subList.size() - 1);
             }
         }
