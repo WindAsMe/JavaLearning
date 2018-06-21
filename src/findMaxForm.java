@@ -5,7 +5,7 @@ import java.util.Arrays;
  * File       : findMaxForm.java
  * Time       : Create on 18-6-20
  * Location   : ../Home/JavaForLeeCode2/findMaxForm.java
- * Function   :
+ * Function   : LeeCode No.474
  */
 public class findMaxForm {
 
