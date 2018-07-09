@@ -7,7 +7,7 @@
  */
 public class guessNumber {
 
-    public int guessNumberResult(int n) {
+    private static int guessNumberResult(int n) {
         int low = 1,high = n;
         while(low <= high) {
             int mid=(high - low) / 2 + low;
@@ -23,7 +23,11 @@ public class guessNumber {
     }
 
     // GUESS is define inner
-    private int guess(int i){
+    private static int guess(int i){
         return i;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(guessNumberResult(144));
     }
 }
