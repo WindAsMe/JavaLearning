@@ -86,8 +86,8 @@
       <file leaf-file-name="canPartition.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/canPartition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="22" selection-end-column="25" />
+            <state relative-caret-position="49">
+              <caret line="48" column="8" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="60" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -507,12 +507,12 @@
       <workItem from="1529470645546" duration="9535000" />
       <workItem from="1529554636506" duration="7258000" />
       <workItem from="1531115542709" duration="202000" />
-      <workItem from="1533538241050" duration="4433000" />
+      <workItem from="1533538241050" duration="4824000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="262305000" />
+    <option name="totallyTimeSpent" value="262696000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1007,8 +1007,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/canPartition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="22" selection-end-column="25" />
+        <state relative-caret-position="49">
+          <caret line="48" column="8" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="60" selection-end-column="26" />
           <folding />
         </state>
       </provider>

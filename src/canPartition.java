@@ -47,22 +47,24 @@ public class canPartition {
 
     private static boolean canPartitionResult1(int[] nums) {
         int sum = 0;
-        for (int i : nums)
-            sum += i;
-        if (sum % 2 != 0)
+        for (int num : nums)
+            sum += num;
+        if (nums.length < 2 || sum % 2 == 1)
             return false;
-        int half = sum / 2;
-        return dfs(half, nums.length, nums);
-    }
-
-    private static boolean dfs(int w, int s, int[] nums) {
-        return w == 0 || w >= 0 && s != 0 && (dfs(w - nums[s - 1], s - 1, nums) || dfs(w, s - 1, nums));
+        int target = sum >> 1;
+        boolean[] dp = new boolean[target + 1];
+        dp[0] = true;
+        for (int num : nums) {
+            for (int i = target; i >= num; --i)
+                dp[i] = dp[i] || dp[i - num];
+        }
+        return dp[target];
     }
 
 
     public static void main(String[] args) {
-        int[] nums = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,100};
-        System.out.println(canPartitionResult(nums));
+        int[] nums = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,97,95};
+        System.out.println(canPartitionResult1(nums));
     }
 
 }
