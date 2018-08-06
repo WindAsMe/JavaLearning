@@ -29,7 +29,7 @@ public class updateMatrix {
                 return path;
             if (path > matrix.length + matrix[0].length)
                 return Integer.MAX_VALUE;
-            return Math.min(Math.min(Math.min(find(i + 1, j, matrix, path), find(i - 1, j, matrix, path)), find(i, j + 1, matrix, path)), find(i, j - 1, matrix, path));
+            return Math.min(Math.min(Math.min(find(i + 1, j, matrix, path + 1), find(i - 1, j, matrix, path + 1)), find(i, j + 1, matrix, path + 1)), find(i, j - 1, matrix, path + 1));
         }
         return Integer.MAX_VALUE;
     }
@@ -37,9 +37,9 @@ public class updateMatrix {
 
     public static void main(String[] args) {
         int[][] matrix = {
-                {0,0,0},
-                {0,1,0},
-                {0,0,0}
+                {0,0,0,1},
+                {0,1,1,1},
+                {1,1,1,1}
         };
 
         int[][] ans = updateMatrixResult(matrix);
