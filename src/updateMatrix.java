@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 
 /**
@@ -12,7 +10,45 @@ import java.util.List;
  */
 public class updateMatrix {
 
+
     private static int[][] updateMatrixResult(int[][] matrix) {
+        int m = matrix.length;
+        int n = matrix[0].length;
+
+        Queue<int[]> queue = new LinkedList<>();
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (matrix[i][j] == 0) {
+                    queue.offer(new int[] {i, j});
+                }
+                else {
+                    matrix[i][j] = Integer.MAX_VALUE;
+                }
+            }
+        }
+
+        int[][] dirs = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
+
+        while (!queue.isEmpty()) {
+            int[] cell = queue.poll();
+            for (int[] d : dirs) {
+                int r = cell[0] + d[0];
+                int c = cell[1] + d[1];
+                if (r < 0 || r >= m || c < 0 || c >= n ||
+                        matrix[r][c] <= matrix[cell[0]][cell[1]] + 1) continue;
+                queue.add(new int[] {r, c});
+                matrix[r][c] = matrix[cell[0]][cell[1]] + 1;
+            }
+        }
+
+        return matrix;
+    }
+
+
+    // Add the '0' position to list
+    // find the min distance
+    // TL
+    private static int[][] updateMatrixResult1(int[][] matrix) {
         if (matrix.length == 0 || matrix[0].length == 0)
             return matrix;
         int[][] ans = new int[matrix.length][matrix[0].length];
@@ -43,7 +79,7 @@ public class updateMatrix {
 
 
     // This is totally bfs: TL
-    private static int[][] updateMatrixResult1(int[][] matrix) {
+    private static int[][] updateMatrixResult2(int[][] matrix) {
         if (matrix.length == 0 || matrix[0].length == 0)
             return matrix;
         int[][] ans = new int[matrix.length][matrix[0].length];
