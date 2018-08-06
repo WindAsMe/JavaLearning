@@ -1,5 +1,4 @@
 import java.util.Arrays;
-import java.util.stream.IntStream;
 
 /**
  * Author     : WindAsMe
@@ -13,32 +12,36 @@ public class canPartition {
     private static boolean canPartitionResult(int[] nums) {
         // Length < 2 || sum is minus:
         // return false
-        if (nums.length < 2)
-            return false;
         int sum = 0;
         for (int num : nums)
             sum += num;
-        if (sum % 2 == 1)
+        if (nums.length < 2 || sum % 2 == 1)
             return false;
-
+        Arrays.sort(nums);
+        System.out.println(sum);
+        if (sum - nums[nums.length - 1] < nums[nums.length - 1])
+            return false;
         for (int i = 0; i < nums.length; i++) {
-            if (dfs(nums[i], sum - nums[i], i, nums))
+            if (dfs(nums[i], sum / 2, i, nums))
                 return true;
         }
         return false;
     }
 
-    private static boolean dfs(int left, int right, int index, int[] nums) {
-        System.out.println("left: " + left + " right: " + right);
-        if (left == right)
+    private static boolean dfs(int sub, int target, int index, int[] nums) {
+        if (sub == target)
             return true;
-        if (index < nums.length) {
-            for (int i = index + 1; i < nums.length; i++) {
-                if (dfs(left + nums[i], right - nums[i], i, nums))
-                    return true;
+        else if (sub > target)
+            return false;
+        else {
+            if (index < nums.length) {
+                for (int i = index + 1; i < nums.length; i++) {
+                    if (dfs(sub + nums[i], target, i, nums))
+                        return true;
+                }
             }
+            return false;
         }
-        return false;
     }
 
 
@@ -58,8 +61,8 @@ public class canPartition {
 
 
     public static void main(String[] args) {
-        int[] nums = {1,2,2,5,5,7};
-        System.out.println(canPartitionResult1(nums));
+        int[] nums = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,100};
+        System.out.println(canPartitionResult(nums));
     }
 
 }
