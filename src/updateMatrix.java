@@ -1,4 +1,7 @@
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
+
 
 /**
  * Author     : WindAsMe
@@ -13,9 +16,41 @@ public class updateMatrix {
         if (matrix.length == 0 || matrix[0].length == 0)
             return matrix;
         int[][] ans = new int[matrix.length][matrix[0].length];
+        // Save the '0' patch's row and column
+        List<int[]> list = new ArrayList<>();
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[0].length; j++) {
+                if (matrix[i][j] == 0) {
+                    int[] tip = {i, j};
+                    list.add(tip);
+                }
+            }
+        }
+
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[0].length; j++) {
                 if (matrix[i][j] != 0) {
+                    int min = Integer.MAX_VALUE;
+                    // Calculate the min
+                    for (int[] tip : list)
+                        min = Math.min(Math.abs(i - tip[0]) + Math.abs(j - tip[1]), min);
+                    ans[i][j] = min;
+                }
+            }
+        }
+        return ans;
+    }
+
+
+    // This is totally bfs: TL
+    private static int[][] updateMatrixResult1(int[][] matrix) {
+        if (matrix.length == 0 || matrix[0].length == 0)
+            return matrix;
+        int[][] ans = new int[matrix.length][matrix[0].length];
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[0].length; j++) {
+                if (matrix[i][j] != 0) {
+                    System.out.println("i: " + i + "j: " + j);
                     ans[i][j] = find(i, j, matrix, 0);
                 }
             }
@@ -37,9 +72,16 @@ public class updateMatrix {
 
     public static void main(String[] args) {
         int[][] matrix = {
-                {0,0,0,1},
-                {0,1,1,1},
-                {1,1,1,1}
+                {1,0,1,1,0,0,1,0,0,1},
+                {0,1,1,0,1,0,1,0,1,1},
+                {0,0,1,0,1,0,0,1,0,0},
+                {1,0,1,0,1,1,1,1,1,1},
+                {0,1,0,1,1,0,0,0,0,1},
+                {0,0,1,0,1,1,1,0,1,0},
+                {0,1,0,1,0,1,0,0,1,1},
+                {1,0,0,0,1,1,1,1,0,1},
+                {1,1,1,1,1,1,1,0,1,0},
+                {1,1,1,1,0,1,0,0,1,1}
         };
 
         int[][] ans = updateMatrixResult(matrix);
