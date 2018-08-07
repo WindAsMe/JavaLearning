@@ -16,6 +16,8 @@ public class change {
         return ans[0];
     }
 
+    // Here index is important
+    // If no index, the Algorithm will add the duplications
     private static void valid(int account, int target, int[] coins, int[] ans, int index) {
         if (account == target) {
             ans[0]++;
