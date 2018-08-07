@@ -37,16 +37,26 @@ public class findFrequentTreeSum {
 
     private static void dfs(TreeNode node, Map<Integer, Integer> map) {
         if (node != null) {
-            map.merge(node.val, 1, (a, b) -> a + b);
+            int[] sum = new int[1];
+            account(node, sum);
+            map.merge(sum[0], 1, (a, b) -> a + b);
             dfs(node.left, map);
             dfs(node.right, map);
         }
     }
 
+    private static void account(TreeNode node, int[] sum) {
+        if (node != null) {
+            sum[0] += node.val;
+            account(node.left, sum);
+            account(node.right, sum);
+        }
+    }
+
     public static void main(String[] args) {
-        TreeNode node = new TreeNode(2);
+        TreeNode node = new TreeNode(5);
         node.left = new TreeNode(2);
-        node.right = new TreeNode(5);
+        node.right = new TreeNode(-5);
         System.out.println(Arrays.toString(findFrequentTreeSumResult(node)));
     }
 }
