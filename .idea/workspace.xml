@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/findFrequentTreeSum.java" afterPath="$PROJECT_DIR$/src/findFrequentTreeSum.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/change.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +27,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="findFrequentTreeSum.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="findFrequentTreeSum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/findFrequentTreeSum.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="52" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="change.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/change.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -56,7 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/invertTree.java" />
         <option value="$PROJECT_DIR$/src/combinationSum3.java" />
         <option value="$PROJECT_DIR$/src/computeArea.java" />
         <option value="$PROJECT_DIR$/src/MyStack.java" />
@@ -107,6 +117,7 @@
         <option value="$PROJECT_DIR$/src/canPartition.java" />
         <option value="$PROJECT_DIR$/src/updateMatrix.java" />
         <option value="$PROJECT_DIR$/src/findFrequentTreeSum.java" />
+        <option value="$PROJECT_DIR$/src/change.java" />
       </list>
     </option>
   </component>
@@ -185,7 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.findFrequentTreeSum">
+  <component name="RunManager" selected="Application.change">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -221,9 +232,9 @@
       <module name="JavaForLeeCode2" />
       <envs />
     </configuration>
-    <configuration name="findFrequentTreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="change" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="findFrequentTreeSum" />
+      <option name="MAIN_CLASS_NAME" value="change" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -235,9 +246,9 @@
       <module name="JavaForLeeCode2" />
       <envs />
     </configuration>
-    <configuration name="findSubsequences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="findFrequentTreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="findSubsequences" />
+      <option name="MAIN_CLASS_NAME" value="findFrequentTreeSum" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -338,19 +349,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.findSubsequences" />
-      <item index="1" class="java.lang.String" itemvalue="Application.rand10" />
-      <item index="2" class="java.lang.String" itemvalue="Application.canPartition" />
-      <item index="3" class="java.lang.String" itemvalue="Application.updateMatrix" />
-      <item index="4" class="java.lang.String" itemvalue="Application.findFrequentTreeSum" />
+      <item index="0" class="java.lang.String" itemvalue="Application.rand10" />
+      <item index="1" class="java.lang.String" itemvalue="Application.canPartition" />
+      <item index="2" class="java.lang.String" itemvalue="Application.updateMatrix" />
+      <item index="3" class="java.lang.String" itemvalue="Application.findFrequentTreeSum" />
+      <item index="4" class="java.lang.String" itemvalue="Application.change" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.findFrequentTreeSum" />
-        <item index="1" class="java.lang.String" itemvalue="Application.updateMatrix" />
-        <item index="2" class="java.lang.String" itemvalue="Application.canPartition" />
-        <item index="3" class="java.lang.String" itemvalue="Application.rand10" />
-        <item index="4" class="java.lang.String" itemvalue="Application.findSubsequences" />
+        <item index="0" class="java.lang.String" itemvalue="Application.change" />
+        <item index="1" class="java.lang.String" itemvalue="Application.findFrequentTreeSum" />
+        <item index="2" class="java.lang.String" itemvalue="Application.updateMatrix" />
+        <item index="3" class="java.lang.String" itemvalue="Application.canPartition" />
+        <item index="4" class="java.lang.String" itemvalue="Application.rand10" />
       </list>
     </recent_temporary>
   </component>
@@ -407,12 +418,12 @@
       <workItem from="1529470645546" duration="9535000" />
       <workItem from="1529554636506" duration="7258000" />
       <workItem from="1531115542709" duration="202000" />
-      <workItem from="1533538241050" duration="11408000" />
+      <workItem from="1533538241050" duration="12327000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269280000" />
+    <option name="totallyTimeSpent" value="270199000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -496,7 +507,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/countSegments.java" />
     <entry file="file://$PROJECT_DIR$/src/repeatedSubstringPattern.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -911,6 +921,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="52" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/change.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding />
         </state>
       </provider>
