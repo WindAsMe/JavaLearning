@@ -19,6 +19,7 @@ public class findFrequentTreeSum {
     private static int[] findFrequentTreeSumResult(TreeNode root) {
         if (root == null)
             return new int[0];
+        // Map utility and process the data
         Map<Integer, Integer> map = new HashMap<>();
         List<Integer> list = new ArrayList<>();
         dfs(root, map);
