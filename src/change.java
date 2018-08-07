@@ -8,6 +8,8 @@
 public class change {
 
     private static int changeResult(int amount, int[] coins) {
+        if (amount == 0)
+            return 1;
         if (coins.length == 0)
             return 0;
         int[] ans = new int[1];

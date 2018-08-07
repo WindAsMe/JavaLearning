@@ -39,8 +39,8 @@
       <file leaf-file-name="change.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/change.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="19" column="59" lean-forward="false" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+            <state relative-caret-position="180">
+              <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="11" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -417,12 +417,12 @@
       <workItem from="1529470645546" duration="9535000" />
       <workItem from="1529554636506" duration="7258000" />
       <workItem from="1531115542709" duration="202000" />
-      <workItem from="1533538241050" duration="12402000" />
+      <workItem from="1533538241050" duration="12464000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="270274000" />
+    <option name="totallyTimeSpent" value="270336000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -926,8 +926,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/change.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="19" column="59" lean-forward="false" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+        <state relative-caret-position="180">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="11" selection-end-column="21" />
           <folding />
         </state>
       </provider>
