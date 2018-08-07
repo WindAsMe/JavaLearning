@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * Author     : WindAsMe
  * File       : change.java
@@ -6,6 +8,17 @@
  * Function   : LeetCode No.518
  */
 public class change {
+
+    private static int changeResult2(int amount, int[] coins) {
+        int[] a = new int[amount + 1];
+        a[0] = 1;
+        for(int coin : coins) {
+            for(int i = coin; i <= amount; i++)
+                a[i] += a[i - coin];
+            System.out.println(Arrays.toString(a));
+        }
+        return a[amount];
+    }
 
     // DP problem
     private static int changeResult1(int amount, int[] coins) {
@@ -48,7 +61,7 @@ public class change {
     }
 
     public static void main(String[] args) {
-        int[] coins = {2};
-        System.out.println(changeResult1(500, coins));
+        int[] coins = {1,2,5};
+        System.out.println(changeResult2(5, coins));
     }
 }
