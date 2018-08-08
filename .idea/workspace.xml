@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/PeekingIterator.java" afterPath="$PROJECT_DIR$/src/PeekingIterator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/countSubstrings.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,7 +82,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PeekingIterator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PeekingIterator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PeekingIterator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="139">
@@ -91,6 +92,16 @@
                 <element signature="e#1240#1241#0" expanded="true" />
                 <element signature="e#1279#1280#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="countSubstrings.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/countSubstrings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -115,7 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/minSubArrayLen.java" />
         <option value="$PROJECT_DIR$/src/rob.java" />
         <option value="$PROJECT_DIR$/src/searchMatrix2.java" />
         <option value="$PROJECT_DIR$/src/binaryTreePaths.java" />
@@ -166,6 +176,7 @@
         <option value="$PROJECT_DIR$/src/leastBricks.java" />
         <option value="$PROJECT_DIR$/src/peakIndexInMountainArray.java" />
         <option value="$PROJECT_DIR$/src/PeekingIterator.java" />
+        <option value="$PROJECT_DIR$/src/countSubstrings.java" />
       </list>
     </option>
   </component>
@@ -467,12 +478,12 @@
       <workItem from="1529554636506" duration="7258000" />
       <workItem from="1531115542709" duration="202000" />
       <workItem from="1533538241050" duration="15676000" />
-      <workItem from="1533708480293" duration="6681000" />
+      <workItem from="1533708480293" duration="7012000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="280229000" />
+    <option name="totallyTimeSpent" value="280560000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -556,14 +567,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/addStrings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/arrangeCoins.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -983,6 +986,14 @@
             <element signature="e#1240#1241#0" expanded="true" />
             <element signature="e#1279#1280#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/countSubstrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
