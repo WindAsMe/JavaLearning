@@ -19,6 +19,9 @@ class PeekingIterator implements Iterator<Integer> {
     public PeekingIterator(Iterator<Integer> iterator) {
         // initialize any member here.
         list = new ArrayList<>();
+        while (iterator.hasNext())
+            list.add(iterator.next());
+
     }
 
     // Returns the next element in the iteration without advancing the iterator.
