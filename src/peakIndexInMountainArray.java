@@ -30,7 +30,7 @@ public class peakIndexInMountainArray {
     }
 
     public static void main(String[] args) {
-        int[] A = {0,2,1,0};
+        int[] A = {0,2,0};
         System.out.println(peakIndexInMountainArrayResult(A));
     }
 }
