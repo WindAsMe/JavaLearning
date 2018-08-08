@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/countSubstrings.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/countSubstrings.java" afterPath="$PROJECT_DIR$/src/countSubstrings.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,9 +99,12 @@
       <file leaf-file-name="countSubstrings.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/countSubstrings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-              <folding />
+            <state relative-caret-position="386">
+              <caret line="37" column="20" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="37" selection-end-column="20" />
+              <folding>
+                <element signature="e#1143#1144#0" expanded="true" />
+                <element signature="e#1207#1208#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -186,11 +189,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="505" />
-    <option name="y" value="74" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="209" />
+    <option name="y" value="-6" />
     <option name="width" value="1309" />
-    <option name="height" value="744" />
+    <option name="height" value="774" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -255,7 +258,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.peakIndexInMountainArray">
+  <component name="RunManager" selected="Application.countSubstrings">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -277,9 +280,9 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="change" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="checkSubarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="change" />
+      <option name="MAIN_CLASS_NAME" value="checkSubarraySum" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -291,9 +294,9 @@
       <module name="JavaForLeeCode2" />
       <envs />
     </configuration>
-    <configuration name="checkSubarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="countSubstrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="checkSubarraySum" />
+      <option name="MAIN_CLASS_NAME" value="countSubstrings" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -408,19 +411,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.change" />
-      <item index="1" class="java.lang.String" itemvalue="Application.checkSubarraySum" />
-      <item index="2" class="java.lang.String" itemvalue="Application.maxDepth" />
-      <item index="3" class="java.lang.String" itemvalue="Application.findTilt" />
-      <item index="4" class="java.lang.String" itemvalue="Application.peakIndexInMountainArray" />
+      <item index="0" class="java.lang.String" itemvalue="Application.checkSubarraySum" />
+      <item index="1" class="java.lang.String" itemvalue="Application.maxDepth" />
+      <item index="2" class="java.lang.String" itemvalue="Application.findTilt" />
+      <item index="3" class="java.lang.String" itemvalue="Application.peakIndexInMountainArray" />
+      <item index="4" class="java.lang.String" itemvalue="Application.countSubstrings" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.peakIndexInMountainArray" />
-        <item index="1" class="java.lang.String" itemvalue="Application.findTilt" />
-        <item index="2" class="java.lang.String" itemvalue="Application.maxDepth" />
-        <item index="3" class="java.lang.String" itemvalue="Application.checkSubarraySum" />
-        <item index="4" class="java.lang.String" itemvalue="Application.change" />
+        <item index="0" class="java.lang.String" itemvalue="Application.countSubstrings" />
+        <item index="1" class="java.lang.String" itemvalue="Application.peakIndexInMountainArray" />
+        <item index="2" class="java.lang.String" itemvalue="Application.findTilt" />
+        <item index="3" class="java.lang.String" itemvalue="Application.maxDepth" />
+        <item index="4" class="java.lang.String" itemvalue="Application.checkSubarraySum" />
       </list>
     </recent_temporary>
   </component>
@@ -478,12 +481,12 @@
       <workItem from="1529554636506" duration="7258000" />
       <workItem from="1531115542709" duration="202000" />
       <workItem from="1533538241050" duration="15676000" />
-      <workItem from="1533708480293" duration="7012000" />
+      <workItem from="1533708480293" duration="7461000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="280560000" />
+    <option name="totallyTimeSpent" value="281009000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -495,7 +498,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="505" y="74" width="1309" height="744" extended-state="0" />
+    <frame x="57" y="-6" width="1309" height="774" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -507,8 +510,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22889611" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34253246" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21826625" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34253246" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15232833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -991,9 +994,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/countSubstrings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="386">
+          <caret line="37" column="20" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="37" selection-end-column="20" />
+          <folding>
+            <element signature="e#1143#1144#0" expanded="true" />
+            <element signature="e#1207#1208#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

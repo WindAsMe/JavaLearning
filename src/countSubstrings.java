@@ -14,7 +14,10 @@ public class countSubstrings {
         // the stride
         for (int i = 2; i <= s.length(); i++) {
             // j: start   j + i: end
-            for (int j = 0; j + i < s.length(); j++) {
+            for (int j = 0; j + i <= s.length(); j++) {
+                // s.substring(): This function
+                // include the start value
+                // exclude the end value
                 if (valid(s.substring(j, j + i)))
                     ans++;
             }
