@@ -21,17 +21,34 @@ public class findTilt {
         return ans[0];
     }
 
+    private static void add(TreeNode node, int[] sum) {
+        if (node != null) {
+            sum[0] += node.val;
+            add(node.left, sum);
+            add(node.right, sum);
+        }
+
+    }
+
     private static void dfs(TreeNode node, int[] ans) {
         if (node == null || (node.left == null && node.right == null))
             return;
         if (node.left == null) {
-            ans[0] += node.right.val;
+            int[] sum = {0};
+            add(node.right, sum);
+            ans[0] += sum[0];
             dfs(node.right, ans);
         } else if (node.right == null) {
-            ans[0] += node.left.val;
+            int[] sum = {0};
+            add(node.left, sum);
+            ans[0] += sum[0];
             dfs(node.left, ans);
         } else {
-            ans[0] += Math.abs(node.left.val - node.right.val);
+            int[] sum1 = {0};
+            int[] sum2 = {0};
+            add(node.left, sum1);
+            add(node.right, sum2);
+            ans[0] += Math.abs(sum1[0] - sum2[0]);
             dfs(node.left, ans);
             dfs(node.right, ans);
         }
@@ -41,6 +58,8 @@ public class findTilt {
         TreeNode root = new TreeNode(1);
         root.left = new TreeNode(2);
         root.right = new TreeNode(3);
+        root.left.left = new TreeNode(4);
+        root.left.right = new TreeNode(2);
 
         System.out.println(findTiltResult(root));
     }
