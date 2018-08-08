@@ -26,7 +26,7 @@ public class maxDepth {
         if (root.children == null)
             return 1;
         // depth[0]: max depth
-        int[] depth = new int[1];
+        int[] depth = {1};
         for (Node node : root.children)
             dfs(node, 1, depth);
         return depth[0];
@@ -45,22 +45,22 @@ public class maxDepth {
     }
 
     public static void main(String[] args) {
-        List<Node> list1 = new ArrayList<>();
-        List<Node> list2 = new ArrayList<>();
+//        List<Node> list1 = new ArrayList<>();
+//        List<Node> list2 = new ArrayList<>();
+//
+//        Node node4 = new Node(5, null);
+//        Node node5 = new Node(6, null);
+//        list2.add(node4);
+//        list2.add(node5);
+//
+//        Node node1 = new Node(3, list2);
+//        Node node2 = new Node(2, null);
+//        Node node3 = new Node(4, null);
+//        list1.add(node1);
+//        list1.add(node2);
+//        list1.add(node3);
 
-        Node node4 = new Node(5, null);
-        Node node5 = new Node(6, null);
-        list2.add(node4);
-        list2.add(node5);
-
-        Node node1 = new Node(3, list2);
-        Node node2 = new Node(2, null);
-        Node node3 = new Node(4, null);
-        list1.add(node1);
-        list1.add(node2);
-        list1.add(node3);
-
-        Node root = new Node(1, list1);
+        Node root = new Node(1, new ArrayList<>());
 
         System.out.println(maxDepthResult(root));
     }
