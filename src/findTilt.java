@@ -11,7 +11,6 @@ public class findTilt {
         int val;
         TreeNode left;
         TreeNode right;
-
         TreeNode(int x) {
             val = x;
         }
@@ -19,6 +18,7 @@ public class findTilt {
 
 
     private static int res = 0;
+
     private static int findTiltResult(TreeNode root) {
         dfs(root);
         return res;
