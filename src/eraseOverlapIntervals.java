@@ -25,12 +25,7 @@ public class eraseOverlapIntervals {
             return 0;
         }
         // Sort by end raise
-        Arrays.sort(intervals, new Comparator<Interval>() {
-            @Override
-            public int compare(Interval o1, Interval o2) {
-                return o1.end - o2.end;
-            }
-        });
+        Arrays.sort(intervals, Comparator.comparingInt(o -> o.end));
 
         for (Interval temp : intervals) {
             System.out.print(temp.start + " " + temp.end);
