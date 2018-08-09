@@ -1,4 +1,6 @@
- /**
+import java.util.Arrays;
+
+/**
  * Author     : WindAsMe
  * File       : shortestToChar.java
  * Time       : Create on 18-8-9
@@ -31,5 +33,9 @@ public class shortestToChar {
             }
         }
         return ans;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(Arrays.toString(shortestToCharResult("loveleetcode", 'e')));
     }
 }
