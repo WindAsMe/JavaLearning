@@ -34,4 +34,8 @@ public class connect {
             lastNode = curHead.next;
         }
     }
+
+    public static void main(String[] args) {
+
+    }
 }
