@@ -16,31 +16,22 @@ public class connect {
     }
 
     private static void connectResult(TreeLinkNode root) {
-        Stack<TreeLinkNode> left = new Stack<>();
-        Stack<TreeLinkNode> right = new Stack<>();
-        left.push(root);
-        while (!left.empty() && !right.empty()) {
-            if (!left.empty()) {
-                TreeLinkNode node = left.pop();
-                right.push(node.right);
-                right.push(node.left);
-                while (!left.empty()) {
-                    TreeLinkNode temp = left.pop();
-                    temp.next = node;
-                    node = temp;
+        TreeLinkNode lastNode = root;
+        while (lastNode != null) {
+            TreeLinkNode cur = new TreeLinkNode(0);
+            TreeLinkNode curHead = cur;
+            while (lastNode != null) {
+                if (lastNode.left != null) {
+                    cur.next = lastNode.left;
+                    cur = cur.next;
                 }
-                continue;
-            }
-            if (!right.empty()) {
-                TreeLinkNode node = right.pop();
-                left.push(node.right);
-                left.push(node.left);
-                while (!right.empty()) {
-                    TreeLinkNode temp = left.pop();
-                    temp.next = node;
-                    node = temp;
+                if (lastNode.right != null) {
+                    cur.next = lastNode.right;
+                    cur = cur.next;
                 }
+                lastNode = lastNode.next;
             }
+            lastNode = curHead.next;
         }
     }
 }
