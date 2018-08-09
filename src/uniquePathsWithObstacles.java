@@ -13,10 +13,9 @@ public class uniquePathsWithObstacles {
         if (y == 0){
             return 0;
         } else if (y == 1) {
-            for (int i = 0; i < x; i++) {
-                if (obstacleGrid[i][0] == 1) {
+            for (int[] anObstacleGrid : obstacleGrid) {
+                if (anObstacleGrid[0] == 1)
                     return 0;
-                }
             }
             return 1;
         } else if (x == 1) {
