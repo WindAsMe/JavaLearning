@@ -10,6 +10,8 @@ import java.util.Map;
  */
 public class checkInclusion {
 
+    // Use the map to account the alphabet
+    // Utilize the array will more efficient
     private static boolean checkInclusionResult(String s1, String s2) {
         Map<Character, Integer> map = new HashMap<>();
         char[] helper = s1.toCharArray();
@@ -35,6 +37,6 @@ public class checkInclusion {
     }
 
     public static void main(String[] args) {
-        System.out.println(checkInclusionResult("ab", "aasudhCCabef"));
+        System.out.println(checkInclusionResult("ab", "aasudhCCasbef"));
     }
 }
