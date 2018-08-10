@@ -24,6 +24,14 @@ public class searchBST {
         return root;
     }
 
+    private static void dfs(TreeNode node) {
+        if (node != null) {
+            System.out.println(node.val);
+            dfs(node.left);
+            dfs(node.right);
+        }
+    }
+
     public static void main(String[] args) {
         TreeNode node  = new TreeNode(4);
         node.left = new TreeNode(2);
@@ -31,6 +39,7 @@ public class searchBST {
         node.left.right = new TreeNode(3);
 
         node.right = new TreeNode(7);
+        dfs(searchBSTResult(node, 2));
     }
 
 }
