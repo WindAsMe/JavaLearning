@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/matrixScore.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/matrixScore.java" afterPath="$PROJECT_DIR$/src/matrixScore.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,8 +55,8 @@
       <file leaf-file-name="matrixScore.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/matrixScore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="33" column="46" lean-forward="false" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+            <state relative-caret-position="426">
+              <caret line="30" column="28" lean-forward="false" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -437,12 +436,12 @@
       <workItem from="1533538241050" duration="15676000" />
       <workItem from="1533708480293" duration="7596000" />
       <workItem from="1533794368059" duration="4690000" />
-      <workItem from="1533882599474" duration="2936000" />
+      <workItem from="1533882599474" duration="3240000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="288770000" />
+    <option name="totallyTimeSpent" value="289074000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -956,8 +955,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/matrixScore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="33" column="46" lean-forward="false" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+        <state relative-caret-position="426">
+          <caret line="30" column="28" lean-forward="false" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
           <folding />
         </state>
       </provider>
