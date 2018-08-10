@@ -10,6 +10,7 @@ import java.util.Arrays;
 public class matrixScore {
 
     private static int matrixScoreResult(int[][] A) {
+        int sum = 0;
         if (A.length == 0 || A[0].length == 0)
             return 0;
         for (int[] a : A) {
@@ -31,9 +32,16 @@ public class matrixScore {
                 convert(A, i);
         }
 
+        for (int[] a : A) {
+            int len = a.length - 1;
+            for (int i : a) {
+                sum += Math.pow(2, len) * i;
+                len--;
+            }
+        }
         for (int[] a : A)
             System.out.println(Arrays.toString(a));
-        return 0;
+        return sum;
     }
 
     private static void convert(int[][] A, int index) {
