@@ -10,6 +10,8 @@ public class rotateString {
     private static boolean rotateStringResult(String A, String B) {
         if (A.length() != B.length())
             return false;
+        if ("".equals(A))
+            return true;
         StringBuilder s = new StringBuilder(A);
         // if A.substring(stride, stride + A.length()) == B
         // return true
