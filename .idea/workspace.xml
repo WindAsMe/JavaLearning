@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/matrixScore.java" afterPath="$PROJECT_DIR$/src/matrixScore.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/searchBST.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,12 +53,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="matrixScore.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="matrixScore.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/matrixScore.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="10" column="53" lean-forward="false" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="searchBST.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/searchBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="27" column="38" lean-forward="false" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+              <folding>
+                <element signature="e#692#693#0" expanded="true" />
+                <element signature="e#738#739#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,7 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/isPalindrome.java" />
         <option value="$PROJECT_DIR$/src/maxProfit1.java" />
         <option value="$PROJECT_DIR$/src/maxProfit.java" />
         <option value="$PROJECT_DIR$/src/addStrings.java" />
@@ -133,6 +146,7 @@
         <option value="$PROJECT_DIR$/src/rotateString.java" />
         <option value="$PROJECT_DIR$/src/rotatedDigits.java" />
         <option value="$PROJECT_DIR$/src/matrixScore.java" />
+        <option value="$PROJECT_DIR$/src/searchBST.java" />
       </list>
     </option>
   </component>
@@ -436,12 +450,12 @@
       <workItem from="1533538241050" duration="15676000" />
       <workItem from="1533708480293" duration="7596000" />
       <workItem from="1533794368059" duration="4690000" />
-      <workItem from="1533882599474" duration="4072000" />
+      <workItem from="1533882599474" duration="4649000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="289906000" />
+    <option name="totallyTimeSpent" value="290483000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -525,14 +539,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/findRadius.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/findRightInterval.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -958,6 +964,17 @@
         <state relative-caret-position="180">
           <caret line="10" column="53" lean-forward="false" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/searchBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="27" column="38" lean-forward="false" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+          <folding>
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
