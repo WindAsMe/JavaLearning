@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="" />
+    <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/matrixScore.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,15 +40,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rotatedDigits.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="rotatedDigits.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/rotatedDigits.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="32" column="51" lean-forward="false" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+            <state relative-caret-position="36">
+              <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="31" />
               <folding>
-                <element signature="e#820#821#0" expanded="true" />
-                <element signature="e#879#880#0" expanded="true" />
+                <element signature="e#926#927#0" expanded="true" />
+                <element signature="e#985#986#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="matrixScore.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/matrixScore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="33" column="46" lean-forward="false" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -70,7 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/numSquares.java" />
         <option value="$PROJECT_DIR$/src/isPalindrome.java" />
         <option value="$PROJECT_DIR$/src/maxProfit1.java" />
         <option value="$PROJECT_DIR$/src/maxProfit.java" />
@@ -121,6 +133,7 @@
         <option value="$PROJECT_DIR$/src/uniquePathsWithObstacles.java" />
         <option value="$PROJECT_DIR$/src/rotateString.java" />
         <option value="$PROJECT_DIR$/src/rotatedDigits.java" />
+        <option value="$PROJECT_DIR$/src/matrixScore.java" />
       </list>
     </option>
   </component>
@@ -199,7 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.rotatedDigits">
+  <component name="RunManager" selected="Application.matrixScore">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -235,9 +248,9 @@
       <module name="JavaForLeeCode2" />
       <envs />
     </configuration>
-    <configuration name="countSubstrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="matrixScore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="countSubstrings" />
+      <option name="MAIN_CLASS_NAME" value="matrixScore" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -352,19 +365,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.countSubstrings" />
-      <item index="1" class="java.lang.String" itemvalue="Application.checkInclusion" />
-      <item index="2" class="java.lang.String" itemvalue="Application.shortestToChar" />
-      <item index="3" class="java.lang.String" itemvalue="Application.rotateString" />
-      <item index="4" class="java.lang.String" itemvalue="Application.rotatedDigits" />
+      <item index="0" class="java.lang.String" itemvalue="Application.checkInclusion" />
+      <item index="1" class="java.lang.String" itemvalue="Application.shortestToChar" />
+      <item index="2" class="java.lang.String" itemvalue="Application.rotateString" />
+      <item index="3" class="java.lang.String" itemvalue="Application.rotatedDigits" />
+      <item index="4" class="java.lang.String" itemvalue="Application.matrixScore" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.rotatedDigits" />
-        <item index="1" class="java.lang.String" itemvalue="Application.rotateString" />
-        <item index="2" class="java.lang.String" itemvalue="Application.shortestToChar" />
-        <item index="3" class="java.lang.String" itemvalue="Application.checkInclusion" />
-        <item index="4" class="java.lang.String" itemvalue="Application.countSubstrings" />
+        <item index="0" class="java.lang.String" itemvalue="Application.matrixScore" />
+        <item index="1" class="java.lang.String" itemvalue="Application.rotatedDigits" />
+        <item index="2" class="java.lang.String" itemvalue="Application.rotateString" />
+        <item index="3" class="java.lang.String" itemvalue="Application.shortestToChar" />
+        <item index="4" class="java.lang.String" itemvalue="Application.checkInclusion" />
       </list>
     </recent_temporary>
   </component>
@@ -424,12 +437,12 @@
       <workItem from="1533538241050" duration="15676000" />
       <workItem from="1533708480293" duration="7596000" />
       <workItem from="1533794368059" duration="4690000" />
-      <workItem from="1533882599474" duration="1757000" />
+      <workItem from="1533882599474" duration="2936000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="287591000" />
+    <option name="totallyTimeSpent" value="288770000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -453,8 +466,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21826625" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23529412" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21826625" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23529412" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15706393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -513,14 +526,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/findPeakElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/findRadius.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -803,8 +808,8 @@
         <state relative-caret-position="252">
           <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
           <folding>
-            <element signature="e#1143#1144#0" expanded="true" />
-            <element signature="e#1207#1208#0" expanded="true" />
+            <element signature="e#1143#1144#0" expanded="false" />
+            <element signature="e#1207#1208#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -830,8 +835,8 @@
           <caret line="13" column="44" lean-forward="false" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1262#1263#0" expanded="true" />
-            <element signature="e#1341#1342#0" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="false" />
+            <element signature="e#1341#1342#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -940,12 +945,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/rotatedDigits.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="32" column="51" lean-forward="false" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+        <state relative-caret-position="36">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="31" />
           <folding>
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/matrixScore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="33" column="46" lean-forward="false" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
