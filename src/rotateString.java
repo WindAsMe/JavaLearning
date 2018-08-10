@@ -7,6 +7,11 @@
  */
 public class rotateString {
 
+    private static boolean rotateStringResult1(String A, String B) {
+        return A.length() == B.length() && (A + A).contains(B);
+    }
+
+
     private static boolean rotateStringResult(String A, String B) {
         if (A.length() != B.length())
             return false;
