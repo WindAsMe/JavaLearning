@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 /**
  * Author     : WindAsMe
  * File       : matrixScore.java
@@ -9,6 +7,8 @@ import java.util.Arrays;
  */
 public class matrixScore {
 
+    // The initial must be 1
+    // adjust the certain column has the max number of '1'
     private static int matrixScoreResult(int[][] A) {
         int sum = 0;
         if (A.length == 0 || A[0].length == 0)
@@ -39,8 +39,8 @@ public class matrixScore {
                 len--;
             }
         }
-        for (int[] a : A)
-            System.out.println(Arrays.toString(a));
+//        for (int[] a : A)
+//            System.out.println(Arrays.toString(a));
         return sum;
     }
 
