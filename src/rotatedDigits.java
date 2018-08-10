@@ -17,6 +17,9 @@ public class rotatedDigits {
         return count;
     }
 
+    // 3 4 7 is directly return false
+    // 2 5 6 9 temporary true
+    // 0 1 8 didn't change the result
     private static boolean valid(int i) {
         boolean valid = false;
         while(i > 0) {
