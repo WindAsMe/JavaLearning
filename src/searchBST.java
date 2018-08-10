@@ -3,7 +3,7 @@
  * File       : searchBST.java
  * Time       : Create on 18-8-10
  * Location   : ../Home/JavaForLeeCode2/searchBST.java
- * Function   :
+ * Function   : LeetCode No.700
  */
 public class searchBST {
 
