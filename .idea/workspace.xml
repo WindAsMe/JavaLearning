@@ -65,11 +65,11 @@
       <file leaf-file-name="scoreOfParentheses.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/scoreOfParentheses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="51" selection-end-column="25" />
+            <state relative-caret-position="65">
+              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="52" selection-end-column="25" />
               <folding>
-                <element signature="e#1859#1860#0" expanded="true" />
-                <element signature="e#1947#1948#0" expanded="true" />
+                <element signature="e#2019#2020#0" expanded="true" />
+                <element signature="e#2105#2106#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -450,12 +450,12 @@
       <workItem from="1533708480293" duration="7596000" />
       <workItem from="1533794368059" duration="4690000" />
       <workItem from="1533882599474" duration="5036000" />
-      <workItem from="1533968048567" duration="4159000" />
+      <workItem from="1533968048567" duration="4971000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="295029000" />
+    <option name="totallyTimeSpent" value="295841000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -919,6 +919,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="1672" column="15" lean-forward="false" selection-start-line="1672" selection-start-column="15" selection-end-line="1672" selection-end-column="15" />
+          <folding>
+            <element signature="e#81751#81752#0" expanded="false" />
+            <element signature="e#81800#81801#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -962,11 +966,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scoreOfParentheses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="51" selection-end-column="25" />
+        <state relative-caret-position="65">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="52" selection-end-column="25" />
           <folding>
-            <element signature="e#1859#1860#0" expanded="true" />
-            <element signature="e#1947#1948#0" expanded="true" />
+            <element signature="e#2019#2020#0" expanded="true" />
+            <element signature="e#2105#2106#0" expanded="true" />
           </folding>
         </state>
       </provider>

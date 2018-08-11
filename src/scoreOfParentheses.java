@@ -43,9 +43,10 @@ public class scoreOfParentheses {
                 }
                 if (helper[i] > 0 && i - 1 >= 0 && helper[i - 1] == -1 && i + 1 < len  && helper[i + 1] == -2) {
                     helper[i - 1] = helper[i] * 2;
-                    for (int j = i; j < len - 2; j++)
-                        helper[i] = helper[i + 2];
                     len -= 2;
+                    // System.out.println("after: " + Arrays.toString(helper) + " i: " + i + " len: " + len);
+                    System.arraycopy(helper, i + 2, helper, i, len - i);
+                    // System.out.println("combine: " + Arrays.toString(helper));
                 }
             }
         }
@@ -53,6 +54,6 @@ public class scoreOfParentheses {
     }
 
     public static void main(String[] args) {
-        System.out.println("ans: " + scoreOfParenthesesResult("(()()()()()())"));
+        System.out.println("ans: " + scoreOfParenthesesResult("()(()(())())"));
     }
 }
