@@ -9,10 +9,11 @@ import java.util.Random;
  */
 public class Solution {
 
-    private int[] nums;
+    private int[] nums = null;
     private Random random = null;
     public Solution(int[] nums) {
         this.nums = nums.clone();
+        random = new Random();
     }
 
     /** Resets the array to its original configuration and return it. */
