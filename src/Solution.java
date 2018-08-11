@@ -1,3 +1,5 @@
+import java.util.Random;
+
 /**
  * Author     : WindAsMe
  * File       : Solution.java
@@ -8,6 +10,7 @@
 public class Solution {
 
     private int[] nums;
+    private Random random = null;
     public Solution(int[] nums) {
         this.nums = nums.clone();
     }
@@ -19,14 +22,19 @@ public class Solution {
 
     /** Returns a random shuffling of the array. */
     public int[] shuffle() {
-        int[] ans = nums.clone();
-        for (int i = 0; i < ans.length; i++) {
-            int index = (int) (Math.random() * i);
-            int temp = nums[index];
-            nums[index] = nums[i];
-            nums[i] = temp;
+        if(nums == null) return null;
+        int[] a = nums.clone();
+        for(int i = 1; i < nums.length; i++){
+            int j = random.nextInt(i + 1);
+            swap(a, i, j);
         }
-        return ans;
+        return a;
+    }
+
+    private void swap(int[] a, int i, int j){
+        int temp = a[i];
+        a[i] = a[j];
+        a[j] = temp;
     }
 
     public static void main(String[] args) {
