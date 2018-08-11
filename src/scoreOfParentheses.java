@@ -15,6 +15,7 @@ public class scoreOfParentheses {
         if (S.length() == 2)
             return 1;
         S = S.replace("()", "1");
+        System.out.println(S);
         int[] helper = new int[S.length()];
         // '(' is -1
         // ')' is -2
@@ -27,9 +28,13 @@ public class scoreOfParentheses {
             else
                 helper[i] = 1;
         }
-        System.out.println(Arrays.toString(helper));
+        // System.out.println(Arrays.toString(helper));
         int len = helper.length;
         while (len != 1) {
+            System.out.print("convert: ");
+            for (int a = 0; a < len; a ++)
+                System.out.print(helper[a] + " ");
+            System.out.println();
             for (int i = 0; i < len; i++) {
                 if (helper[i] > 0 && i + 1 < len && helper[i + 1] > 0) {
                     helper[i] = helper[i] + helper[i + 1];
@@ -38,9 +43,8 @@ public class scoreOfParentheses {
                 }
                 if (helper[i] > 0 && i - 1 >= 0 && helper[i - 1] == -1 && i + 1 < len  && helper[i + 1] == -2) {
                     helper[i - 1] = helper[i] * 2;
-                    System.arraycopy(helper, i + 1, helper, i, len - 1 - i);
-                    for (int j = i; j < len - 1; j++)
-                        helper[i] = helper[i + 1];
+                    for (int j = i; j < len - 2; j++)
+                        helper[i] = helper[i + 2];
                     len -= 2;
                 }
             }
@@ -49,6 +53,6 @@ public class scoreOfParentheses {
     }
 
     public static void main(String[] args) {
-        System.out.println("ans: " + scoreOfParenthesesResult("(()(()))"));
+        System.out.println("ans: " + scoreOfParenthesesResult("(()()()()()())"));
     }
 }
