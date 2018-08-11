@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 /**
  * Author     : WindAsMe
  * File       : scoreOfParentheses.java
@@ -8,6 +6,26 @@ import java.util.Arrays;
  * Function   : LeetCode No.856
  */
 public class scoreOfParentheses {
+
+    private static int scoreOfParentheses1(String S) {
+        if (S.equals("()"))
+            return 1;
+        int count = 0;
+        for (int i = 0; i < S.length(); i++) {
+            if (S.charAt(i) == '(') {
+                count++;
+            } else {
+                count--;
+                if (count == 0) {
+                    if (i == S.length() - 1)
+                        return 2 * scoreOfParenthesesResult(S.substring(1, S.length() - 1));
+                    else
+                        return scoreOfParenthesesResult(S.substring(0, i + 1)) + scoreOfParenthesesResult(S.substring(i + 1));
+                }
+            }
+        }
+        return 0;
+    }
 
     private static int scoreOfParenthesesResult(String S) {
         if (S.length() == 0)
