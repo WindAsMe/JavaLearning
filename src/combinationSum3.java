@@ -41,9 +41,9 @@ public class combinationSum3 {
 
     public static void main(String[] args) {
         List<List<Integer>> lists = combinationSum3Result(3, 7);
-        for (int i = 0 ; i < lists.size() ; i ++ ) {
-            for (int j = 0 ; j < 3 ; j ++ ) {
-                System.out.print(lists.get(i).get(j) + " ");
+        for (List<Integer> list : lists) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print(list.get(j) + " ");
             }
             System.out.println();
         }

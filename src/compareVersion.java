@@ -19,11 +19,10 @@ public class compareVersion {
             }
             i ++;
         }
-        if (version1.length() == version2.length()) {
+        if (version1.length() == version2.length())
             return 0;
-        } else {
+        else
             return version1.length() > version2.length() ? 1 : -1;
-        }
     }
 
     public static void main(String[] args){
