@@ -28,15 +28,12 @@ public class classSort {
 
 
     private static void classSortResult(List<Tuple> list) {
-        Collections.sort(list, new Comparator<Tuple>() {
-            @Override
-            public int compare(Tuple o1, Tuple o2) {
-                int temp = (o1.a + o1.b) - (o2.a + o2.b);
-                if (temp == 0) {
-                    return o1.getA() - o2.getA();
-                }
-                return temp;
+        list.sort((o1, o2) -> {
+            int temp = (o1.a + o1.b) - (o2.a + o2.b);
+            if (temp == 0) {
+                return o1.getA() - o2.getA();
             }
+            return temp;
         });
         for (Tuple aList : list) System.out.println(aList.a + "  " + aList.b + "  " + (aList.a + aList.b));
     }
