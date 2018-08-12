@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/insertIntoBST.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/insertIntoBST.java" afterPath="$PROJECT_DIR$/src/insertIntoBST.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -127,8 +126,8 @@
       <file leaf-file-name="insertIntoBST.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/insertIntoBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            <state relative-caret-position="241">
+              <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -283,7 +282,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.toLowerCase">
+  <component name="RunManager" selected="Application.insertIntoBST">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -305,9 +304,9 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="matrixScore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="insertIntoBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="matrixScore" />
+      <option name="MAIN_CLASS_NAME" value="insertIntoBST" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -319,9 +318,9 @@
       <module name="JavaForLeeCode2" />
       <envs />
     </configuration>
-    <configuration name="rotatedDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="matrixScore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="rotatedDigits" />
+      <option name="MAIN_CLASS_NAME" value="matrixScore" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -436,19 +435,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.rotatedDigits" />
-      <item index="1" class="java.lang.String" itemvalue="Application.matrixScore" />
-      <item index="2" class="java.lang.String" itemvalue="Application.searchBST" />
-      <item index="3" class="java.lang.String" itemvalue="Application.scoreOfParentheses" />
-      <item index="4" class="java.lang.String" itemvalue="Application.toLowerCase" />
+      <item index="0" class="java.lang.String" itemvalue="Application.matrixScore" />
+      <item index="1" class="java.lang.String" itemvalue="Application.searchBST" />
+      <item index="2" class="java.lang.String" itemvalue="Application.scoreOfParentheses" />
+      <item index="3" class="java.lang.String" itemvalue="Application.toLowerCase" />
+      <item index="4" class="java.lang.String" itemvalue="Application.insertIntoBST" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.toLowerCase" />
-        <item index="1" class="java.lang.String" itemvalue="Application.scoreOfParentheses" />
-        <item index="2" class="java.lang.String" itemvalue="Application.searchBST" />
-        <item index="3" class="java.lang.String" itemvalue="Application.matrixScore" />
-        <item index="4" class="java.lang.String" itemvalue="Application.rotatedDigits" />
+        <item index="0" class="java.lang.String" itemvalue="Application.insertIntoBST" />
+        <item index="1" class="java.lang.String" itemvalue="Application.toLowerCase" />
+        <item index="2" class="java.lang.String" itemvalue="Application.scoreOfParentheses" />
+        <item index="3" class="java.lang.String" itemvalue="Application.searchBST" />
+        <item index="4" class="java.lang.String" itemvalue="Application.matrixScore" />
       </list>
     </recent_temporary>
   </component>
@@ -510,12 +509,12 @@
       <workItem from="1533794368059" duration="4690000" />
       <workItem from="1533882599474" duration="5036000" />
       <workItem from="1533968048567" duration="7188000" />
-      <workItem from="1534038932511" duration="1138000" />
+      <workItem from="1534038932511" duration="3606000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="299196000" />
+    <option name="totallyTimeSpent" value="301664000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -539,8 +538,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32662538" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32817337" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32662538" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32817337" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16258879" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1037,8 +1036,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/insertIntoBST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        <state relative-caret-position="241">
+          <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
           <folding />
         </state>
       </provider>
