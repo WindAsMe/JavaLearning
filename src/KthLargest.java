@@ -24,19 +24,20 @@ public class KthLargest {
             Collections.sort(list, new Comparator<Integer>() {
                 @Override
                 public int compare(Integer o1, Integer o2) {
-                    return o1 - o2;
+                    return o2 - o1;
                 }
             });
         }
 
         public int add(int val) {
+            System.out.println(list.toString());
             for (int i = 0; i < list.size(); i++) {
                 if (list.get(i) < val) {
                     list.add(i, val);
                     break;
                 }
             }
-            return list.get(k);
+            return list.get(k - 1);
         }
     }
 
