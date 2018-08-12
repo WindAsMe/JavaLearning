@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/MyHashMap.java" afterPath="$PROJECT_DIR$/src/MyHashMap.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/insertIntoBST.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -103,7 +104,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyHashMap.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyHashMap.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MyHashMap.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
@@ -119,6 +120,16 @@
                 <element signature="e#850#851#0" expanded="true" />
                 <element signature="e#881#882#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="insertIntoBST.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/insertIntoBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -143,7 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/kthSmallest1.java" />
         <option value="$PROJECT_DIR$/src/firstUniqChar.java" />
         <option value="$PROJECT_DIR$/src/canConstruct.java" />
         <option value="$PROJECT_DIR$/src/reconstructQueue.java" />
@@ -194,6 +204,7 @@
         <option value="$PROJECT_DIR$/src/Solution.java" />
         <option value="$PROJECT_DIR$/src/toLowerCase.java" />
         <option value="$PROJECT_DIR$/src/MyHashMap.java" />
+        <option value="$PROJECT_DIR$/src/insertIntoBST.java" />
       </list>
     </option>
   </component>
@@ -499,12 +510,12 @@
       <workItem from="1533794368059" duration="4690000" />
       <workItem from="1533882599474" duration="5036000" />
       <workItem from="1533968048567" duration="7188000" />
-      <workItem from="1534038932511" duration="544000" />
+      <workItem from="1534038932511" duration="1138000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="298602000" />
+    <option name="totallyTimeSpent" value="299196000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -588,14 +599,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/getIntersectionNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/getSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -1029,6 +1032,14 @@
             <element signature="e#850#851#0" expanded="true" />
             <element signature="e#881#882#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/insertIntoBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
