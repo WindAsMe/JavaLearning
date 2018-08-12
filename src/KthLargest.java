@@ -26,27 +26,29 @@ public class KthLargest {
 
         public int add(int val) {
             System.out.println("list: " + list.toString());
-            if (list.size() == 0)
-                list.add(val);
+            boolean insert = false;
             for (int i = 0; i < list.size(); i++) {
                 if (list.get(i) < val) {
                     list.add(i, val);
+                    insert = true;
                     break;
                 }
             }
+            if (!insert)
+                list.add(val);
             return list.get(k - 1);
         }
     }
 
 
     public static void main(String[] args) {
-        int[] arr = {};
-        Solution s = new Solution(1, arr);
-        System.out.println(s.add(-3));
+        int[] arr = {0};
+        Solution s = new Solution(2, arr);
+        System.out.println(s.add(-1));
+        System.out.println(s.add(1));
         System.out.println(s.add(-2));
         System.out.println(s.add(-4));
-        System.out.println(s.add(0));
-        System.out.println(s.add(4));
+        System.out.println(s.add(3));
 
     }
 }
