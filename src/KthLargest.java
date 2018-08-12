@@ -21,12 +21,7 @@ public class KthLargest {
             list = new ArrayList<>();
             for (int num : nums)
                 list.add(num);
-            Collections.sort(list, new Comparator<Integer>() {
-                @Override
-                public int compare(Integer o1, Integer o2) {
-                    return o2 - o1;
-                }
-            });
+            list.sort((o1, o2) -> o2 - o1);
         }
 
         public int add(int val) {
