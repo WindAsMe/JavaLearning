@@ -1,6 +1,4 @@
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -12,11 +10,16 @@ import java.util.List;
  */
 public class KthLargest {
 
+    /**
+     * Your KthLargest object will be instantiated and called as such:
+     * KthLargest obj = new KthLargest(k, nums);
+     * int param_1 = obj.add(val);
+     */
     private static class Solution {
         private List<Integer> list;
         private int k;
 
-        public Solution(int k, int[] nums) {
+        Solution(int k, int[] nums) {
             this.k = k;
             list = new ArrayList<>();
             for (int num : nums)
@@ -53,8 +56,3 @@ public class KthLargest {
     }
 }
 
-/**
- * Your KthLargest object will be instantiated and called as such:
- * KthLargest obj = new KthLargest(k, nums);
- * int param_1 = obj.add(val);
- */
