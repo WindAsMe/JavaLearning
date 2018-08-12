@@ -25,7 +25,9 @@ public class KthLargest {
         }
 
         public int add(int val) {
-            System.out.println(list.toString());
+            System.out.println("list: " + list.toString());
+            if (list.size() == 0)
+                list.add(val);
             for (int i = 0; i < list.size(); i++) {
                 if (list.get(i) < val) {
                     list.add(i, val);
@@ -38,12 +40,12 @@ public class KthLargest {
 
 
     public static void main(String[] args) {
-        int[] arr = {4,5,8,2};
-        Solution s = new Solution(3, arr);
-        System.out.println(s.add(3));
-        System.out.println(s.add(5));
-        System.out.println(s.add(10));
-        System.out.println(s.add(9));
+        int[] arr = {};
+        Solution s = new Solution(1, arr);
+        System.out.println(s.add(-3));
+        System.out.println(s.add(-2));
+        System.out.println(s.add(-4));
+        System.out.println(s.add(0));
         System.out.println(s.add(4));
 
     }
