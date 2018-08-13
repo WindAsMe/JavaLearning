@@ -21,10 +21,11 @@ public class minimumDeleteSum {
 
         for (int i = 1; i <= c1.length; i++) {
             for (int j = 1; j <= c2.length; j++) {
-                if (c1[i - 1] == c2[j - 1])
-                    ans[i][j] = Math.min(Math.min(ans[i - 1][j], ans[i][j - 1]), ans[i - 1][j - 1]);
-                else
-                    ans[i][j] = Math.min(Math.min(ans[i - 1][j], ans[i][j - 1]), ans[i - 1][j - 1]) + Math.min(c1[i - 1], c2[j - 1]);
+                int cost = 0;
+                if (c1[i - 1] != c2[j - 1])
+                    cost = c1[i - 1] + c2[j - 1];
+                ans[i][j] = Math.min(ans[i - 1][j] + c1[i - 1], ans[i][j - 1] + c2[j - 1]);
+                ans[i][j] = Math.min(ans[i][j], ans[i - 1][j - 1] + cost);
             }
         }
 
@@ -35,6 +36,6 @@ public class minimumDeleteSum {
     }
 
     public static void main(String[] args) {
-        System.out.println(minimumDeleteSumResult("jerry", "jack"));
+        System.out.println(minimumDeleteSumResult("delete", "leet"));
     }
 }
