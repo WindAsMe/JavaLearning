@@ -25,6 +25,10 @@ public class minimumDeleteSum {
                 int cost = 0;
                 if (c1[i - 1] != c2[j - 1])
                     cost = c1[i - 1] + c2[j - 1];
+                // comparing among the (left-head + cost, left + c1[i - 1], head + c2[j - 1])
+                // left-head: replace
+                // left: move or add
+                // head: move or add
                 ans[i][j] = Math.min(ans[i - 1][j - 1] + cost, Math.min(ans[i - 1][j] + c1[i - 1], ans[i][j - 1] + c2[j - 1]));
             }
         }
