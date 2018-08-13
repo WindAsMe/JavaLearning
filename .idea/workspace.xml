@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/minimumDeleteSum.java" afterPath="$PROJECT_DIR$/src/minimumDeleteSum.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/longestWord.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,15 +40,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="minimumDeleteSum.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="minimumDeleteSum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/minimumDeleteSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="27" column="126" lean-forward="false" selection-start-line="27" selection-start-column="126" selection-end-line="27" selection-end-column="126" />
+            <state relative-caret-position="168">
+              <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
               <folding>
-                <element signature="e#1276#1277#0" expanded="true" />
-                <element signature="e#1352#1353#0" expanded="true" />
+                <element signature="e#1466#1467#0" expanded="true" />
+                <element signature="e#1542#1543#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="longestWord.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/longestWord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -72,7 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/findContentChildren.java" />
         <option value="$PROJECT_DIR$/src/frequencySort.java" />
         <option value="$PROJECT_DIR$/src/repeatedSubstringPattern.java" />
         <option value="$PROJECT_DIR$/src/minMutation.java" />
@@ -123,6 +133,7 @@
         <option value="$PROJECT_DIR$/src/MyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/edit.java" />
         <option value="$PROJECT_DIR$/src/minimumDeleteSum.java" />
+        <option value="$PROJECT_DIR$/src/longestWord.java" />
       </list>
     </option>
   </component>
@@ -201,7 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.minimumDeleteSum">
+  <component name="RunManager" selected="Application.longestWord">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -265,9 +276,9 @@
       <module name="JavaForLeeCode2" />
       <envs />
     </configuration>
-    <configuration name="insertIntoBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="longestWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="insertIntoBST" />
+      <option name="MAIN_CLASS_NAME" value="longestWord" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -354,19 +365,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.insertIntoBST" />
-      <item index="1" class="java.lang.String" itemvalue="Application.KthLargest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MyLinkedList" />
-      <item index="3" class="java.lang.String" itemvalue="Application.edit" />
-      <item index="4" class="java.lang.String" itemvalue="Application.minimumDeleteSum" />
+      <item index="0" class="java.lang.String" itemvalue="Application.KthLargest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MyLinkedList" />
+      <item index="2" class="java.lang.String" itemvalue="Application.edit" />
+      <item index="3" class="java.lang.String" itemvalue="Application.minimumDeleteSum" />
+      <item index="4" class="java.lang.String" itemvalue="Application.longestWord" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.minimumDeleteSum" />
-        <item index="1" class="java.lang.String" itemvalue="Application.edit" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MyLinkedList" />
-        <item index="3" class="java.lang.String" itemvalue="Application.KthLargest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.insertIntoBST" />
+        <item index="0" class="java.lang.String" itemvalue="Application.longestWord" />
+        <item index="1" class="java.lang.String" itemvalue="Application.minimumDeleteSum" />
+        <item index="2" class="java.lang.String" itemvalue="Application.edit" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MyLinkedList" />
+        <item index="4" class="java.lang.String" itemvalue="Application.KthLargest" />
       </list>
     </recent_temporary>
   </component>
@@ -429,12 +440,12 @@
       <workItem from="1533882599474" duration="5036000" />
       <workItem from="1533968048567" duration="7188000" />
       <workItem from="1534038932511" duration="6292000" />
-      <workItem from="1534141446920" duration="6934000" />
+      <workItem from="1534141446920" duration="7669000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="311284000" />
+    <option name="totallyTimeSpent" value="312019000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -462,7 +473,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21207431" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16495658" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16495658" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -518,21 +529,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/rand10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-          <folding>
-            <element signature="e#395#396#0" expanded="false" />
-            <element signature="e#443#444#0" expanded="false" />
-            <element signature="e#477#478#0" expanded="false" />
-            <element signature="e#525#526#0" expanded="false" />
-            <element signature="e#571#572#0" expanded="false" />
-            <element signature="e#621#622#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/reconstructQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -969,12 +965,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/minimumDeleteSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="27" column="126" lean-forward="false" selection-start-line="27" selection-start-column="126" selection-end-line="27" selection-end-column="126" />
+        <state relative-caret-position="168">
+          <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
           <folding>
-            <element signature="e#1276#1277#0" expanded="true" />
-            <element signature="e#1352#1353#0" expanded="true" />
+            <element signature="e#1466#1467#0" expanded="true" />
+            <element signature="e#1542#1543#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/longestWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
