@@ -29,10 +29,10 @@ public class edit {
         for (int[] a : ans)
             System.out.println(Arrays.toString(a));
 
-        return ans[c1.length - 1][c2.length - 1];
+        return ans[c1.length][c2.length];
     }
 
     public static void main(String[] args) {
-        System.out.println(editResult("jerry", "jary"));
+        System.out.println(editResult("ferry", "fary"));
     }
 }
