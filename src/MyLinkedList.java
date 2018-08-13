@@ -55,7 +55,8 @@ public class MyLinkedList {
          * Add a node of value val before the index-th node in the linked list. If index equals to the length of linked list, the node will be appended to the end of linked list. If index is greater than the length, the node will not be inserted.
          */
         public void addAtIndex(int index, int val) {
-            list.add(index, val);
+            if (index <= list.size())
+                list.add(index, val);
         }
 
         /**
@@ -69,22 +70,13 @@ public class MyLinkedList {
 
     public static void main(String[] args) {
         Solution linkedList = new Solution();
-        linkedList.addAtHead(1);
-        System.out.println(linkedList.list.toString());
-//
-//        linkedList.addAtTail(3);
-//        System.out.println(linkedList.list.toString());
 
-        linkedList.addAtIndex(1,2);   //链表变为1-> 2-> 3
+        System.out.println(linkedList.get(0));
+
+        linkedList.addAtIndex(1,2);
         System.out.println(linkedList.list.toString());
 
-        System.out.println(linkedList.get(0));            //返回2
 
-//        linkedList.deleteAtIndex(1);  //现在链表是1-> 3
-//        System.out.println(linkedList.list.toString());
-
-        System.out.println(linkedList.get(1));            //返回3
-        System.out.println(linkedList.get(2));
     }
 }
 
