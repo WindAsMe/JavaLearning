@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Comparator;
 
 /**
  * Author     : WindAsMe
@@ -11,24 +12,25 @@ public class longestWord {
 
     private static String longestWordResult(String[] words) {
         Arrays.sort(words);
-        String cur = "";
+        System.out.println(Arrays.toString(words));
+        String ans = "";
         for (int i = 0; i < words.length; i++) {
-            if (words[i].length() > 1) {
-                break;
-            } else {
-                cur = words[i];
+            if (words[i].length() == 1) {
+                String cur = words[i];
                 for (int j = i + 1; j < words.length; j++) {
                     String temp = words[j];
-                    if (temp.length() > cur.length() && cur.length() + 1 == temp.length() && cur.equals(temp.substring(0, temp.length())))
+                    if (cur.length() + 1 == temp.length() && cur.equals(temp.substring(0, temp.length() - 1)))
                         cur = words[j];
                 }
+                if (cur.length() > ans.length())
+                    ans = cur;
             }
         }
-        return cur;
+        return ans;
     }
 
     public static void main(String[] args) {
-        String[] words = {"a", "banana", "app", "appl", "ap", "apply", "apple"};
-        longestWordResult(words);
+        String[] words = {"b", "ba", "banan", "ban", "bana", "a", "banana", "app", "appl", "ap", "apply", "apple"};
+        System.out.println(longestWordResult(words));
     }
 }
