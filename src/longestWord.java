@@ -1,5 +1,4 @@
-import java.util.Arrays;
-import java.util.Comparator;
+import java.util.*;
 
 /**
  * Author     : WindAsMe
@@ -11,26 +10,26 @@ import java.util.Comparator;
 public class longestWord {
 
     private static String longestWordResult(String[] words) {
-        Arrays.sort(words);
-        System.out.println(Arrays.toString(words));
-        String ans = "";
-        for (int i = 0; i < words.length; i++) {
-            if (words[i].length() == 1) {
-                String cur = words[i];
-                for (int j = i + 1; j < words.length; j++) {
-                    String temp = words[j];
-                    if (cur.length() + 1 == temp.length() && cur.equals(temp.substring(0, temp.length() - 1)))
-                        cur = words[j];
+        int length = 0;
+        String word = "";
+        Set<String> set = new HashSet<>();
+        Collections.addAll(set, words);
+        for (String word1 : words) {
+            if (word1.length() > length || (word1.length() == length && word1.compareTo(word) < 0)) {
+                int len = word1.length();
+                while (len > 0 && set.contains(word1.substring(0, len)))
+                    len--;
+                if (len == 0) {
+                    length = word1.length();
+                    word = word1;
                 }
-                if (cur.length() > ans.length())
-                    ans = cur;
             }
         }
-        return ans;
+        return word;
     }
 
     public static void main(String[] args) {
-        String[] words = {"b", "ba", "banan", "ban", "bana", "a", "banana", "app", "appl", "ap", "apply", "apple"};
+        String[] words = {"rac","rs","ra","on","r","otif","o","onpdu","rsf","rs","ot","oti","racy","onpd"};
         System.out.println(longestWordResult(words));
     }
 }
