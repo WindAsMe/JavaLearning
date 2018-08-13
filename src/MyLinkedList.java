@@ -34,7 +34,7 @@ public class MyLinkedList {
          * Get the value of the index-th node in the linked list. If the index is invalid, return -1.
          */
         public int get(int index) {
-            return list.get(index) == null ? -1 :  list.get(index);
+            return index >= list.size() ? -1 :  list.get(index);
         }
 
         /**
@@ -71,14 +71,20 @@ public class MyLinkedList {
         Solution linkedList = new Solution();
         linkedList.addAtHead(1);
         System.out.println(linkedList.list.toString());
-        linkedList.addAtTail(3);
-        System.out.println(linkedList.list.toString());
+//
+//        linkedList.addAtTail(3);
+//        System.out.println(linkedList.list.toString());
+
         linkedList.addAtIndex(1,2);   //链表变为1-> 2-> 3
         System.out.println(linkedList.list.toString());
-        System.out.println(linkedList.get(1));            //返回2
-        linkedList.deleteAtIndex(1);  //现在链表是1-> 3
-        System.out.println(linkedList.list.toString());
+
+        System.out.println(linkedList.get(0));            //返回2
+
+//        linkedList.deleteAtIndex(1);  //现在链表是1-> 3
+//        System.out.println(linkedList.list.toString());
+
         System.out.println(linkedList.get(1));            //返回3
+        System.out.println(linkedList.get(2));
     }
 }
 
