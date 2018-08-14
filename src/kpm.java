@@ -21,10 +21,9 @@ public class kpm {
         int k = -1;
         for (int q = 1; q < next.length; q++) {
             while (k > -1 && str[k + 1] != str[q])
-                    k = next[k];
-            if (str[k + 1] == str[q]) {
+                k = next[k];
+            if (str[k + 1] == str[q])
                 k = k + 1;
-            }
             next[q] = k;
         }
         System.out.println(Arrays.toString(next));
@@ -50,6 +49,6 @@ public class kpm {
     }
 
     public static void main(String[] args) {
-        System.out.println(kpmResult("ababaca", "bab"));
+        System.out.println(kpmResult("ababaca", "aba"));
     }
 }
