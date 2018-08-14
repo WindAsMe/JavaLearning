@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/maxProfit2.java" afterPath="$PROJECT_DIR$/src/maxProfit2.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/numSubarrayProductLessThanK.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,11 +63,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="maxProfit2.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="maxProfit2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/maxProfit2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="numSubarrayProductLessThanK.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/numSubarrayProductLessThanK.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="19" column="64" lean-forward="false" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -112,7 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/minMutation.java" />
         <option value="$PROJECT_DIR$/src/compress.java" />
         <option value="$PROJECT_DIR$/src/minMoves2.java" />
         <option value="$PROJECT_DIR$/src/kpmMatch.java" />
@@ -163,6 +173,7 @@
         <option value="$PROJECT_DIR$/src/longestWord.java" />
         <option value="$PROJECT_DIR$/src/maxProfit.java" />
         <option value="$PROJECT_DIR$/src/maxProfit2.java" />
+        <option value="$PROJECT_DIR$/src/numSubarrayProductLessThanK.java" />
       </list>
     </option>
   </component>
@@ -241,27 +252,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.maxProfit2">
+  <component name="RunManager" selected="Application.numSubarrayProductLessThanK">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="MyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="MyLinkedList" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaForLeeCode2" />
-      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -322,6 +319,20 @@
     <configuration name="minimumDeleteSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="minimumDeleteSum" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaForLeeCode2" />
+      <envs />
+    </configuration>
+    <configuration name="numSubarrayProductLessThanK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="numSubarrayProductLessThanK" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -394,19 +405,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.MyLinkedList" />
-      <item index="1" class="java.lang.String" itemvalue="Application.edit" />
-      <item index="2" class="java.lang.String" itemvalue="Application.minimumDeleteSum" />
-      <item index="3" class="java.lang.String" itemvalue="Application.longestWord" />
-      <item index="4" class="java.lang.String" itemvalue="Application.maxProfit2" />
+      <item index="0" class="java.lang.String" itemvalue="Application.edit" />
+      <item index="1" class="java.lang.String" itemvalue="Application.minimumDeleteSum" />
+      <item index="2" class="java.lang.String" itemvalue="Application.longestWord" />
+      <item index="3" class="java.lang.String" itemvalue="Application.maxProfit2" />
+      <item index="4" class="java.lang.String" itemvalue="Application.numSubarrayProductLessThanK" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.maxProfit2" />
-        <item index="1" class="java.lang.String" itemvalue="Application.longestWord" />
-        <item index="2" class="java.lang.String" itemvalue="Application.minimumDeleteSum" />
-        <item index="3" class="java.lang.String" itemvalue="Application.edit" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MyLinkedList" />
+        <item index="0" class="java.lang.String" itemvalue="Application.numSubarrayProductLessThanK" />
+        <item index="1" class="java.lang.String" itemvalue="Application.maxProfit2" />
+        <item index="2" class="java.lang.String" itemvalue="Application.longestWord" />
+        <item index="3" class="java.lang.String" itemvalue="Application.minimumDeleteSum" />
+        <item index="4" class="java.lang.String" itemvalue="Application.edit" />
       </list>
     </recent_temporary>
   </component>
@@ -469,12 +480,12 @@
       <workItem from="1533882599474" duration="5036000" />
       <workItem from="1533968048567" duration="7188000" />
       <workItem from="1534038932511" duration="6292000" />
-      <workItem from="1534141446920" duration="12199000" />
+      <workItem from="1534141446920" duration="13062000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="316549000" />
+    <option name="totallyTimeSpent" value="317412000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -498,7 +509,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25851393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3854489" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21207431" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -558,14 +569,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/findFrequentTreeSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="21" column="43" lean-forward="false" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/maxDepth.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
@@ -1004,6 +1007,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/numSubarrayProductLessThanK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="19" column="64" lean-forward="false" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
           <folding />
         </state>
       </provider>
