@@ -7,6 +7,7 @@
  */
 public class numSubarrayProductLessThanK {
 
+    // Slide window
     private static int numSubarrayProductLessThanKResult1(int[] nums, int k) {
         if ( k <= 1)
             return 0;
