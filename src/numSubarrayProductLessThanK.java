@@ -7,6 +7,24 @@
  */
 public class numSubarrayProductLessThanK {
 
+    private static int numSubarrayProductLessThanKResult1(int[] nums, int k) {
+        if ( k <= 1)
+            return 0;
+        int n = nums.length;
+        long p = 1L;
+        int i = 0, total = 0;
+        for (int j = 0; j < n; j++){
+            p *= nums[j];
+            while (p >= k){
+                p /= nums[i];
+                i++;
+            }
+            total += (j - i + 1);
+        }
+        return total;
+    }
+
+    // Recursion: TL
     private static int numSubarrayProductLessThanKResult(int[] nums, int k) {
         int[] count = {0};
         for (int i = 0; i < nums.length; i++)
@@ -24,6 +42,6 @@ public class numSubarrayProductLessThanK {
 
     public static void main(String[] args) {
         int[] nums = {10,5,2,6};
-        System.out.println(numSubarrayProductLessThanKResult(nums, 100));
+        System.out.println(numSubarrayProductLessThanKResult1(nums, 100));
     }
 }
