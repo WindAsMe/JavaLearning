@@ -17,7 +17,8 @@ public class numSubarrayProductLessThanK {
     private static void dfs(int[] count, int k, int cur, int index, int[] nums) {
         if (cur < k) {
             count[0]++;
-            dfs(count, k, cur * nums[index + 1], index + 1, nums);
+            if (index + 1 < nums.length)
+                dfs(count, k, cur * nums[index + 1], index + 1, nums);
         }
     }
 
