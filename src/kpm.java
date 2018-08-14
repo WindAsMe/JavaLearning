@@ -30,6 +30,7 @@ public class kpm {
         System.out.println(Arrays.toString(next));
     }
 
+    // s: expectation; t: substring
     private static boolean kpmResult(String s, String t) {
         char[] sChar = s.toCharArray();
         char[] tChar = t.toCharArray();
