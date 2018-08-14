@@ -17,12 +17,12 @@ public class maxProfit {
         int[] bdp = new int[prices.length];
         sdp[0] = 0;
         bdp[0] = -prices[0];
-        for (int i = 1;i < prices.length ;i++ ) {
-            sdp[i] = Math.max(sdp[i-1],bdp[i-1] + prices[i]);
+        for (int i = 1; i < prices.length; i++ ) {
+            sdp[i] = Math.max(sdp[i - 1], bdp[i - 1] + prices[i]);
             if(i >= 2) {
-                bdp[i] = Math.max(bdp[i-1],sdp[i-2] - prices[i]);
+                bdp[i] = Math.max(bdp[i - 1], sdp[i - 2] - prices[i]);
             } else {
-                bdp[i] = Math.max(bdp[i-1],-prices[i]);
+                bdp[i] = Math.max(bdp[i - 1], -prices[i]);
             }
         }
         return sdp[prices.length - 1];
