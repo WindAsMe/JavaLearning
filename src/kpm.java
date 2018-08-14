@@ -36,6 +36,7 @@ public class kpm {
         int[] next = new int[s.length()];
         init(sChar, next);
         int k = -1;
+        // This proceeding is like the init()
         for (char aSChar : sChar) {
             while (k > -1 && tChar[k + 1] != aSChar)
                 k = next[k];
