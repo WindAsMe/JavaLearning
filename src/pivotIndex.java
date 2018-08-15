@@ -14,7 +14,7 @@ public class pivotIndex {
             sum += num;
         for (int i = 1; i < nums.length; i++) {
             left += nums[i - 1];
-            if (left * 2 == sum)
+            if (left * 2 == sum - nums[i])
                 return i;
         }
         return -1;
@@ -22,5 +22,6 @@ public class pivotIndex {
 
     public static void main(String[] args) {
         int[] nums = {1, 7, 3, 6, 5, 6};
+        System.out.println(pivotIndexResult(nums));
     }
 }
