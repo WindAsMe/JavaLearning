@@ -23,7 +23,7 @@ public class dailyTemperatures {
                 if (temp.getKey() > temperatures[i])
                     index = Math.min(index, temp.getValue());
             }
-            ans[i] = index == Integer.MAX_VALUE ? 0 : index;
+            ans[i] = index == Integer.MAX_VALUE ? 0 : index - i;
             map.put(temperatures[i], i);
         }
         return ans;
