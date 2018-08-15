@@ -8,6 +8,10 @@
 public class pivotIndex {
 
     private static int pivotIndexResult(int[] nums) {
+        if (nums.length == 0)
+            return -1;
+        if (nums.length == 1)
+            return 0;
         int sum = 0;
         int left = 0;
         for (int num : nums)
