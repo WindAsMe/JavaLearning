@@ -19,6 +19,7 @@ public class kpm {
     private static void init(char[] str, int[] next) {
         next[0] = -1;
         int k = -1;
+        // Every step basis on the before
         for (int q = 1; q < next.length; q++) {
             while (k > -1 && str[k + 1] != str[q])
                 k = next[k];
