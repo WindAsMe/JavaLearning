@@ -8,13 +8,16 @@
 public class isSubsequence {
 
     private static boolean isSubsequenceResult(String s, String t) {
+        if (s.length() < 1)
+            return true;
         char[] sChar = s.toCharArray();
         char[] tChar = t.toCharArray();
         int index = 0;
         for (int i = 0; i < t.length(); i++) {
             if (tChar[i] == sChar[index]) {
+                System.out.println("i: " + i + "index: " + index);
                 index++;
-                if (index == s.length() - 1)
+                if (index == s.length())
                     return true;
             }
         }
@@ -22,6 +25,6 @@ public class isSubsequence {
     }
 
     public static void main(String[] args) {
-        System.out.println(isSubsequenceResult("abc", "ahbgdc"));
+        System.out.println(isSubsequenceResult("acb", "ahbgdc"));
     }
 }
