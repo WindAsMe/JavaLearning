@@ -7,17 +7,21 @@
  */
 public class isSubsequence {
 
-    private boolean isSubsequenceResult(String s, String t) {
+    private static boolean isSubsequenceResult(String s, String t) {
         char[] sChar = s.toCharArray();
         char[] tChar = t.toCharArray();
-        int[] next = new int[s.length()];
-        init(sChar, next);
+        int index = 0;
+        for (int i = 0; i < t.length(); i++) {
+            if (tChar[i] == sChar[index]) {
+                index++;
+                if (index == s.length() - 1)
+                    return true;
+            }
+        }
+        return false;
     }
 
-
-    private static void init(char[] s, int[] next) {
-        int k = -1;
-        next[0]  = -1;
-
+    public static void main(String[] args) {
+        System.out.println(isSubsequenceResult("abc", "ahbgdc"));
     }
 }
