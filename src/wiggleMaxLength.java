@@ -9,6 +9,7 @@ import java.util.Arrays;
  */
 public class wiggleMaxLength {
 
+    // Greedy Algorithm
     private static int wiggleMaxLengthResult(int[] nums) {
         if(nums.length < 2)
             return nums.length;
