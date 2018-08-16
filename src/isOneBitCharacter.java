@@ -15,4 +15,9 @@ public class isOneBitCharacter {
         }
         return (i == len) && (bits[i] == 0);
     }
+
+    public static void main(String[] args) {
+        int[] bits = {1, 1, 1, 0};
+        System.out.println(isOneBitCharacterResult(bits));
+    }
 }
