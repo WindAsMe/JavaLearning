@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/isOneBitCharacter.java" afterPath="$PROJECT_DIR$/src/isOneBitCharacter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/wiggleMaxLength.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,11 +82,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="isOneBitCharacter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="isOneBitCharacter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/isOneBitCharacter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="15" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wiggleMaxLength.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/wiggleMaxLength.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="30" column="53" lean-forward="false" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -124,7 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/findRadius.java" />
         <option value="$PROJECT_DIR$/src/findSubsequences.java" />
         <option value="$PROJECT_DIR$/src/findDuplicates.java" />
         <option value="$PROJECT_DIR$/src/guessNumber.java" />
@@ -175,6 +185,7 @@
         <option value="$PROJECT_DIR$/src/dailyTemperatures.java" />
         <option value="$PROJECT_DIR$/src/nextGreatestLetter.java" />
         <option value="$PROJECT_DIR$/src/isOneBitCharacter.java" />
+        <option value="$PROJECT_DIR$/src/wiggleMaxLength.java" />
       </list>
     </option>
   </component>
@@ -253,7 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.isOneBitCharacter">
+  <component name="RunManager" selected="Application.wiggleMaxLength">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -278,20 +289,6 @@
     <configuration name="dailyTemperatures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="dailyTemperatures" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaForLeeCode2" />
-      <envs />
-    </configuration>
-    <configuration name="findLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="findLength" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -334,6 +331,20 @@
     <configuration name="pivotIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="pivotIndex" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaForLeeCode2" />
+      <envs />
+    </configuration>
+    <configuration name="wiggleMaxLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="wiggleMaxLength" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -406,19 +417,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.findLength" />
-      <item index="1" class="java.lang.String" itemvalue="Application.pivotIndex" />
-      <item index="2" class="java.lang.String" itemvalue="Application.dailyTemperatures" />
-      <item index="3" class="java.lang.String" itemvalue="Application.nextGreatestLetter" />
-      <item index="4" class="java.lang.String" itemvalue="Application.isOneBitCharacter" />
+      <item index="0" class="java.lang.String" itemvalue="Application.pivotIndex" />
+      <item index="1" class="java.lang.String" itemvalue="Application.dailyTemperatures" />
+      <item index="2" class="java.lang.String" itemvalue="Application.nextGreatestLetter" />
+      <item index="3" class="java.lang.String" itemvalue="Application.isOneBitCharacter" />
+      <item index="4" class="java.lang.String" itemvalue="Application.wiggleMaxLength" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.isOneBitCharacter" />
-        <item index="1" class="java.lang.String" itemvalue="Application.nextGreatestLetter" />
-        <item index="2" class="java.lang.String" itemvalue="Application.dailyTemperatures" />
-        <item index="3" class="java.lang.String" itemvalue="Application.pivotIndex" />
-        <item index="4" class="java.lang.String" itemvalue="Application.findLength" />
+        <item index="0" class="java.lang.String" itemvalue="Application.wiggleMaxLength" />
+        <item index="1" class="java.lang.String" itemvalue="Application.isOneBitCharacter" />
+        <item index="2" class="java.lang.String" itemvalue="Application.nextGreatestLetter" />
+        <item index="3" class="java.lang.String" itemvalue="Application.dailyTemperatures" />
+        <item index="4" class="java.lang.String" itemvalue="Application.pivotIndex" />
       </list>
     </recent_temporary>
   </component>
@@ -482,12 +493,12 @@
       <workItem from="1533968048567" duration="7188000" />
       <workItem from="1534038932511" duration="6292000" />
       <workItem from="1534141446920" duration="21590000" />
-      <workItem from="1534315695841" duration="7267000" />
+      <workItem from="1534315695841" duration="8343000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="333207000" />
+    <option name="totallyTimeSpent" value="334283000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -510,9 +521,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21981424" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21981424" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23993808" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23993808" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1673244" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -571,13 +582,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/connect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/shortestToChar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -942,6 +946,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="15" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wiggleMaxLength.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="30" column="53" lean-forward="false" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
           <folding />
         </state>
       </provider>
