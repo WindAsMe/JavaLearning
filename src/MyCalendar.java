@@ -14,11 +14,11 @@ public class MyCalendar {
 
         private List<int[]> list;
 
-        public Solution() {
+        Solution() {
             list = new ArrayList<>();
         }
 
-        public boolean book(int start, int end) {
+        boolean book(int start, int end) {
             for (int[] i : list) {
                 if ((start < i[0] && end > i[0]) || (start >= i[0] && start < i[1]))
                     return false;
