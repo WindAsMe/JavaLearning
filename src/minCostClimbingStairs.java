@@ -18,7 +18,7 @@ public class minCostClimbingStairs {
         for (int i = 2; i < cost.length; i++)
             ans[i] = Math.min(ans[i - 1] + cost[i], ans[i - 2] + cost[i]);
         System.out.println(Arrays.toString(ans));
-        return cost.length % 2 == 1 ? ans[ans.length - 2] : ans[ans.length - 1];
+        return Math.min(ans[ans.length - 2], ans[ans.length - 1]);
     }
 
     public static void main(String[] args) {
