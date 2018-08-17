@@ -14,11 +14,13 @@ public class deleteAndEarn {
     private static int deleteAndEarnResult(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
         int[] ans = new int[add(map, nums)+ 1];
+        // for (Map.Entry<Integer, Integer> m : map.entrySet())
+        //     System.out.println(m.toString());
+
         ans[1] = map.get(1) == null ? 0 : map.get(1);
-        for (int i = 2; i < ans.length; i++) {
-            ans[i] = Math.max(ans[i - 1], ans[i - 2] + (map.get(i - 2) == null ? 0 : map.get(i - 2)));
-        }
-        System.out.println(Arrays.toString(ans));
+        for (int i = 2; i < ans.length; i++)
+            ans[i] = Math.max(ans[i - 1], ans[i - 2] + (map.get(i) == null ? 0 : map.get(i)));
+        // System.out.println(Arrays.toString(ans));
         return ans[ans.length - 1];
     }
 
