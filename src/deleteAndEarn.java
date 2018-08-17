@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -20,6 +19,7 @@ public class deleteAndEarn {
         //     System.out.println(m.toString());
 
         ans[1] = map.get(1) == null ? 0 : map.get(1);
+        // The formula is the key
         for (int i = 2; i < ans.length; i++)
             ans[i] = Math.max(ans[i - 1], ans[i - 2] + (map.get(i) == null ? 0 : map.get(i)));
         // System.out.println(Arrays.toString(ans));
