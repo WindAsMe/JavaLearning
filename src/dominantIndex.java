@@ -8,25 +8,28 @@
 public class dominantIndex {
 
     private static int dominantIndexResult(int[] nums) {
-        if (nums.length < 2)
+        if (nums.length == 0)
             return -1;
+        if (nums.length == 1)
+            return 0;
         int first = nums[0] > nums[1] ? nums[0] : nums[1];
         int second = nums[0] <= nums[1] ? nums[0] : nums[1];
         int flag = nums[0] > nums[1] ? 0 : 1;
         for (int i = 2; i < nums.length; i++) {
-            // System.out.println("first: " + first + " second: " + second);
-            if (nums[i] > first) {
-                second = first;
+           if (nums[i] > first) {
                 first = nums[i];
                 flag = i;
             }
+            if (nums[i] > second && nums[i] < first)
+                second = nums[i];
+           System.out.println("first: " + first + " second: " + second);
         }
         return first >= 2 * second ? flag : -1;
     }
 
 
     public static void main(String[] args) {
-        int[] nums = {3,6,1,0};
+        int[] nums = {0,0,2,1};
         System.out.println(dominantIndexResult(nums));
     }
 }
