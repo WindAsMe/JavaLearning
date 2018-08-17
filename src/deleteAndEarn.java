@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -13,10 +14,11 @@ public class deleteAndEarn {
     private static int deleteAndEarnResult(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
         int[] ans = new int[add(map, nums)+ 1];
-        ans[1] = map.get(1);
+        ans[1] = map.get(1) == null ? 0 : map.get(1);
         for (int i = 2; i < ans.length; i++) {
-            ans[i] = Math.max(ans[i - 1], ans[i - 2] + map.get(i - 2));
+            ans[i] = Math.max(ans[i - 1], ans[i - 2] + (map.get(i - 2) == null ? 0 : map.get(i - 2)));
         }
+        System.out.println(Arrays.toString(ans));
         return ans[ans.length - 1];
     }
 
