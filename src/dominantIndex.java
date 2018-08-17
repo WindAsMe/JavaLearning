@@ -12,12 +12,13 @@ public class dominantIndex {
             return -1;
         int first = nums[0] > nums[1] ? nums[0] : nums[1];
         int second = nums[0] <= nums[1] ? nums[0] : nums[1];
-        int flag = 0;
+        int flag = nums[0] > nums[1] ? 0 : 1;
         for (int i = 2; i < nums.length; i++) {
+            // System.out.println("first: " + first + " second: " + second);
             if (nums[i] > first) {
                 second = first;
                 first = nums[i];
-                first = i;
+                flag = i;
             }
         }
         return first >= 2 * second ? flag : -1;
