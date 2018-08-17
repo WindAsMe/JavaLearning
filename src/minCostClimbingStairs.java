@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * Author     : WindAsMe
  * File       : minCostClimbingStairs.java
@@ -14,12 +16,13 @@ public class minCostClimbingStairs {
         ans[0] = cost[0];
         ans[1] = cost[1];
         for (int i = 2; i < cost.length; i++)
-            ans[i] = Math.min(ans[i - 1], ans[i - 2]) + cost[i];
-        return ans[ans.length - 1];
+            ans[i] = Math.min(ans[i - 1] + cost[i], ans[i - 2] + cost[i]);
+        System.out.println(Arrays.toString(ans));
+        return cost.length % 2 == 1 ? ans[ans.length - 2] : ans[ans.length - 1];
     }
 
     public static void main(String[] args) {
-        int[] cost = {10, 15, 20};
+        int[] cost = {1, 100, 1, 1, 1, 100, 1, 1, 100, 1};
         System.out.println(minCostClimbingStairsResult(cost));
     }
 }
