@@ -12,6 +12,8 @@ import java.util.Map;
 public class deleteAndEarn {
 
     private static int deleteAndEarnResult(int[] nums) {
+        if (nums.length < 1)
+            return 0;
         Map<Integer, Integer> map = new HashMap<>();
         int[] ans = new int[add(map, nums)+ 1];
         // for (Map.Entry<Integer, Integer> m : map.entrySet())
@@ -35,7 +37,7 @@ public class deleteAndEarn {
 
 
     public static void main(String[] args) {
-        int[] ans = {3, 4, 2};
+        int[] ans = {3};
         System.out.println(deleteAndEarnResult(ans));
     }
 }
