@@ -17,6 +17,7 @@ public class dominantIndex {
         int flag = nums[0] > nums[1] ? 0 : 1;
         for (int i = 2; i < nums.length; i++) {
            if (nums[i] > first) {
+                second = first;
                 first = nums[i];
                 flag = i;
             }
@@ -29,7 +30,7 @@ public class dominantIndex {
 
 
     public static void main(String[] args) {
-        int[] nums = {0,0,2,1};
+        int[] nums = {0,0,2,3};
         System.out.println(dominantIndexResult(nums));
     }
 }
