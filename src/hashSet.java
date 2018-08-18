@@ -12,11 +12,13 @@ public class hashSet {
 
     public static void main(String[] args) {
         Set<String> set = new HashSet<>();
+        StringBuilder sb = new StringBuilder("0010");
+        set.add(sb.toString());
         set.add("0001");
         set.add("0002");
-        if (set.contains("0001"))
-            System.out.println("0001 waiting save");
+        if (set.contains("0010"))
+            System.out.println("StringBuilder is in set");
         else
-            System.out.println("0001 can be save");
+            System.out.println("StringBuilder isn't in set");
     }
 }
