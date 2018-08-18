@@ -17,14 +17,18 @@ public class partitionLabels {
         for(int i = 0; i < S.length(); i++)
             map[S.charAt(i) - 'a'] = i;
         int start = -1;
-        int end = 0;//start是下一个字段的首字母的前一个位置，第一个字段的首字母的位置一定是0
+        int end = 0;
         for(int i = 0; i < S.length(); i++) {
-            end = Math.max(end, map[S.charAt(i) - 'a']);//不断更新末尾指针的位置
-            if(end == i) {//当i指针的位置和末尾指针的位置相同时意味着[start,end]之间的字母的最后出现位置都在[start,end]，尾指针无法再更新
-                ans.add(end - start);//当前字段的长度
-                start = end;//start是下一个字段的首字母的前一个位置
+            end = Math.max(end, map[S.charAt(i) - 'a']);
+            if(end == i) {
+                ans.add(end - start);
+                start = end;
             }
         }
         return ans;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(partitionLabelsResult("ababcbacadefegdehijhklij").toString());
     }
 }
