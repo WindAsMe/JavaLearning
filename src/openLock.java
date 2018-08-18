@@ -1,6 +1,4 @@
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Author     : WindAsMe
@@ -11,34 +9,43 @@ import java.util.Set;
  */
 public class openLock {
 
-    private static int ans = Integer.MAX_VALUE;
-
     private static int openLockResult(String[] deadends, String target) {
-        if ("0000".equals(target))
-            return 0;
-        Set<String> set = new HashSet<>(Arrays.asList(deadends));
-        Set<String> save = new HashSet<>();
-        save.add("0000");
-        StringBuilder sb = new StringBuilder("0000");
-        for (int i = 0; i < 4; i++) {
-            int a = sb.charAt(i) - '0';
-            sb.replace(i, i + 1, String.valueOf((a + 1) % 10));
-            bfs(save, set, sb, target, 1);
+        Set<String> used = new HashSet<>();
+        Queue<String> q = new ArrayDeque<>();
+        q.add("0000");
+        used.add("0000");
+        for (String d:deadends) {
+            if(d.equals("0000"))
+                return -1;
+            used.add(d);
         }
-        return ans;
+        int ans = 0;
+        while(!q.isEmpty()){
+            int size = q.size();
+            while(size-->0){
+                String cur = q.poll();
+                if(cur.equals(target))
+                    return ans;
+                String[] newStr = getNext(cur);
+                for (int i = 0; i < 8; i++) {
+                    if(!used.contains(newStr[i])){
+                        q.add(newStr[i]);
+                        used.add(newStr[i]);
+                    }
+                }
+            }
+            ans++;
+        }
+        return -1;
     }
 
-    private static void bfs(Set<String> save, Set<String> set, StringBuilder sb, String target, int time) {
-        if (target.equals(sb.toString()))
-            ans = Math.min(ans, time);
-        else if (!save.contains(sb.toString()) && !set.contains(sb.toString())) {
-            save.add(sb.toString());
-            for (int i = 0; i < 4; i++) {
-                int a = sb.charAt(i) - '0';
-                sb.replace(i, i + 1, String.valueOf((a + 1) % 10));
-                bfs(save, set, sb, target, time + 1);
-            }
+    private static String[] getNext(String lock){
+        String[] res  = new String[8];
+        for (int i = 0; i < 4; i++) {
+            res[i*2] = lock.substring(0,i)+((lock.charAt(i)-'0'+1)%10)+lock.substring(i+1,4);
+            res[i*2+1] = lock.substring(0,i)+((lock.charAt(i)-'0'+9)%10)+lock.substring(i+1,4);
         }
+        return res;
     }
 
     public static void main(String[] args) {
