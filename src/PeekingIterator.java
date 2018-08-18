@@ -16,6 +16,7 @@ import java.util.List;
 class PeekingIterator implements Iterator<Integer> {
 
     private List<Integer> list;
+
     public PeekingIterator(Iterator<Integer> iterator) {
         // initialize any member here.
         list = new ArrayList<>();
