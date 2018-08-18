@@ -22,11 +22,11 @@ public class openLock {
         int ans = 0;
         while(!q.isEmpty()){
             int size = q.size();
-            while(size-->0){
+            while(size --> 0){
                 String cur = q.poll();
                 if(cur.equals(target))
                     return ans;
-                String[] newStr = getNext(cur);
+                String[] newStr = next(cur);
                 for (int i = 0; i < 8; i++) {
                     if(!used.contains(newStr[i])){
                         q.add(newStr[i]);
@@ -39,11 +39,11 @@ public class openLock {
         return -1;
     }
 
-    private static String[] getNext(String lock){
+    private static String[] next(String lock){
         String[] res  = new String[8];
         for (int i = 0; i < 4; i++) {
-            res[i*2] = lock.substring(0,i)+((lock.charAt(i)-'0'+1)%10)+lock.substring(i+1,4);
-            res[i*2+1] = lock.substring(0,i)+((lock.charAt(i)-'0'+9)%10)+lock.substring(i+1,4);
+            res[i * 2] = lock.substring(0, i) + ((lock.charAt(i) - '0' + 1) % 10) + lock.substring(i + 1, 4);
+            res[i * 2 + 1] = lock.substring(0, i)+((lock.charAt(i) - '0' + 9) % 10) + lock.substring(i + 1, 4);
         }
         return res;
     }
