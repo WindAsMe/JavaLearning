@@ -19,7 +19,7 @@ public class countPrimeSetBits {
     private static boolean isValid(int i) {
         int ans = 0;
         while (i > 0) {
-            ans += i * 2;
+            ans += i % 2;
             i = i >> 1;
         }
         System.out.println(ans);
@@ -28,6 +28,6 @@ public class countPrimeSetBits {
     }
 
     public static void main(String[] args) {
-        System.out.println(countPrimeSetBitsResult(6, 10));
+        System.out.println(countPrimeSetBitsResult(10, 15));
     }
 }

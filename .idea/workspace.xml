@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/countPrimeSetBits.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/openLock.java" afterPath="$PROJECT_DIR$/src/openLock.java" />
+      <change beforePath="$PROJECT_DIR$/src/countPrimeSetBits.java" afterPath="$PROJECT_DIR$/src/countPrimeSetBits.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,11 +91,11 @@
       <file leaf-file-name="countPrimeSetBits.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/countPrimeSetBits.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="30" column="51" lean-forward="false" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+            <state relative-caret-position="10">
+              <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="27" selection-end-column="5" />
               <folding>
                 <element signature="e#815#816#0" expanded="true" />
-                <element signature="e#876#877#0" expanded="true" />
+                <element signature="e#882#883#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -286,7 +284,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.openLock">
+  <component name="RunManager" selected="Application.countPrimeSetBits">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -306,6 +304,20 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="countPrimeSetBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="countPrimeSetBits" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaForLeeCode2" />
       <envs />
     </configuration>
     <configuration name="deleteAndEarn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -339,20 +351,6 @@
     <configuration name="hashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="hashSet" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaForLeeCode2" />
-      <envs />
-    </configuration>
-    <configuration name="minCostClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="minCostClimbingStairs" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -439,19 +437,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.minCostClimbingStairs" />
-      <item index="1" class="java.lang.String" itemvalue="Application.dominantIndex" />
-      <item index="2" class="java.lang.String" itemvalue="Application.deleteAndEarn" />
-      <item index="3" class="java.lang.String" itemvalue="Application.openLock" />
-      <item index="4" class="java.lang.String" itemvalue="Application.hashSet" />
+      <item index="0" class="java.lang.String" itemvalue="Application.dominantIndex" />
+      <item index="1" class="java.lang.String" itemvalue="Application.deleteAndEarn" />
+      <item index="2" class="java.lang.String" itemvalue="Application.openLock" />
+      <item index="3" class="java.lang.String" itemvalue="Application.hashSet" />
+      <item index="4" class="java.lang.String" itemvalue="Application.countPrimeSetBits" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.openLock" />
-        <item index="1" class="java.lang.String" itemvalue="Application.hashSet" />
-        <item index="2" class="java.lang.String" itemvalue="Application.deleteAndEarn" />
-        <item index="3" class="java.lang.String" itemvalue="Application.dominantIndex" />
-        <item index="4" class="java.lang.String" itemvalue="Application.minCostClimbingStairs" />
+        <item index="0" class="java.lang.String" itemvalue="Application.countPrimeSetBits" />
+        <item index="1" class="java.lang.String" itemvalue="Application.openLock" />
+        <item index="2" class="java.lang.String" itemvalue="Application.hashSet" />
+        <item index="3" class="java.lang.String" itemvalue="Application.deleteAndEarn" />
+        <item index="4" class="java.lang.String" itemvalue="Application.dominantIndex" />
       </list>
     </recent_temporary>
   </component>
@@ -517,12 +515,12 @@
       <workItem from="1534141446920" duration="21590000" />
       <workItem from="1534315695841" duration="11960000" />
       <workItem from="1534485584126" duration="5750000" />
-      <workItem from="1534572654281" duration="6384000" />
+      <workItem from="1534572654281" duration="6485000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="350034000" />
+    <option name="totallyTimeSpent" value="350135000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -543,11 +541,11 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3126935" sideWeight="0.5059195" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24458204" sideWeight="0.5059195" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24458204" sideWeight="0.49723756" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3126935" sideWeight="0.4940805" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24458204" sideWeight="0.4940805" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3126935" sideWeight="0.4940805" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21073402" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -979,11 +977,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/countPrimeSetBits.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="30" column="51" lean-forward="false" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+        <state relative-caret-position="10">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="27" selection-end-column="5" />
           <folding>
             <element signature="e#815#816#0" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
           </folding>
         </state>
       </provider>
