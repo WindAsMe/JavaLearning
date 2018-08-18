@@ -1,4 +1,6 @@
 import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Author     : WindAsMe
@@ -14,39 +16,35 @@ public class openLock {
     private static int openLockResult(String[] deadends, String target) {
         if ("0000".equals(target))
             return 0;
+        Set<String> set = new HashSet<>(Arrays.asList(deadends));
+        Set<String> save = new HashSet<>(Arrays.asList(deadends));
         StringBuilder sb = new StringBuilder("0000");
         for (int i = 0; i < 4; i++) {
             int a = sb.charAt(i) - '0';
-            sb.replace(i, i + 1, String.valueOf(a + 1));
-            bfs(sb, target, deadends, 1);
-            sb.replace(i, i + 1, String.valueOf(a - 1));
-            bfs(sb, target, deadends,1);
+            sb.replace(i, i + 1, String.valueOf((a + 1) % 10));
+            bfs(save, set, sb, target, 1);
+            sb.replace(i, i + 1, String.valueOf((a + 9) % 10));
+            bfs(save, set, sb, target, 1);
         }
         return ans;
     }
 
-    private static void bfs(StringBuilder sb, String target, String[] deadends, int times) {
-        if (sb.toString().equals(target))
-            ans = Math.min(ans, times);
-        else if (isContain(deadends, sb.toString())) {
-            return;
-        } else {
-            for (int i = 0; i < 4; i++) {
-                int a = sb.charAt(i) - '0';
-                sb.replace(i, i + 1, String.valueOf(a + 1));
-                bfs(sb, target, deadends, 1);
-                sb.replace(i, i + 1, String.valueOf(a - 1));
-                bfs(sb, target, deadends, 1);
+    private static void bfs(Set<String> save, Set<String> set, StringBuilder sb, String target, int time) {
+        if (!save.contains(sb.toString())) {
+            if (sb.toString().equals(target))
+                ans = Math.min(time, ans);
+            else if (!set.contains(sb.toString())) {
+                save.add(sb.toString());
+                System.out.println(save.toString());
+                for (int i = 0; i < 4; i++) {
+                    int a = sb.charAt(i) - '0';
+                    sb.replace(i, i + 1, String.valueOf((a + 1) % 10));
+                    bfs(save, set, sb, target, time + 1);
+                    sb.replace(i, i + 1, String.valueOf((a + 9) % 10));
+                    bfs(save, set, sb, target, time + 1);
+                }
             }
         }
-    }
-
-    private static boolean isContain(String[] deadends, String sb) {
-        for (String s : deadends) {
-            if (s.equals(sb))
-                return true;
-        }
-        return false;
     }
 
     public static void main(String[] args) {
