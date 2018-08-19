@@ -24,6 +24,7 @@ public class sortedMap {
         for (Map.Entry<Character, Integer> m : map.entrySet())
             System.out.println(m.toString());
 
+
         SortedMap<Character, Integer> sortedMap = new TreeMap<>();
         sortedMap.put('l', 2);
         sortedMap.put('b', 9);
@@ -32,11 +33,12 @@ public class sortedMap {
         sortedMap.put('n', 7);
         sortedMap.put('p', 2);
         sortedMap.put('a', 2);
+        // The map which to be sorted by value must be save in list
+        // and sort the list
         List<Map.Entry<Character, Integer>> list = new ArrayList<>(sortedMap.entrySet());
         list.sort(Comparator.comparingInt(Map.Entry::getValue));
         System.out.println("map sort by value iteration: ");
         for(Map.Entry<Character, Integer> mapping :list)
             System.out.println(mapping.getKey()+":"+mapping.getValue());
-
     }
 }
