@@ -18,7 +18,8 @@ public class generateTrees {
     }
 
     private static List<TreeNode> generateTreesResult(int n) {
-        if (n <= 0) return new ArrayList<>();
+        if (n <= 0)
+            return new ArrayList<>();
         return create(1, n);
     }
 
