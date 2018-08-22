@@ -10,6 +10,7 @@ import java.util.*;
 public class mostCommonWord {
 
     private static String mostCommonWordResult(String paragraph, String[] banned) {
+        paragraph += " ";
         Map<String, Integer> map = new HashMap<>();
         char[] helper = paragraph.toCharArray();
         StringBuilder sb = new StringBuilder();
@@ -41,11 +42,11 @@ public class mostCommonWord {
             if (!contain)
                 return entry.getKey();
         }
-        return null;
+        return list.get(0).getKey();
     }
 
     public static void main(String[] args) {
-        String[] banned = {"hit"};
-        System.out.println(mostCommonWordResult("Bob hit a ball, the hit BALL flew far after it was hit.", banned));
+        String[] banned = {};
+        System.out.println(mostCommonWordResult("Bob", banned));
     }
 }
