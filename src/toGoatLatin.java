@@ -14,6 +14,7 @@ public class toGoatLatin {
         StringBuilder temp = new StringBuilder();
         int flag = 1;
         char reverse = '0';
+        boolean init = true;
         boolean needed = false;
         for (char c : helper) {
             if (c == ' ') {
@@ -27,10 +28,12 @@ public class toGoatLatin {
                 flag++;
                 ans.append(temp).append(" ");
                 temp.delete(0, temp.length());
+                init = true;
             } else {
-                if (temp.length() == 0 && c != 'a' && c != 'e' && c != 'i' && c != 'o' && c != 'u') {
+                if (init && temp.length() == 0 && c != 'a' && c != 'e' && c != 'i' && c != 'o' && c != 'u') {
                     reverse = c;
                     needed = true;
+                    init = false;
                 } else
                     temp.append(c);
             }
@@ -39,6 +42,6 @@ public class toGoatLatin {
     }
 
     public static void main(String[] args) {
-        System.out.println(toGoatLatinResult("I speak Goat Latin"));
+        System.out.println(toGoatLatinResult("The quick brown fox jumped over the lazy dog"));
     }
 }
