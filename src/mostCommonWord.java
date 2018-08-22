@@ -17,7 +17,7 @@ public class mostCommonWord {
             if (c >= 'a' && c <= 'z')
                 sb.append(c);
             else if (c >= 'A' && c <= 'Z')
-                sb.append(c + 32);
+                sb.append((char) (c + 32));
             else {
                 if (sb.length() != 0) {
                     String s = sb.toString();
@@ -26,8 +26,9 @@ public class mostCommonWord {
                 }
             }
         }
+        System.out.println("map: " + map.toString());
         List<Map.Entry<String, Integer>> list = new ArrayList<>(map.entrySet());
-        list.sort(Comparator.comparingInt(Map.Entry::getValue));
+        list.sort((o1, o2) -> o2.getValue() - o1.getValue());
         System.out.println("list: " + list.toString());
         for (Map.Entry<String, Integer> entry : list) {
             boolean contain = false;
