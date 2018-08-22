@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaForLeeCode2/toGoatLatin.class" afterPath="$PROJECT_DIR$/out/production/JavaForLeeCode2/toGoatLatin.class" />
       <change beforePath="$PROJECT_DIR$/src/toGoatLatin.java" afterPath="$PROJECT_DIR$/src/toGoatLatin.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -49,8 +51,8 @@
       <file leaf-file-name="toGoatLatin.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/toGoatLatin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+            <state relative-caret-position="200">
+              <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="37" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -439,12 +441,12 @@
       <workItem from="1534572654281" duration="7475000" />
       <workItem from="1534580471947" duration="19000" />
       <workItem from="1534660793073" duration="5900000" />
-      <workItem from="1534920469026" duration="4555000" />
+      <workItem from="1534920469026" duration="5099000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="361599000" />
+    <option name="totallyTimeSpent" value="362143000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -936,8 +938,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/toGoatLatin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        <state relative-caret-position="200">
+          <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="37" selection-end-column="35" />
           <folding />
         </state>
       </provider>

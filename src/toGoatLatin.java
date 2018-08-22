@@ -30,7 +30,7 @@ public class toGoatLatin {
                 temp.delete(0, temp.length());
                 init = true;
             } else {
-                if (init && temp.length() == 0 && c != 'a' && c != 'e' && c != 'i' && c != 'o' && c != 'u') {
+                if (init && temp.length() == 0 && c != 'a' && c != 'A' && c != 'e' && c != 'E' && c != 'i' && c != 'I' && c != 'o' && c != 'O' && c != 'u' && c != 'U') {
                     reverse = c;
                     needed = true;
                     init = false;
@@ -38,6 +38,7 @@ public class toGoatLatin {
                     temp.append(c);
             }
         }
+        ans.delete(ans.length() - 1, ans.length());
         return ans.toString();
     }
 
