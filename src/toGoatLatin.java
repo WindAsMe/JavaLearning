@@ -16,22 +16,21 @@ public class toGoatLatin {
         char reverse = '0';
         boolean needed = false;
         for (char c : helper) {
-            if (temp.length() == 0 && (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u'))
-                temp.append(c);
-            else if (temp.length() == 0) {
-                reverse = c;
-                needed = true;
+            if (c == ' ') {
+                if (needed) {
+                    temp.append(reverse);
+                    needed = false;
+                }
+                temp.append("ma");
+                for (int i = 0; i < flag; i++)
+                    temp.append("a");
+                flag++;
+                ans.append(temp).append(" ");
+                temp.delete(0, temp.length());
             } else {
-                if (c == ' ') {
-                    if (needed) {
-                        temp.append(reverse);
-                        needed = false;
-                    }
-                    temp.append("ma");
-                    for (int i = 0; i < flag; i++)
-                        temp.append("a");
-                    ans.append(temp).append(" ");
-                    temp.delete(0, temp.length());
+                if (temp.length() == 0 && c != 'a' && c != 'e' && c != 'i' && c != 'o' && c != 'u') {
+                    reverse = c;
+                    needed = true;
                 } else
                     temp.append(c);
             }
