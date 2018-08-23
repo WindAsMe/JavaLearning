@@ -9,6 +9,22 @@ import java.util.Arrays;
  */
 public class flipAndInvertImage {
 
+    // O(n^2)
+    private static int[][] flipAndInvertImageResult1(int[][] A) {
+        for (int i = 0; i < A.length; i++)
+            A[i] = f(A[i]);
+        return A;
+    }
+
+    private static int[] f(int[] a) {
+        int l = a.length;
+        int[] res = new int[l];
+        for (int i = 0; i < l; i++)
+            res[i] = (a[l - i - 1] + 1) % 2;
+        return res;
+    }
+
+    // O(2*n^2)
     private static int[][] flipAndInvertImageResult(int[][] A) {
         if (A.length == 0 || A[0].length == 0)
             return A;
