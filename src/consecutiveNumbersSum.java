@@ -11,8 +11,11 @@ public class consecutiveNumbersSum {
         int count = 1;
         for (int i = N - 1; i > 0; i--) {
             int sum = i;
-            for (int j = sum - 1; j > 0; j--)
+            for (int j = sum - 1; j > 0; j--) {
                 sum += j;
+                if (sum >= N)
+                    break;
+            }
             if (sum == N)
                 count++;
         }
@@ -20,6 +23,6 @@ public class consecutiveNumbersSum {
     }
 
     public static void main(String[] args) {
-        System.out.println(consecutiveNumbersSumResult(5));
+        System.out.println(consecutiveNumbersSumResult(15));
     }
 }
