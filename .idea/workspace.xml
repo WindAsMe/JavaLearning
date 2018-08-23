@@ -69,11 +69,11 @@
       <file leaf-file-name="consecutiveNumbersSum.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/consecutiveNumbersSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="21" selection-end-column="21" />
+            <state relative-caret-position="56">
+              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="21" selection-end-column="22" />
               <folding>
-                <element signature="e#675#676#0" expanded="true" />
-                <element signature="e#742#743#0" expanded="true" />
+                <element signature="e#676#677#0" expanded="true" />
+                <element signature="e#749#750#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -464,12 +464,12 @@
       <workItem from="1534660793073" duration="5900000" />
       <workItem from="1534920469026" duration="5285000" />
       <workItem from="1535005031771" duration="24000" />
-      <workItem from="1535028889405" duration="1264000" />
+      <workItem from="1535028889405" duration="1469000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="363617000" />
+    <option name="totallyTimeSpent" value="363822000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -932,11 +932,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/consecutiveNumbersSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="21" selection-end-column="21" />
+        <state relative-caret-position="56">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="21" selection-end-column="22" />
           <folding>
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
           </folding>
         </state>
       </provider>

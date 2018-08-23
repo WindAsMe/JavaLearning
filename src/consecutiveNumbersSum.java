@@ -8,21 +8,21 @@
 public class consecutiveNumbersSum {
 
     private static int consecutiveNumbersSumResult(int N) {
-        int count = 1;
-        for (int i = N - 1; i > 0; i--) {
-            int sum = i;
-            for (int j = sum - 1; j > 0; j--) {
-                sum += j;
-                if (sum >= N)
-                    break;
-            }
-            if (sum == N)
-                count++;
+        int result = 0;
+        for (int i = 0; i < N; ++i) {
+            if (i * (i + 1) / 2 > N)
+                break;
+            int as = N - (i + 1) * i / 2;
+            if (as % (i + 1) != 0)
+                continue;
+            if (as / (i + 1) > 0)
+                ++result;
         }
-        return count;
+
+        return result;
     }
 
     public static void main(String[] args) {
-        System.out.println(consecutiveNumbersSumResult(15));
+        System.out.println(consecutiveNumbersSumResult(68188380));
     }
 }
