@@ -17,9 +17,14 @@ public class flipAndInvertImage {
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < column / 2; j++) {
                 int temp = A[i][j];
-                A[i][j] = A[i][column - j];
-                A[i][column - j] = temp;
+                A[i][j] = A[i][column - j - 1];
+                A[i][column - j - 1] = temp;
             }
+        }
+
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < column; j++)
+                A[i][j] = A[i][j] == 1 ? 0 : 1;
         }
 
         for (int[] a : A)
@@ -29,9 +34,10 @@ public class flipAndInvertImage {
 
     public static void main(String[] args) {
         int[][] A = {
-                {1,1,0},
-                {1,0,1},
-                {0,0,0}
+                {1,1,0,0},
+                {1,0,0,1},
+                {0,1,1,1},
+                {1,0,1,0}
         };
         flipAndInvertImageResult(A);
     }
