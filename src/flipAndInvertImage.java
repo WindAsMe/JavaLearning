@@ -27,9 +27,9 @@ public class flipAndInvertImage {
                 A[i][j] = A[i][j] == 1 ? 0 : 1;
         }
 
-        for (int[] a : A)
-            System.out.println(Arrays.toString(a));
-        return null;
+        // for (int[] a : A)
+        //     System.out.println(Arrays.toString(a));
+        return A;
     }
 
     public static void main(String[] args) {
@@ -39,6 +39,8 @@ public class flipAndInvertImage {
                 {0,1,1,1},
                 {1,0,1,0}
         };
-        flipAndInvertImageResult(A);
+        int[][] ans = flipAndInvertImageResult(A);
+        for (int[] a : ans)
+            System.out.println(Arrays.toString(a));
     }
 }
