@@ -15,13 +15,7 @@ public class isValidBST {
     }
 
     private static boolean isValidBSTResult(TreeNode root) {
-        if (root == null){
-            return false;
-        } else if (root.left == null && root.right == null){
-            return true;
-        } else {
-            return isSimpleValid(root) && isValueVaild(root.left, root.val) && isValueVaild(root.right, root.val);
-        }
+        return root != null && (root.left == null && root.right == null || isSimpleValid(root) && isValueValid(root.left, root.val) && isValueValid(root.right, root.val));
     }
 
     //
@@ -48,7 +42,7 @@ public class isValidBST {
 
 
     // Value save the root's father value
-    private static boolean isValueVaild(TreeNode root, int value){
+    private static boolean isValueValid(TreeNode root, int value){
 
         boolean mark1 = true;
         boolean mark2 = true;
@@ -56,7 +50,7 @@ public class isValidBST {
             if (root.left.val > value){
                 return false;
             } else {
-                mark1 = isValueVaild(root.left, root.val);
+                mark1 = isValueValid(root.left, root.val);
             }
         }
 
@@ -64,7 +58,7 @@ public class isValidBST {
             if (root.right.val > value){
                 return false;
             } else {
-                mark2 = isValueVaild(root.right, root.val);
+                mark2 = isValueValid(root.right, root.val);
             }
         }
         return mark1 && mark2;
