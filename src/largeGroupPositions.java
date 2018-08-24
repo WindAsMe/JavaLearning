@@ -12,27 +12,31 @@ import java.util.List;
 public class largeGroupPositions {
 
     private static List<List<Integer>> largeGroupPositionsResult(String S) {
-        List<List> lists = new ArrayList<>();
+        List<List<Integer>> lists = new ArrayList<>();
         char[] s = S.toCharArray();
-        // 26 word,
-        // ans[*][0]: start
-        // ans[*][1]: end
-        int[][] ans = new int[26][2];
-        ans[s[0] - 'a'][0] = 0;
+        int start = 0;
+        int end = 0;
         for (int i = 1; i < s.length; i++) {
-            if (s[i] != s[i - 1]) {
-                ans[s[i - 1] - 'a'][1] = i - 1;
-                ans[s[i] - 'a'][0] = i;
+            if (s[i] == s[i - 1])
+                end++;
+            else {
+                if (end - start >= 3) {
+                    List<Integer> list = new ArrayList<>();
+                    list.add(start);
+                    list.add(end);
+                    lists.add(list);
+                }
+                start = i;
+                end = i;
             }
         }
-
-        for (int[] i : ans)
-            System.out.println(Arrays.toString(i));
-        return null;
+        return lists;
     }
 
     public static void main(String[] args) {
         String s = "abbxxxxzzy";
-        largeGroupPositionsResult(s);
+        List<List<Integer>> lists = largeGroupPositionsResult(s);
+        for (List<Integer> list : lists)
+            System.out.println(list.toString());
     }
 }
