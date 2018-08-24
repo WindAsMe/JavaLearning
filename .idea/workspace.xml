@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/largeGroupPositions.java" afterPath="$PROJECT_DIR$/src/largeGroupPositions.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/numMagicSquaresInside.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,7 +100,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="largeGroupPositions.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="largeGroupPositions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/largeGroupPositions.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="182">
@@ -107,6 +108,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="numMagicSquaresInside.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/numMagicSquaresInside.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -131,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/rotateString.java" />
         <option value="$PROJECT_DIR$/src/rotatedDigits.java" />
         <option value="$PROJECT_DIR$/src/matrixScore.java" />
         <option value="$PROJECT_DIR$/src/searchBST.java" />
@@ -182,6 +192,7 @@
         <option value="$PROJECT_DIR$/src/isRectangleOverlap.java" />
         <option value="$PROJECT_DIR$/src/backspaceCompare.java" />
         <option value="$PROJECT_DIR$/src/largeGroupPositions.java" />
+        <option value="$PROJECT_DIR$/src/numMagicSquaresInside.java" />
       </list>
     </option>
   </component>
@@ -497,12 +508,12 @@
       <workItem from="1534920469026" duration="5285000" />
       <workItem from="1535005031771" duration="24000" />
       <workItem from="1535028889405" duration="3194000" />
-      <workItem from="1535113948600" duration="2559000" />
+      <workItem from="1535113948600" duration="2904000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="368106000" />
+    <option name="totallyTimeSpent" value="368451000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -526,8 +537,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3126935" sideWeight="0.5217048" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30340558" sideWeight="0.48776639" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28018576" sideWeight="0.47829518" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30340558" sideWeight="0.48776639" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28018576" sideWeight="0.47829518" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1578532" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -588,13 +599,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/edit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/minimumDeleteSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -976,6 +980,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/numMagicSquaresInside.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
