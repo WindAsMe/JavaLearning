@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/zhongrui.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/zhongrui.xml" />
       <change beforePath="$PROJECT_DIR$/src/largeGroupPositions.java" afterPath="$PROJECT_DIR$/src/largeGroupPositions.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -102,8 +103,8 @@
       <file leaf-file-name="largeGroupPositions.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/largeGroupPositions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+            <state relative-caret-position="94">
+              <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="33" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -497,12 +498,12 @@
       <workItem from="1534920469026" duration="5285000" />
       <workItem from="1535005031771" duration="24000" />
       <workItem from="1535028889405" duration="3194000" />
-      <workItem from="1535113948600" duration="2137000" />
+      <workItem from="1535113948600" duration="2463000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="367684000" />
+    <option name="totallyTimeSpent" value="368010000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -971,8 +972,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/largeGroupPositions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        <state relative-caret-position="94">
+          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="33" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
