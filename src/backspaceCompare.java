@@ -30,8 +30,8 @@ public class backspaceCompare {
 
 
     public static void main(String[] args) {
-        String S = "ab#c";
-        String T = "ad#c";
+        String S = "ab#####c";
+        String T = "ad####c";
         System.out.println(backspaceCompareResult(S, T));
     }
 }
