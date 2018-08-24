@@ -14,26 +14,24 @@ public class backspaceCompare {
         char[] tChar = T.toCharArray();
         Stack<Character> s = new Stack<>();
         Stack<Character> t = new Stack<>();
-        for (char c : sChar) {
+        push(s, sChar);
+        push(t, tChar);
+        return s.equals(t);
+    }
+
+    private static void push(Stack<Character> s, char[] chars) {
+        for (char c : chars) {
             if (c != '#')
                 s.push(c);
             else if (!s.empty())
                 s.pop();
         }
-
-        for (char c : tChar) {
-            if (c != '#')
-                t.push(c);
-            else if (!t.empty())
-                t.pop();
-        }
-        return s.equals(t);
     }
 
 
     public static void main(String[] args) {
-        String S = "ab##";
-        String T = "c#d#";
+        String S = "ab#c";
+        String T = "ad#c";
         System.out.println(backspaceCompareResult(S, T));
     }
 }
