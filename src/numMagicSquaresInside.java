@@ -21,19 +21,28 @@ public class numMagicSquaresInside {
     }
 
     private static boolean isValid(int[][] grid, int i, int j) {
-        return grid[i][j] + grid[i + 1][j] + grid[i + 2][j] == 15 &&
+        if (grid[i][j] + grid[i + 1][j] + grid[i + 2][j] == 15 &&
                 grid[i][j + 2] + grid[i + 1][j + 2] + grid[i + 2][j + 2] == 15 &&
                 grid[i][j] + grid[i][j + 1] + grid[i][j + 2] == 15 &&
                 grid[i + 2][j] + grid[i + 2][j + 1] + grid[i + 2][j + 2] == 15 &&
                 grid[i][j] + grid[i + 1][j + 1] + grid[i + 2][j + 2] == 15 &&
-                grid[i][j + 2] + grid[i + 1][j + 1] + grid[i + 2][j] == 15;
+                grid[i][j + 2] + grid[i + 1][j + 1] + grid[i + 2][j] == 15) {
+            for (int row = i; row < i + 3; row++) {
+                for (int column = j; column < j + 3; column++) {
+                    if (grid[row][column] > 9 || grid[row][column] < 1)
+                        return false;
+                }
+            }
+            return true;
+        } else
+            return false;
     }
 
     public static void main(String[] args) {
         int[][] grids = {
-                {4, 3, 8, 4},
-                {9, 5, 1, 9},
-                {2, 7, 6, 2}
+                {1,8,6},
+                {10,5,0},
+                {4,2,9}
         };
         System.out.println(numMagicSquaresInsideResult(grids));
     }
