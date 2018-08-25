@@ -28,18 +28,22 @@ public class maxDistToClosest {
     private static int find(int[] seats, int index, boolean left) {
         if (left) {
             int i = index;
-            for (; i >= 0; i--) {
+            while (i > 0) {
                 if (seats[i] == 1)
                     break;
+                else
+                    i--;
             }
-            return i == index ? Integer.MAX_VALUE : index - i;
+            return seats[i] == 1 ? index - i : Integer.MAX_VALUE;
         } else {
             int i = index;
-            for (; i < seats.length; i++) {
+            while (i < seats.length - 1) {
                 if (seats[i] == 1)
                     break;
+                else
+                    i++;
             }
-            return i == index ? Integer.MAX_VALUE : i - index;
+            return seats[i] == 1 ? i - index : Integer.MAX_VALUE;
         }
     }
 
