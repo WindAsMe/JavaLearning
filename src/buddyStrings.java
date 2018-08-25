@@ -33,6 +33,6 @@ public class buddyStrings {
     }
 
     public static void main(String[] args) {
-        System.out.println(buddyStringsResult("ab", "ab"));
+        System.out.println(buddyStringsResult("", "a"));
     }
 }
