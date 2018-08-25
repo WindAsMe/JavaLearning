@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/numMagicSquaresInside.java" afterPath="$PROJECT_DIR$/src/numMagicSquaresInside.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/buddyStrings.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,12 +89,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="numMagicSquaresInside.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="numMagicSquaresInside.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/numMagicSquaresInside.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="346">
               <caret line="37" column="25" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="37" selection-end-column="25" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buddyStrings.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/buddyStrings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="35" column="46" lean-forward="false" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+              <folding>
+                <element signature="e#966#967#0" expanded="true" />
+                <element signature="e#1022#1023#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/scoreOfParentheses.java" />
         <option value="$PROJECT_DIR$/src/Solution.java" />
         <option value="$PROJECT_DIR$/src/toLowerCase.java" />
         <option value="$PROJECT_DIR$/src/MyHashMap.java" />
@@ -179,6 +192,7 @@
         <option value="$PROJECT_DIR$/src/isValidBST.java" />
         <option value="$PROJECT_DIR$/src/maxDistToClosest.java" />
         <option value="$PROJECT_DIR$/src/numMagicSquaresInside.java" />
+        <option value="$PROJECT_DIR$/src/buddyStrings.java" />
       </list>
     </option>
   </component>
@@ -495,12 +509,12 @@
       <workItem from="1535005031771" duration="24000" />
       <workItem from="1535028889405" duration="3194000" />
       <workItem from="1535113948600" duration="3066000" />
-      <workItem from="1535177559503" duration="2834000" />
+      <workItem from="1535177559503" duration="3539000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="371447000" />
+    <option name="totallyTimeSpent" value="372152000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -524,8 +538,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3126935" sideWeight="0.5217048" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30340558" sideWeight="0.48776639" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28018576" sideWeight="0.47829518" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30340558" sideWeight="0.48776639" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28018576" sideWeight="0.47829518" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.160221" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -586,13 +600,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pivotIndex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/isOneBitCharacter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -991,6 +998,17 @@
         <state relative-caret-position="346">
           <caret line="37" column="25" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="37" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/buddyStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="35" column="46" lean-forward="false" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+          <folding>
+            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
