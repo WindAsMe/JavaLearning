@@ -10,9 +10,9 @@ public class addStrings {
     private static String addStringsResult(String num1, String num2) {
         int num1Length = num1.length();
         int num2Length = num2.length();
-        if (num1Length == 0 || num2Length == 0) {
+        if (num1Length == 0 || num2Length == 0)
             return num1Length == 0 ? num2 : num1;
-        } else {
+        else {
             int mark = 0;
             StringBuilder result = new StringBuilder();
             while (num1Length > 0 && num2Length > 0) {
@@ -52,9 +52,8 @@ public class addStrings {
                     }
                 }
             }
-            if (mark == 1) {
+            if (mark == 1)
                 result.append(1);
-            }
             return result.reverse().toString();
         }
     }
