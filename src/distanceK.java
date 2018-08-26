@@ -36,7 +36,10 @@ public class distanceK {
             }
         }
         for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
-            if (Math.abs(entry.getValue() - dis) == K)
+            if (entry.getValue() * dis > 0) {
+                if (entry.getKey() != target.val && (Math.abs(entry.getValue() - dis) == K || Math.abs(entry.getValue() - dis) + 2 == K))
+                    list.add(entry.getKey());
+            } else if (Math.abs(entry.getValue() - dis) == K)
                 list.add(entry.getKey());
         }
         return list;
@@ -57,18 +60,21 @@ public class distanceK {
     }
 
     public static void main(String[] args) {
-        TreeNode root = new TreeNode(3);
-        root.left = new TreeNode(5);
-        root.left.left = new TreeNode(6);
-        root.left.right = new TreeNode(2);
-        root.left.right.left = new TreeNode(7);
-        root.left.right.right = new TreeNode(4);
+        TreeNode root = new TreeNode(0);
+        // root.left = new TreeNode(5);
+        // root.left.left = new TreeNode(6);
+        // root.left.right = new TreeNode(2);
+        // root.left.right.left = new TreeNode(7);
+        // root.left.right.right = new TreeNode(4);
 
         root.right = new TreeNode(1);
-        root.right.left = new TreeNode(0);
-        root.right.right = new TreeNode(8);
+        root.right.left = new TreeNode(2);
+        root.right.right = new TreeNode(5);
+        root.right.left.right = new TreeNode(3);
+        root.right.left.right.right = new TreeNode(4);
 
-        TreeNode target = new TreeNode(5);
+
+        TreeNode target = new TreeNode(2);
         System.out.println(distanceKResult(root, target, 2));
     }
 }
