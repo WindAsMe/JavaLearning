@@ -15,8 +15,10 @@ public class canVisitAllRooms {
         boolean[] helper = new boolean[rooms.size()];
         Arrays.fill(helper, false);
         List<Integer> list = rooms.get(0);
+        helper[0] = true;
         for (Integer i : list)
             dfs(helper, rooms, i);
+        System.out.println(Arrays.toString(helper));
         for (boolean b : helper) {
             if (!b)
                 return false;
@@ -36,10 +38,13 @@ public class canVisitAllRooms {
     public static void main(String[] args) {
         List<Integer> list1 = new ArrayList<>();
         list1.add(1);
+        list1.add(3);
         List<Integer> list2 = new ArrayList<>();
-        list2.add(2);
+        list2.add(3);
+        list2.add(0);
+        list2.add(1);
         List<Integer> list3 = new ArrayList<>();
-        list3.add(3);
+        list3.add(2);
         List<Integer> list4 = new ArrayList<>();
         List<List<Integer>> lists = new ArrayList<>();
         lists.add(list1);
