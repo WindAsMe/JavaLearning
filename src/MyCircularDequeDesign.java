@@ -10,7 +10,7 @@ import java.util.List;
  */
 public class MyCircularDequeDesign {
 
-    class MyCircularDeque {
+    static class MyCircularDeque {
 
         /** Initialize your data structure here. Set the size of the deque to be k. */
         private List<Integer> list;
@@ -24,7 +24,7 @@ public class MyCircularDequeDesign {
         /** Adds an item at the front of Deque. Return true if the operation is successful. */
         public boolean insertFront(int value) {
             if (list.size() <= capacity - 1) {
-                list.add(value);
+                list.add(0, value);
                 return true;
             } else
                 return false;
@@ -33,7 +33,7 @@ public class MyCircularDequeDesign {
         /** Adds an item at the rear of Deque. Return true if the operation is successful. */
         public boolean insertLast(int value) {
             if (list.size() <= capacity - 1) {
-                list.add(list.size() - 1, value);
+                list.add(value);
                 return true;
             } else
                 return false;
@@ -59,12 +59,16 @@ public class MyCircularDequeDesign {
 
         /** Get the front item from the deque. */
         public int getFront() {
-            return list.remove(0);
+            if (list.size() == 0)
+                return -1;
+            return list.get(0);
         }
 
         /** Get the last item from the deque. */
         public int getRear() {
-            return list.remove(list.size() - 1);
+            if (list.size() == 0)
+                return -1;
+            return list.get(list.size() - 1);
         }
 
         /** Checks whether the circular deque is empty or not. */
@@ -75,6 +79,11 @@ public class MyCircularDequeDesign {
         /** Checks whether the circular deque is full or not. */
         public boolean isFull() {
             return list.size() == capacity;
+        }
+
+        @Override
+        public String toString() {
+            return "toString: " + list.toString();
         }
     }
 
@@ -90,4 +99,25 @@ public class MyCircularDequeDesign {
  * boolean param_7 = obj.isEmpty();
  * boolean param_8 = obj.isFull();
  */
+    public static void main(String[] args) {
+        MyCircularDeque circularDeque = new MyCircularDeque(3);
+        circularDeque.insertLast(1);			// 返回 true
+        System.out.println(circularDeque.toString());
+        circularDeque.insertLast(2);			// 返回 true
+        System.out.println(circularDeque.toString());
+        circularDeque.insertFront(3);			// 返回 true
+        System.out.println(circularDeque.toString());
+        circularDeque.insertFront(4);			// 已经满了，返回 false
+        System.out.println(circularDeque.toString());
+        circularDeque.getRear();  				// 返回  32
+        System.out.println(circularDeque.toString());
+        circularDeque.isFull();				// 返回 true
+        System.out.println(circularDeque.toString());
+        circularDeque.deleteLast();			// 返回 true
+        System.out.println(circularDeque.toString());
+        circularDeque.insertFront(4);			// 返回 true
+        System.out.println(circularDeque.toString());
+        circularDeque.getFront();				// 返回 4
+        System.out.println(circularDeque.toString());
+    }
 }
