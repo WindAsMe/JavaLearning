@@ -1,5 +1,4 @@
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Author     : WindAsMe
@@ -12,23 +11,31 @@ public class findShortestSubArray {
 
     private static int findShortestSubArrayResult(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
-        int num = 0;
+        int len = Integer.MAX_VALUE;
         int max = 0;
-        int start = 0;
-        int end = nums.length - 1;
         for (int i : nums)
             map.merge(i, 1, (a, b) -> a + b);
-        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
-            if (entry.getValue() > max) {
-                max = entry.getValue();
-                num = entry.getKey();
+        List<Map.Entry<Integer, Integer>> list = new ArrayList<>(map.entrySet());
+        list.sort(Comparator.comparingInt(Map.Entry::getValue));
+        // The max occurrence
+        max = list.get(list.size() - 1).getValue();
+        System.out.println("max: " + max);
+        for (int  i = list.size() - 1; i >= 0; i--) {
+            if (list.get(i).getValue() != max)
+                break;
+            else {
+                int start = 0;
+                int end = nums.length - 1;
+                int num = list.get(i).getKey();
+                while (nums[start] != num)
+                    start++;
+                while (nums[end] != num)
+                    end--;
+                len = len > end - start + 1 ? end - start + 1 : len;
             }
         }
-        while (nums[start] != num)
-            start++;
-        while (nums[end] != num)
-            end--;
-        return end - start + 1;
+        System.out.println(list.toString());
+        return len;
     }
 
     public static void main(String[] args) {
