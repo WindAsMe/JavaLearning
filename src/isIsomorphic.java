@@ -36,9 +36,8 @@ public class isIsomorphic {
         }
 
         for (int i = 0 ; i < t.length() ; i ++ ){
-            if (indexS[i] != indexT[i]) {
+            if (indexS[i] != indexT[i])
                 return false;
-            }
         }
 
         return true;
