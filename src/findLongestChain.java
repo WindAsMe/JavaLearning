@@ -7,8 +7,9 @@
  */
 public class findLongestChain {
 
+    // DFS: TL
     private static int findLongestChainResult(int[][] pairs) {
-        int[] max = {0};
+        int[] max = {1};
         for (int[] pair : pairs)
             dfs(pairs, max, pair[1], 1);
         return max[0];
