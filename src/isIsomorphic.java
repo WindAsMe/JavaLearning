@@ -23,16 +23,14 @@ public class isIsomorphic {
             if (mapS.get(tempS) == null){
                 mapS.put(tempS, i);
                 indexS[i] = i;
-            } else {
+            } else
                 indexS[i] = mapS.get(tempS);
-            }
 
             if (mapT.get(tempT) == null){
                 mapT.put(tempT, i);
                 indexT[i] = i;
-            } else {
+            } else
                 indexT[i] = mapT.get(tempT);
-            }
         }
 
         for (int i = 0 ; i < t.length() ; i ++ ){
