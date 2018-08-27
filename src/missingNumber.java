@@ -10,15 +10,18 @@ import java.util.Arrays;
 public class missingNumber {
 
     private static int missingNumberResult(int[] nums) {
-        if (nums.length <= 1) {
+        if (nums.length <= 1)
             return 0;
-        }
         Arrays.sort(nums);
         for (int i = 0 ; i < nums.length ; i ++ ) {
-            if (nums[i] != i) {
+            if (nums[i] != i)
                 return i;
-            }
         }
         return 0;
+    }
+
+    public static void main(String[] args) {
+        int[] nums = {1,2,4,5,6,7};
+        System.out.println(missingNumberResult(nums));
     }
 }
