@@ -24,6 +24,13 @@ public class printTree {
         for (int i = 1; i < depth[0]; i++)
             column = column * 2 + 1;
         List<List<String>> lists = new ArrayList<>();
+        for (int i = 0; i < depth[0]; i++) {
+            List<String> list = new ArrayList<>();
+            for (int j = 0; j < column * 2 + 1; j++)
+                list.add("");
+            lists.add(list);
+        }
+
         draw(root, 0, column, lists, column * 2 + 1);
         return lists;
     }
@@ -39,6 +46,7 @@ public class printTree {
 
     private static void draw(TreeNode node, int layer, int column, List<List<String>> lists, int total) {
         if (node != null) {
+            lists.get(layer).remove(column);
             lists.get(layer).add(column, String.valueOf(node.val));
             draw(node.left, layer + 1, column / 2, lists, total);
             draw(node.right, layer + 1, (total - column) / 2 + 1 + column, lists, total);
