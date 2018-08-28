@@ -49,18 +49,19 @@ public class printTree {
         if (node != null) {
             lists.get(layer).remove(column);
             lists.get(layer).add(column, String.valueOf(node.val));
-            draw(node.left, layer + 1, column / 2, lists, total);
+            draw(node.left, layer + 1, column / 2, lists, column);
             draw(node.right, layer + 1, (total - column) / 2 + column, lists, total);
         }
     }
 
     public static void main(String[] args) {
         TreeNode root = new TreeNode(1);
-//        root.left = new TreeNode(2);
+        root.left = new TreeNode(2);
+        root.left.right = new TreeNode(4);
 //        root.left.left = new TreeNode(3);
 //        root.left.left.left = new TreeNode(4);
 
-        root.right = new TreeNode(2);
+        root.right = new TreeNode(3);
         List<List<String>> lists = printTreeResult(root);
         for (List<String> list : lists)
             System.out.println(list.toString());
