@@ -23,6 +23,7 @@ public class printTree {
         dfs(root, depth, 0);
         for (int i = 1; i < depth[0]; i++)
             column = column * 2 + 1;
+        // Init the lists is needed
         List<List<String>> lists = new ArrayList<>();
         for (int i = 0; i < depth[0]; i++) {
             List<String> list = new ArrayList<>();
@@ -49,17 +50,17 @@ public class printTree {
             lists.get(layer).remove(column);
             lists.get(layer).add(column, String.valueOf(node.val));
             draw(node.left, layer + 1, column / 2, lists, total);
-            draw(node.right, layer + 1, (total - column) / 2 + 1 + column, lists, total);
+            draw(node.right, layer + 1, (total - column) / 2 + column, lists, total);
         }
     }
 
     public static void main(String[] args) {
         TreeNode root = new TreeNode(1);
-        root.left = new TreeNode(2);
-        root.left.left = new TreeNode(3);
-        root.left.left.left = new TreeNode(4);
+//        root.left = new TreeNode(2);
+//        root.left.left = new TreeNode(3);
+//        root.left.left.left = new TreeNode(4);
 
-        root.right = new TreeNode(5);
+        root.right = new TreeNode(2);
         List<List<String>> lists = printTreeResult(root);
         for (List<String> list : lists)
             System.out.println(list.toString());
