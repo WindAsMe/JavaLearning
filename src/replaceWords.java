@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 
 /**
@@ -9,6 +10,24 @@ import java.util.List;
  * Function   : LeetCode No.648
  */
 public class replaceWords {
+
+    private static String replaceWordsResult1(List<String> dict, String sentence) {
+        StringBuilder result= new StringBuilder();
+        HashSet<String> set = new HashSet<>(dict);
+        String[] words=sentence.split(" ");
+        for (String word1 : words) {
+            String word = word1;
+            for (int j = 1; j <= word.length() && j < 101; j++) {
+                String subWord = word.substring(0, j);
+                if (set.contains(subWord)) {
+                    word = subWord;
+                    break;
+                }
+            }
+            result.append(word).append(" ");
+        }
+        return result.substring(0, result.length() - 1);
+    }
 
     private static String replaceWordsResult(List<String> dict, String sentence) {
         sentence += " ";
