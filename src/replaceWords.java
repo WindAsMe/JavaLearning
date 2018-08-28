@@ -13,17 +13,20 @@ public class replaceWords {
     private static String replaceWordsResult(List<String> dict, String sentence) {
         sentence += " ";
         char[] helper = sentence.toCharArray();
+        int dic = dict.size();
         // first: sort the repeated sentence in dict
-        for (int i = 0; i < dict.size(); i++) {
-            for (int j = i + 1; j < dict.size(); j++) {
+        for (int i = 0; i < dic; i++) {
+            for (int j = i + 1; j < dic; j++) {
                 if (sort(dict.get(i), dict.get(j))) {
                     if (dict.get(i).length() >= dict.get(j).length()) {
                         dict.remove(i);
+                        dic--;
                         i--;
                         j--;
                     } else {
                         dict.remove(j);
                         j--;
+                        dic--;
                     }
                 }
             }
@@ -35,10 +38,11 @@ public class replaceWords {
             if (c >= 97 && c <= 122)
                 temp.append(c);
             else {
-                ans.append(" ").append(compare(temp.toString(), dict));
+                ans.append(compare(temp.toString(), dict)).append(" ");
                 temp.delete(0, temp.length());
             }
         }
+        ans.delete(ans.length() - 1, ans.length());
         return ans.toString();
     }
 
@@ -67,10 +71,18 @@ public class replaceWords {
 
     public static void main(String[] args) {
         List<String> dict = new ArrayList<>();
-        dict.add("cat");
-        dict.add("rat");
-        dict.add("bat");
-        String sentence = "the cattle was rattled by the battery";
+        dict.add("gymth");
+        dict.add("qglnp");
+        dict.add("hmgs");
+        dict.add("rsz");
+        dict.add("upq");
+        dict.add("aq");
+        dict.add("relo");
+        dict.add("hz");
+        dict.add("i");
+        String sentence = "snhaafs hprzyepsgezd ntc ktogne kluwleaobb nwjatqwpx tzobvpylft s jzrlxuzsw fkkjvorqnhpeoikjepmm rxerxpfjssfvtzvunri rpnaizunsjlppuzppf udoqhtcpcv rtegaohvotz eovfuvymmzywjoytegf cztodouflfgc qtom vlyyboks izzhgin rtnrxmm ovtgafmvzu xxeabovlxmy zrqzsexkerfjiqkyjou ygelavmpdncapreadba y kedhgamqyjaffbex fosrpjojgwzjfaoxn pjqysu esaaoksfsvjabdbk e sknkvxxngqpfdkm dmqfzqjuunrbdmkjp fesdkqewhigg anlrixkeqaexh yhmywgpebtsprje tmwbuqnffycjm otfnqgtetdi ovyrmzo vkeze opq rijfryopiizsitum jyz ynoworq xmqohxpgce eblgjvghxxndaqvknph ghhxzfda onukxgjtdrjmoddqhfl xwmutmcvrzkjzxmtz xslacnagnrlu nidcqwrffyrlosnjjl stwperkfcvyzezbebktq fjhb hhxeturoihcdgkkq evzcmxhrnwvnpbbfsm cshlxs qouyuxwdjwyhfp ceiddqqfp pzbsuxqc qgrbisfcnyhdwmbkdjh cxlxqwi z ihgekczvavdwvivvj fjttwiqxqjgakd diggghnustrtizokcrw earkadvle eufogeidbfrcz cnms gomw rbraz bsbopklfbnbbzcod zbayalermeyxn ckrfpylus ofmpofltxmsideqxx rmkqaxda map gvpqwuofuwue o mkzz njrqnwlihegmpmr dbbpwy t c apljlybekb avgxnubzswldzyln tkxwrskwqkzdueuautg cekskcpocbubavun jezsixdu yepzrfdrhqajotjohmzo fleesmkehkvoj ciloebxldjgwtf ruzc tshzh cgudcyfzppgduvfha grcrveutgkz cfsrzt";
+
+
         System.out.println(replaceWordsResult(dict, sentence));
     }
 }
