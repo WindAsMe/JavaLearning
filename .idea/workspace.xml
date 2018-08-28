@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/replaceWords.java" afterPath="$PROJECT_DIR$/src/replaceWords.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/constructMaximumBinaryTree.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -109,10 +110,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="replaceWords.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="replaceWords.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/replaceWords.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="414">
               <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -121,15 +122,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="isIsomorphic.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/isIsomorphic.java">
+      <file leaf-file-name="constructMaximumBinaryTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/constructMaximumBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="26" column="44" lean-forward="false" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-              <folding>
-                <element signature="e#1223#1224#0" expanded="true" />
-                <element signature="e#1293#1294#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="951">
+              <caret line="53" column="8" lean-forward="false" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -154,7 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/maxProfit.java" />
         <option value="$PROJECT_DIR$/src/numSubarrayProductLessThanK.java" />
         <option value="$PROJECT_DIR$/src/maxProfit2.java" />
         <option value="$PROJECT_DIR$/src/baggage.java" />
@@ -205,6 +202,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/missingNumber.java" />
         <option value="$PROJECT_DIR$/src/replaceWords.java" />
+        <option value="$PROJECT_DIR$/src/constructMaximumBinaryTree.java" />
       </list>
     </option>
   </component>
@@ -524,12 +522,12 @@
       <workItem from="1535177559503" duration="4561000" />
       <workItem from="1535264479349" duration="6362000" />
       <workItem from="1535350633039" duration="6110000" />
-      <workItem from="1535436895816" duration="2030000" />
+      <workItem from="1535436895816" duration="3443000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="387676000" />
+    <option name="totallyTimeSpent" value="389089000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -615,14 +613,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/canPartition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="65" column="22" lean-forward="false" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/baggage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
@@ -912,12 +902,12 @@
           <caret line="63" column="19" lean-forward="false" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2314#2315#0" expanded="true" />
-            <element signature="e#2361#2362#0" expanded="true" />
-            <element signature="e#2461#2462#0" expanded="true" />
-            <element signature="e#2515#2516#0" expanded="true" />
-            <element signature="e#2569#2570#0" expanded="true" />
-            <element signature="e#2630#2631#0" expanded="true" />
+            <element signature="e#2314#2315#0" expanded="false" />
+            <element signature="e#2361#2362#0" expanded="false" />
+            <element signature="e#2461#2462#0" expanded="false" />
+            <element signature="e#2515#2516#0" expanded="false" />
+            <element signature="e#2569#2570#0" expanded="false" />
+            <element signature="e#2630#2631#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1028,11 +1018,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/replaceWords.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="414">
           <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constructMaximumBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="951">
+          <caret line="53" column="8" lean-forward="false" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
