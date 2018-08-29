@@ -17,6 +17,14 @@ public class repeatedStringMatch {
             mul++;
             a.append(A);
         }
+        System.out.println("String: " + a + " mul: " + mul);
+        for (int i = 0; i + lenB <= a.length(); i++) {
+            // System.out.println(a.substring(i, i + lenB));
+            if (a.substring(i, i + lenB).equals(B))
+                return mul;
+        }
+        a.append(A);
+        mul++;
         for (int i = 0; i + lenB <= a.length(); i++) {
             // System.out.println(a.substring(i, i + lenB));
             if (a.substring(i, i + lenB).equals(B))
@@ -26,6 +34,6 @@ public class repeatedStringMatch {
     }
 
     public static void main(String[] args) {
-        System.out.println(repeatedStringMatchResult("aaac", "aac"));
+        System.out.println(repeatedStringMatchResult("abc", "cabcabca"));
     }
 }
