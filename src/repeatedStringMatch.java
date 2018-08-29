@@ -17,7 +17,7 @@ public class repeatedStringMatch {
             mul++;
             a.append(A);
         }
-        for (int i = 0; i + lenB < a.length(); i++) {
+        for (int i = 0; i + lenB <= a.length(); i++) {
             // System.out.println(a.substring(i, i + lenB));
             if (a.substring(i, i + lenB).equals(B))
                 return mul;
@@ -26,6 +26,6 @@ public class repeatedStringMatch {
     }
 
     public static void main(String[] args) {
-        System.out.println(repeatedStringMatchResult("abcd", "cdabcdab"));
+        System.out.println(repeatedStringMatchResult("aaac", "aac"));
     }
 }
