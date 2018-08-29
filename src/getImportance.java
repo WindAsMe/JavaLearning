@@ -19,14 +19,14 @@ public class getImportance {
         public List<Integer> subordinates;
     }
 
-    private static int ans = 0;
 
     private static int getImportanceResult(List<Employee> employees, int id) {
+        int ans = 0;
         for (Employee employee : employees) {
             if (employee.id == id) {
                 ans += employee.importance;
                 for (Integer e : employee.subordinates)
-                    getImportanceResult(employees, e);
+                    ans += getImportanceResult(employees, e);
             }
         }
         return ans;
