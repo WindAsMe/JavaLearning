@@ -8,17 +8,19 @@
 public class repeatedStringMatch {
 
     private static int repeatedStringMatchResult(String A, String B) {
-        int mul = 0;
+        int mul = 1;
         int lenB = B.length();
         StringBuilder a = new StringBuilder(A);
-        while (a.length() < B.length()) {
+        while (a.length() <= B.length()) {
+            if (a.length() == B.length() && a.toString().equals(B))
+                return mul;
             mul++;
             a.append(A);
         }
-        for (int i = 0; i < a.length() - B.length(); i++) {
-            if (a.substring(i, i + lenB).equals(B)) {
+        for (int i = 0; i + lenB < a.length(); i++) {
+            // System.out.println(a.substring(i, i + lenB));
+            if (a.substring(i, i + lenB).equals(B))
                 return mul;
-            }
         }
         return -1;
     }
