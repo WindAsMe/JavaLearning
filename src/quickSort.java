@@ -14,6 +14,7 @@ public class quickSort {
         return nums;
     }
 
+    // embrace the start and end
     private static void sort(int[] nums, int start, int end) {
         if (start >= end)
             return;
@@ -40,6 +41,7 @@ public class quickSort {
         }
         System.out.println("sorted: " + Arrays.toString(nums));
         sort(nums, start, index);
+        // index + 1 is key
         sort(nums, index + 1, end);
     }
 
