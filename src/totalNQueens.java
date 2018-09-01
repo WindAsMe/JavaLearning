@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * Author     : WindAsMe
  * File       : totalNQueens.java
@@ -20,8 +22,14 @@ public class totalNQueens {
     private static void dfs(int n, int[] ans, boolean[][] helper, int row) {
         for (int i = 0; i < n; i++) {
             if (valid(helper, row + 1, i, n)) {
-                if (row + 1 == n - 1)
+                if (row + 1 == n - 1) {
                     ans[0]++;
+                    boolean[][] copy = helper.clone();
+                    copy[row + 1][i] = true;
+                    for (boolean[] c : copy)
+                        System.out.println(Arrays.toString(c));
+                    System.out.println("-------------------------------");
+                }
                 else {
                     boolean[][] copy = helper.clone();
                     copy[row + 1][i] = true;
@@ -37,8 +45,29 @@ public class totalNQueens {
                 return false;
         }
         int i = 1;
-        while (row + i < n && row - i >= 0 && column + i < n && column + i >= 0) {
-            if (helper[row + i][column + i] || helper[row - i][column - i] || helper[row + i][column - i] || helper[row - i][column + i])
+        while (row + i < n && column + i < n) {
+            if (helper[row + i][column + i])
+                return false;
+            else
+                i++;
+        }
+        i = 1;
+        while (row - i >= 0 && column - i >= 0) {
+            if (helper[row - i][column - i])
+                return false;
+            else
+                i++;
+        }
+        i = 1;
+        while (row - i >= 0 && column + i < n) {
+            if (helper[row - i][column + i])
+                return false;
+            else
+                i++;
+        }
+        i = 1;
+        while (row + i < n && column - i >= 0) {
+            if (helper[row + i][column - i])
                 return false;
             else
                 i++;
@@ -47,6 +76,6 @@ public class totalNQueens {
     }
 
     public static void main(String[] args) {
-        System.out.println(totalNQueensResult(2));
+        System.out.println(totalNQueensResult(4));
     }
 }
