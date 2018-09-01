@@ -7,30 +7,28 @@
  */
 public class totalNQueens {
 
-    public int totalNQueens(int n) {
-        boolean[] leftCordinal = new boolean[n*2-1],
-                rightCordinal= new boolean[n*2-1],
+    private static int totalNQueensResult1(int n) {
+        boolean[] left = new boolean[n * 2 - 1],
+                right = new boolean[n * 2 - 1],
                 vertical = new boolean[n];
         int result = 0;
-        return totalNQueens(0, n, result, vertical, leftCordinal, rightCordinal);
+        return dfs(0, n, result, vertical, left, right);
     }
 
-    public int totalNQueens(int current, int n, int result, boolean[] vertical, boolean[] leftCordinal, boolean[] rightCordinal){
-        if(current == n){
+    private static int dfs(int current, int n, int result, boolean[] vertical, boolean[] left, boolean[] right){
+        if(current == n)
             return ++result;
-        }
 
-        for(int i = 0 ; i<n ; i++){
-            if(vertical[i] || leftCordinal[i+current] || rightCordinal[i-current+n-1]){
+        for(int i = 0; i < n; i++){
+            if(vertical[i] || left[i + current] || right[i - current + n - 1])
                 continue;
-            }
             vertical[i] = true;
-            leftCordinal[i+current] = true;
-            rightCordinal[i-current+n-1] = true;
-            result = totalNQueens(current+1, n, result, vertical, leftCordinal, rightCordinal);
+            left[i + current] = true;
+            right[i - current + n - 1] = true;
+            result = dfs(current + 1, n, result, vertical, left, right);
             vertical[i] = false;
-            leftCordinal[i+current] = false;
-            rightCordinal[i-current+n-1] = false;
+            left[i + current] = false;
+            right[i - current + n - 1] = false;
         }
         return result;
     }

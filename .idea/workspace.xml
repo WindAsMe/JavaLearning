@@ -29,11 +29,11 @@
       <file leaf-file-name="totalNQueens.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/totalNQueens.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+            <state relative-caret-position="-246">
+              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="32" selection-end-column="22" />
               <folding>
-                <element signature="e#2136#2137#0" expanded="true" />
-                <element signature="e#2193#2194#0" expanded="true" />
+                <element signature="e#3076#3077#0" expanded="true" />
+                <element signature="e#3133#3134#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -431,12 +431,12 @@
       <workItem from="1535350633039" duration="6110000" />
       <workItem from="1535436895816" duration="7862000" />
       <workItem from="1535507222485" duration="5274000" />
-      <workItem from="1535593459641" duration="14724000" />
+      <workItem from="1535593459641" duration="14950000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="413506000" />
+    <option name="totallyTimeSpent" value="413732000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -962,11 +962,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/totalNQueens.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        <state relative-caret-position="-246">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="32" selection-end-column="22" />
           <folding>
-            <element signature="e#2136#2137#0" expanded="true" />
-            <element signature="e#2193#2194#0" expanded="true" />
+            <element signature="e#3076#3077#0" expanded="true" />
+            <element signature="e#3133#3134#0" expanded="true" />
           </folding>
         </state>
       </provider>
