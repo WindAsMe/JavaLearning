@@ -12,7 +12,20 @@ public class isPalindrome1 {
     private static boolean isPalindromeResult(String s) {
         String S = s.toLowerCase().trim();
         char[] helper = S.toCharArray();
-        System.out.println(Arrays.toString(helper));
+        int start = 0;
+        int end = helper.length - 1;
+        while (start <= end) {
+            if (!(helper[start] >= 97 && helper[start] <= 122)) {
+                start++;
+                continue;
+            }
+            if (!(helper[end] >= 97 && helper[end] <= 122)) {
+                end--;
+                continue;
+            }
+            if (helper[start] != helper[end])
+                return false;
+        }
         return true;
     }
 
