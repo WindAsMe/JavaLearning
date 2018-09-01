@@ -19,6 +19,8 @@ public class postorderTraversal {
 
 
     private static List<Integer> postorderTraversalResult(TreeNode root) {
+        if (root == null)
+            return new ArrayList<>();
         List<Integer> list = new ArrayList<>();
         dfs(root.left, list);
         dfs(root.right, list);
