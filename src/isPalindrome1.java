@@ -15,16 +15,20 @@ public class isPalindrome1 {
         int start = 0;
         int end = helper.length - 1;
         while (start <= end) {
-            if (!(helper[start] >= 97 && helper[start] <= 122)) {
+            if (!((helper[start] >= 97 && helper[start] <= 122) || (helper[start] >= 48 && helper[start] <= 57))) {
                 start++;
                 continue;
             }
-            if (!(helper[end] >= 97 && helper[end] <= 122)) {
+            if (!((helper[end] >= 97 && helper[end] <= 122) || (helper[end] >= 48 && helper[end] <= 57))) {
                 end--;
                 continue;
             }
             if (helper[start] != helper[end])
                 return false;
+            else {
+                start++;
+                end--;
+            }
         }
         return true;
     }
