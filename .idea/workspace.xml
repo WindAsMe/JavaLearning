@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="" />
+    <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/reorderList.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,41 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="totalNQueens.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/totalNQueens.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="32" selection-end-column="22" />
-              <folding>
-                <element signature="e#3076#3077#0" expanded="true" />
-                <element signature="e#3133#3134#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="postorderTraversal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/postorderTraversal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="22" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rand10.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rand10.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="isPalindrome1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/isPalindrome1.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -92,15 +60,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="numDistinct.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/numDistinct.java">
+      <file leaf-file-name="reorderList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/reorderList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="19" column="57" lean-forward="true" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
-              <folding>
-                <element signature="e#921#922#0" expanded="true" />
-                <element signature="e#995#996#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="146">
+              <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -125,7 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/hashSet.java" />
         <option value="$PROJECT_DIR$/src/openLock.java" />
         <option value="$PROJECT_DIR$/src/countPrimeSetBits.java" />
         <option value="$PROJECT_DIR$/src/partitionLabels.java" />
@@ -176,6 +140,7 @@
         <option value="$PROJECT_DIR$/src/isPalindrome1.java" />
         <option value="$PROJECT_DIR$/src/buildTree.java" />
         <option value="$PROJECT_DIR$/src/numDistinct.java" />
+        <option value="$PROJECT_DIR$/src/reorderList.java" />
       </list>
     </option>
   </component>
@@ -254,7 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.numDistinct">
+  <component name="RunManager" selected="Application.reorderList">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -332,9 +297,9 @@
       <module name="JavaForLeeCode2" />
       <envs />
     </configuration>
-    <configuration name="totalNQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="reorderList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="totalNQueens" />
+      <option name="MAIN_CLASS_NAME" value="reorderList" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -407,19 +372,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.totalNQueens" />
-      <item index="1" class="java.lang.String" itemvalue="Application.postorderTraversal" />
-      <item index="2" class="java.lang.String" itemvalue="Application.isPalindrome1" />
-      <item index="3" class="java.lang.String" itemvalue="Application.buildTree" />
-      <item index="4" class="java.lang.String" itemvalue="Application.numDistinct" />
+      <item index="0" class="java.lang.String" itemvalue="Application.postorderTraversal" />
+      <item index="1" class="java.lang.String" itemvalue="Application.isPalindrome1" />
+      <item index="2" class="java.lang.String" itemvalue="Application.buildTree" />
+      <item index="3" class="java.lang.String" itemvalue="Application.numDistinct" />
+      <item index="4" class="java.lang.String" itemvalue="Application.reorderList" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.numDistinct" />
-        <item index="1" class="java.lang.String" itemvalue="Application.buildTree" />
-        <item index="2" class="java.lang.String" itemvalue="Application.isPalindrome1" />
-        <item index="3" class="java.lang.String" itemvalue="Application.postorderTraversal" />
-        <item index="4" class="java.lang.String" itemvalue="Application.totalNQueens" />
+        <item index="0" class="java.lang.String" itemvalue="Application.reorderList" />
+        <item index="1" class="java.lang.String" itemvalue="Application.numDistinct" />
+        <item index="2" class="java.lang.String" itemvalue="Application.buildTree" />
+        <item index="3" class="java.lang.String" itemvalue="Application.isPalindrome1" />
+        <item index="4" class="java.lang.String" itemvalue="Application.postorderTraversal" />
       </list>
     </recent_temporary>
   </component>
@@ -497,12 +462,12 @@
       <workItem from="1535350633039" duration="6110000" />
       <workItem from="1535436895816" duration="7862000" />
       <workItem from="1535507222485" duration="5274000" />
-      <workItem from="1535593459641" duration="20588000" />
+      <workItem from="1535593459641" duration="21072000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="419370000" />
+    <option name="totallyTimeSpent" value="419854000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -515,6 +480,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="-6" width="1309" height="774" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792208" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -525,8 +491,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3126935" sideWeight="0.5217048" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26006192" sideWeight="0.48776639" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29411766" sideWeight="0.47829518" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26006192" sideWeight="0.48776639" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29411766" sideWeight="0.47829518" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14206788" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -587,13 +553,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/numMagicSquaresInside.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="37" column="25" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="37" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/maxDistToClosest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -1025,6 +984,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/numDistinct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+          <folding>
+            <element signature="e#997#998#0" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/buildTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1033,14 +1003,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/numDistinct.java">
+    <entry file="file://$PROJECT_DIR$/src/reorderList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="19" column="57" lean-forward="true" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
-          <folding>
-            <element signature="e#921#922#0" expanded="true" />
-            <element signature="e#995#996#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="146">
+          <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
