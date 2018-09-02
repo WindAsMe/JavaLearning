@@ -14,12 +14,15 @@ public class reorderList {
     }
 
     private static void reorderListResult(ListNode head) {
-        ListNode node = head;
-        while (node.next != null)
-            node = node.next;
-        node = head.next;
-        head.next = node;
-        reorderListResult(node.next);
+        if (head != null && head.next != null && head.next.next != null) {
+            ListNode node = head;
+            while (node.next.next != null)
+                node = node.next;
+            node.next.next = head.next;
+            head.next = node.next;
+            node.next = null;
+            reorderListResult(head.next.next);
+        }
     }
 
     public static void main(String[] args) {
@@ -27,6 +30,8 @@ public class reorderList {
         node.next = new ListNode(2);
         node.next.next = new ListNode(3);
         node.next.next.next = new ListNode(4);
+        node.next.next.next.next = new ListNode(5);
+        node.next.next.next.next.next = new ListNode(6);
         reorderListResult(node);
         while (node != null) {
             System.out.print(node.val + " ");
