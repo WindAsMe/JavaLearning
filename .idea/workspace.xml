@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/reorderList.java" afterPath="$PROJECT_DIR$/src/reorderList.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/countPrimes.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,12 +60,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reorderList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="reorderList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/reorderList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            <state relative-caret-position="-288">
+              <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rotatedDigits.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/rotatedDigits.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="countPrimes.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/countPrimes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="28" column="47" lean-forward="false" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+              <folding>
+                <element signature="e#660#661#0" expanded="true" />
+                <element signature="e#717#718#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,7 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/openLock.java" />
         <option value="$PROJECT_DIR$/src/countPrimeSetBits.java" />
         <option value="$PROJECT_DIR$/src/partitionLabels.java" />
         <option value="$PROJECT_DIR$/src/PeekingIterator.java" />
@@ -140,6 +163,7 @@
         <option value="$PROJECT_DIR$/src/buildTree.java" />
         <option value="$PROJECT_DIR$/src/numDistinct.java" />
         <option value="$PROJECT_DIR$/src/reorderList.java" />
+        <option value="$PROJECT_DIR$/src/countPrimes.java" />
       </list>
     </option>
   </component>
@@ -218,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.reorderList">
+  <component name="RunManager" selected="Application.countPrimes">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -254,6 +278,20 @@
       <module name="JavaForLeeCode2" />
       <envs />
     </configuration>
+    <configuration name="countPrimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="countPrimes" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaForLeeCode2" />
+      <envs />
+    </configuration>
     <configuration name="isPalindrome1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="isPalindrome1" />
@@ -271,20 +309,6 @@
     <configuration name="numDistinct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="numDistinct" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaForLeeCode2" />
-      <envs />
-    </configuration>
-    <configuration name="postorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="postorderTraversal" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -371,19 +395,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.postorderTraversal" />
-      <item index="1" class="java.lang.String" itemvalue="Application.isPalindrome1" />
-      <item index="2" class="java.lang.String" itemvalue="Application.buildTree" />
-      <item index="3" class="java.lang.String" itemvalue="Application.numDistinct" />
-      <item index="4" class="java.lang.String" itemvalue="Application.reorderList" />
+      <item index="0" class="java.lang.String" itemvalue="Application.isPalindrome1" />
+      <item index="1" class="java.lang.String" itemvalue="Application.buildTree" />
+      <item index="2" class="java.lang.String" itemvalue="Application.numDistinct" />
+      <item index="3" class="java.lang.String" itemvalue="Application.reorderList" />
+      <item index="4" class="java.lang.String" itemvalue="Application.countPrimes" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.reorderList" />
-        <item index="1" class="java.lang.String" itemvalue="Application.numDistinct" />
-        <item index="2" class="java.lang.String" itemvalue="Application.buildTree" />
-        <item index="3" class="java.lang.String" itemvalue="Application.isPalindrome1" />
-        <item index="4" class="java.lang.String" itemvalue="Application.postorderTraversal" />
+        <item index="0" class="java.lang.String" itemvalue="Application.countPrimes" />
+        <item index="1" class="java.lang.String" itemvalue="Application.reorderList" />
+        <item index="2" class="java.lang.String" itemvalue="Application.numDistinct" />
+        <item index="3" class="java.lang.String" itemvalue="Application.buildTree" />
+        <item index="4" class="java.lang.String" itemvalue="Application.isPalindrome1" />
       </list>
     </recent_temporary>
   </component>
@@ -461,12 +485,12 @@
       <workItem from="1535350633039" duration="6110000" />
       <workItem from="1535436895816" duration="7862000" />
       <workItem from="1535507222485" duration="5274000" />
-      <workItem from="1535593459641" duration="23089000" />
+      <workItem from="1535593459641" duration="23277000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="421871000" />
+    <option name="totallyTimeSpent" value="422059000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -552,22 +576,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/maxDistToClosest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="46" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/kpm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/kpmMatch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
@@ -1004,9 +1012,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/reorderList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        <state relative-caret-position="-288">
+          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rotatedDigits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/countPrimes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="28" column="47" lean-forward="false" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+          <folding>
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
