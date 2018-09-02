@@ -36,10 +36,18 @@ public class buildTree {
         return root;
     }
 
+    private static void dfs(TreeNode node) {
+        if (node != null) {
+            System.out.print(node.val + " ");
+            dfs(node.left);
+            dfs(node.right);
+        }
+    }
+
     public static void main(String[] args) {
         int[] preorder = {3,9,20,15,7};
         int[] inorder = {9,3,15,20,7};
-
+        dfs(buildTreeResult(preorder, inorder));
     }
 
 }
