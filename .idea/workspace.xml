@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/buildTree.java" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/zhongrui.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/zhongrui.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/buildTree.java" afterPath="$PROJECT_DIR$/src/buildTree.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,8 +88,8 @@
       <file leaf-file-name="buildTree.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/buildTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            <state relative-caret-position="536">
+              <caret line="39" column="8" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -488,12 +487,12 @@
       <workItem from="1535350633039" duration="6110000" />
       <workItem from="1535436895816" duration="7862000" />
       <workItem from="1535507222485" duration="5274000" />
-      <workItem from="1535593459641" duration="17946000" />
+      <workItem from="1535593459641" duration="18196000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="416728000" />
+    <option name="totallyTimeSpent" value="416978000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1029,8 +1028,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/buildTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        <state relative-caret-position="536">
+          <caret line="39" column="8" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
           <folding />
         </state>
       </provider>
