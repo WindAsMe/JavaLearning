@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/TrieSolution.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/TrieSolution.java" afterPath="$PROJECT_DIR$/src/TrieSolution.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -119,8 +118,8 @@
       <file leaf-file-name="TrieSolution.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TrieSolution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-90">
-              <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="162">
+              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="e#410#411#0" expanded="true" />
                 <element signature="e#445#446#0" expanded="true" />
@@ -522,12 +521,12 @@
       <workItem from="1535436895816" duration="7862000" />
       <workItem from="1535507222485" duration="5274000" />
       <workItem from="1535593459641" duration="23771000" />
-      <workItem from="1535948956177" duration="3886000" />
+      <workItem from="1535948956177" duration="4081000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="426439000" />
+    <option name="totallyTimeSpent" value="426634000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1070,8 +1069,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TrieSolution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="162">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="e#410#411#0" expanded="true" />
             <element signature="e#445#446#0" expanded="true" />

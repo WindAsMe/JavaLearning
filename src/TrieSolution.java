@@ -20,6 +20,7 @@ public class TrieSolution {
     class Trie {
 
         private TrieNode root;
+
         public Trie() {
             root = new TrieNode();
             root.val= ' ';
@@ -27,23 +28,24 @@ public class TrieSolution {
 
         // Inserts a word into the trie.
         public void insert(String word) {
-            TrieNode n= root;
-            for (int i=0; i<word.length(); i++){
-                char c= word.charAt(i);
-                if (n.children[c-'a'] ==null)
-                    n.children[c-'a']= new TrieNode(c);
-                n= n.children[c-'a'];
+            TrieNode n = root;
+            for (int i = 0; i < word.length(); i++){
+                char c = word.charAt(i);
+                if (n.children[c - 'a'] == null)
+                    n.children[c - 'a'] = new TrieNode(c);
+                n = n.children[c - 'a'];
             }
-            n.isWord= true;
+            n.isWord = true;
         }
 
         // Returns if the word is in the trie.
         public boolean search(String word) {
-            TrieNode n= root;
-            for (int i=0; i<word.length(); i++){
-                char c= word.charAt(i);
-                if (n.children[c-'a'] ==null) return false;
-                n= n.children[c-'a'];
+            TrieNode n = root;
+            for (int i = 0; i < word.length(); i++){
+                char c = word.charAt(i);
+                if (n.children[c - 'a'] == null)
+                    return false;
+                n = n.children[c - 'a'];
             }
             return n.isWord;
         }
@@ -51,16 +53,20 @@ public class TrieSolution {
         // Returns if there is any word in the trie
         // that starts with the given prefix.
         public boolean startsWith(String prefix) {
-            TrieNode n= root;
-            for (int i=0; i<prefix.length(); i++){
-                char c= prefix.charAt(i);
-                if (n.children[c-'a'] ==null) return false;
-                n= n.children[c-'a'];
+            TrieNode n = root;
+            for (int i = 0; i < prefix.length(); i++){
+                char c = prefix.charAt(i);
+                if (n.children[c - 'a'] == null)
+                    return false;
+                n = n.children[c - 'a'];
             }
             return true;
         }
     }
 
+    public static void main(String[] args) {
+
+    }
 /**
  * Your Trie object will be instantiated and called as such:
  * Trie obj = new Trie();
