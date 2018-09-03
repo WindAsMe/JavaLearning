@@ -11,7 +11,7 @@ public class findRepeatedDnaSequences {
 
     private static List<String> findRepeatedDnaSequencesResult1(String s) {
         List<String> ans = new ArrayList<>();
-        if(s == null || s.length() < 20)
+        if(s == null || s.length() < 11)
             return ans;
 
         int hash = 0;
