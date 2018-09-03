@@ -23,10 +23,11 @@ public class trie {
             char[] helper = s.toCharArray();
             TrieTree node = tree;
             for (int i = 0; i < helper.length; i++) {
-                node.son[helper[i] - 'a'] = new TrieTree();
+                if (node.son[helper[i] - 'a'] == null)
+                    node.son[helper[i] - 'a'] = new TrieTree();
                 node = node.son[helper[i] - 'a'];
                 if (i == helper.length - 1)
-                    node.son[helper[i] - 'a'].saved = true;
+                    node.saved = true;
             }
         }
 
@@ -38,7 +39,7 @@ public class trie {
                 if (node == null)
                     return false;
                 if (i == helper.length - 1)
-                    return node.son[helper[i] - 'a'].saved;
+                    return node.saved;
             }
             return false;
         }
@@ -49,8 +50,10 @@ public class trie {
         s.add("apple");
         System.out.println(s.find("apple"));
         System.out.println(s.find("app"));
+        System.out.println(s.find("b"));
         s.add("app");
         System.out.println(s.find("apple"));
         System.out.println(s.find("app"));
+        System.out.println(s.find("b"));
     }
 }
