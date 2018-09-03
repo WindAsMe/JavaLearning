@@ -15,14 +15,16 @@ public class trie {
     public static class Solution {
 
         private TrieTree tree;
-        public Solution() {
+        Solution() {
             tree = new TrieTree();
         }
 
-        public void add(String s) {
+        private void add(String s) {
             char[] helper = s.toCharArray();
             TrieTree node = tree;
             for (int i = 0; i < helper.length; i++) {
+                // This is important
+                // If directly new, the previous might be overwrite
                 if (node.son[helper[i] - 'a'] == null)
                     node.son[helper[i] - 'a'] = new TrieTree();
                 node = node.son[helper[i] - 'a'];
@@ -31,7 +33,7 @@ public class trie {
             }
         }
 
-        public boolean find(String s) {
+        boolean find(String s) {
             char[] helper = s.toCharArray();
             TrieTree node = tree;
             for (int i = 0; i < helper.length; i++) {
