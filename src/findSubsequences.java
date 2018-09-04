@@ -20,9 +20,8 @@ public class findSubsequences {
 
     // DFS
     private static void helper(Set<List<Integer>> res, List<Integer> subList, int[] nums, int start) {
-        if (subList.size() >= 2) {
+        if (subList.size() >= 2)
             res.add(new ArrayList<>(subList));
-        }
         for (int i = start; i < nums.length; i++) {
             if (subList.size() == 0 || subList.get(subList.size() - 1) <= nums[i]) {
                 subList.add(nums[i]);
