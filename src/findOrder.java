@@ -29,14 +29,19 @@ public class findOrder {
     }
 
     private static void dfs(int start, int[] ans, List<Integer> list, int[] helper, int[][] prerequisites) {
-        // System.out.println("start: " + start);
+        //  System.out.println(list.toString());
+        int[] copy = helper.clone();
+        list.add(start);
+        copy[start] = -1;
+
+        for (int i : ans) {
+            if (i != 0)
+                return;
+        }
         if (list.size() == ans.length) {
             for (int i = 0; i < ans.length; i++)
                 ans[i] = list.get(i);
         } else {
-            int[] copy = helper.clone();
-            list.add(start);
-            copy[start] = -1;
             for (int[] i : prerequisites) {
                 if (i[1] == start)
                     copy[i[0]]--;
