@@ -1,7 +1,4 @@
-import java.net.Inet4Address;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 /**
  * Author     : WindAsMe
@@ -13,55 +10,38 @@ import java.util.List;
 public class findOrder {
 
     private static int[] findOrderResult(int numCourses, int[][] prerequisites) {
-        if (numCourses < 1)
-            return new int[0];
-        if (numCourses == 1)
-            return new int[]{0};
-        List<Integer> list = new ArrayList<>();
-        int[] helper = new int[numCourses];
-        for (int[] i : prerequisites)
-            helper[i[0]]++;
-        for (int i = 0; i < helper.length; i++) {
-            if (helper[i] == 0)
-                list.add(i);
-        }
+        int[] map = new int[numCourses];
+        int[] res = new int[numCourses];
 
-        int[] ans = new int[numCourses];
-        for (Integer i : list)
-            dfs(i, numCourses, new ArrayList<>(), ans, helper, prerequisites);
-        int zero = 0;
-        for (int a : ans) {
-            if (a == 0)
-                zero++;
-        }
-        if (zero > 1)
-            return new int[0];
-        else
-            return ans;
-    }
+        for (int[] prerequisite : prerequisites)
+            map[prerequisite[1]]++;
 
-    private static void dfs(int start, int numCourses, List<Integer> list, int[] ans,  int[] helper, int[][] prerequisites) {
-        int[] copy = helper.clone();
-        copy[start] = -1;
-        list.add(start);
-        // System.out.println("list: " + list.toString() + " copy: " + Arrays.toString(copy));
-        if (list.size() > numCourses)
-            return;
-        if (list.size() == numCourses) {
-            for (int i = 0; i < numCourses; i++)
-                ans[i] = list.get(i);
-        } else {
-            for (int[] i : prerequisites) {
-                if (i[1] == start)
-                    copy[i[0]]--;
+        Queue<Integer> que = new LinkedList<>();
+        int index = numCourses - 1;
+        for(int i = 0; i < numCourses; i++) {
+            if(map[i] == 0) {
+                que.add(i);
+                res[index--] = i;
             }
-            for (int i = 0; i < helper.length; i++) {
-                if (copy[i] == 0) {
-                    // System.out.println("start: " + i);
-                    dfs(i, numCourses, list, ans, copy, prerequisites);
+        }
+
+        while(!que.isEmpty() ){
+            int k = que.remove();
+            for (int[] prerequisite : prerequisites) {
+                int l = prerequisite[1];
+                if (k == prerequisite[0]) {
+                    map[l]--;
+                    if (map[l] == 0) {
+                        que.add(l);
+                        res[index--] = l;
+                    }
                 }
             }
         }
+        if(index != -1)
+            return new int[0];
+        else
+            return res;
     }
 
     public static void main(String[] args) {
