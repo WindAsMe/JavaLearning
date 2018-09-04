@@ -26,6 +26,7 @@
       <w>stringbuilder</w>
       <w>subarray</w>
       <w>subsequence</w>
+      <w>subsequences</w>
     </words>
   </dictionary>
 </component>
