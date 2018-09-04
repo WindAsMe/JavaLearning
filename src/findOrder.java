@@ -1,3 +1,4 @@
+import java.net.Inet4Address;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -14,6 +15,8 @@ public class findOrder {
     private static int[] findOrderResult(int numCourses, int[][] prerequisites) {
         if (numCourses < 1)
             return new int[0];
+        if (numCourses == 1)
+            return new int[]{0};
         List<Integer> list = new ArrayList<>();
         int[] helper = new int[numCourses];
         for (int[] i : prerequisites)
@@ -22,50 +25,52 @@ public class findOrder {
             if (helper[i] == 0)
                 list.add(i);
         }
+
         int[] ans = new int[numCourses];
         for (Integer i : list)
-            dfs(i, ans, new ArrayList<>(), helper, prerequisites);
-        for (int i : ans) {
-            if (i != 0)
-                return ans;
+            dfs(i, numCourses, new ArrayList<>(), ans, helper, prerequisites);
+        int zero = 0;
+        for (int a : ans) {
+            if (a == 0)
+                zero++;
         }
-        return new int[0];
+        if (zero > 1)
+            return new int[0];
+        else
+            return ans;
     }
 
-    private static void dfs(int start, int[] ans, List<Integer> list, int[] helper, int[][] prerequisites) {
-        //  System.out.println(list.toString());
+    private static void dfs(int start, int numCourses, List<Integer> list, int[] ans,  int[] helper, int[][] prerequisites) {
         int[] copy = helper.clone();
-        list.add(start);
         copy[start] = -1;
-
-        for (int i : ans) {
-            if (i != 0)
-                return;
-        }
-        if (list.size() == ans.length) {
-            for (int i = 0; i < ans.length; i++)
+        list.add(start);
+        // System.out.println("list: " + list.toString() + " copy: " + Arrays.toString(copy));
+        if (list.size() > numCourses)
+            return;
+        if (list.size() == numCourses) {
+            for (int i = 0; i < numCourses; i++)
                 ans[i] = list.get(i);
         } else {
             for (int[] i : prerequisites) {
                 if (i[1] == start)
                     copy[i[0]]--;
             }
-            // System.out.println(Arrays.toString(copy));
-            for (int i = 0; i < copy.length; i++) {
-                if (copy[i] == 0)
-                    dfs(i, ans, list, copy, prerequisites);
+            for (int i = 0; i < helper.length; i++) {
+                if (copy[i] == 0) {
+                    // System.out.println("start: " + i);
+                    dfs(i, numCourses, list, ans, copy, prerequisites);
+                }
             }
         }
     }
 
     public static void main(String[] args) {
         int[][] pre = {
-                {1,0},
-                {0, 1}
+                {1,0}
 //                {2,0},
 //                {3,1},
 //                {3,2}
         };
-        System.out.println(Arrays.toString(findOrderResult(2, pre)));
+        System.out.println(Arrays.toString(findOrderResult(5, pre)));
     }
 }
