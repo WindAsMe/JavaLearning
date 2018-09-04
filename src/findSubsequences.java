@@ -13,15 +13,15 @@ import java.util.Set;
 public class findSubsequences {
 
     private static List<List<Integer>> findSubsequencesResult(int[] nums) {
-        Set<List<Integer>> res = new HashSet<List<Integer>>();
-        helper(res, new ArrayList<Integer>(), nums, 0);
-        return new ArrayList<List<Integer>>(res);
+        Set<List<Integer>> res = new HashSet<>();
+        helper(res, new ArrayList<>(), nums, 0);
+        return new ArrayList<>(res);
     }
 
     // DFS
     private static void helper(Set<List<Integer>> res, List<Integer> subList, int[] nums, int start) {
         if (subList.size() >= 2) {
-            res.add(new ArrayList<Integer>(subList));
+            res.add(new ArrayList<>(subList));
         }
         for (int i = start; i < nums.length; i++) {
             if (subList.size() == 0 || subList.get(subList.size() - 1) <= nums[i]) {

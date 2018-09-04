@@ -12,7 +12,7 @@ public class findShortestSubArray {
     private static int findShortestSubArrayResult(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
         int len = Integer.MAX_VALUE;
-        int max = 0;
+        int max;
         for (int i : nums)
             map.merge(i, 1, (a, b) -> a + b);
         List<Map.Entry<Integer, Integer>> list = new ArrayList<>(map.entrySet());
