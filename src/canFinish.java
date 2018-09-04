@@ -7,6 +7,7 @@
  */
 public class canFinish {
 
+    // Foremost is to find the Graph has the circle.
     private static boolean canFinishResult(int numCourses, int[][] prerequisites) {
         // sustain the array
         int[] inDegree = new int[numCourses];
