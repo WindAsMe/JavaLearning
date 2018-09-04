@@ -9,6 +9,8 @@ import java.util.Arrays;
  */
 public class maximumGap {
 
+    // time: O(3n) -> O(n)  space: O(n)
+    // Cache Exceeding
     private static int maximumGapResult1(int[] nums) {
         int max = -1;
         for (int i : nums)
@@ -42,7 +44,7 @@ public class maximumGap {
     }
 
     public static void main(String[] args) {
-        int[] nums = {3,6,9,1};
+        int[] nums = {3};
         System.out.println(maximumGapResult1(nums));
     }
 }
