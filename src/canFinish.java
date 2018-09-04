@@ -8,13 +8,16 @@
 public class canFinish {
 
     private static boolean canFinishResult(int numCourses, int[][] prerequisites) {
+        // sustain the array
         int[] inDegree = new int[numCourses];
+        // add all the input to array
         for (int[] i : prerequisites)
             inDegree[i[1]]++;
         while (true) {
             int index = -1;
             for (int i = 0; i < inDegree.length; i++) {
                 if (inDegree[i] == 0) {
+                    // Mark this index
                     inDegree[i] = -1;
                     index = i;
                     break;
@@ -36,7 +39,7 @@ public class canFinish {
     }
 
     public static void main(String[] args) {
-        int[][] pre = {{0, 1}};
+        int[][] pre = {{0, 1}, {1, 0}};
         System.out.println(canFinishResult(2, pre));
     }
 }
