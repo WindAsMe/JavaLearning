@@ -19,6 +19,7 @@ public class nthUglyNumber {
         for(int i = 1; i < n; i++) {
             int min = Math.min(Math.min(factor2, factor3), factor5);
             ugly[i] = min;
+            // like dp
             if(factor2 == min)
                 factor2 = 2 * ugly[++index2];
             if(factor3 == min)
@@ -27,5 +28,9 @@ public class nthUglyNumber {
                 factor5 = 5 * ugly[++index5];
         }
         return ugly[n - 1];
+    }
+
+    public static void main(String[] args) {
+        System.out.println(nthUglyNumberResult(12));
     }
 }

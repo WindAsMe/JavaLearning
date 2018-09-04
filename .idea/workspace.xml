@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/nthUglyNumber.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/nthUglyNumber.java" afterPath="$PROJECT_DIR$/src/nthUglyNumber.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,9 +88,12 @@
       <file leaf-file-name="nthUglyNumber.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/nthUglyNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-              <folding />
+            <state relative-caret-position="128">
+              <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="29" selection-end-column="27" />
+              <folding>
+                <element signature="e#950#951#0" expanded="true" />
+                <element signature="e#1009#1010#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -245,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.maximumGap">
+  <component name="RunManager" selected="Application.nthUglyNumber">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -281,9 +283,9 @@
       <module name="JavaForLeeCode2" />
       <envs />
     </configuration>
-    <configuration name="findRepeatedDnaSequences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="maximumGap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="findRepeatedDnaSequences" />
+      <option name="MAIN_CLASS_NAME" value="maximumGap" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -295,9 +297,9 @@
       <module name="JavaForLeeCode2" />
       <envs />
     </configuration>
-    <configuration name="maximumGap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="nthUglyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="maximumGap" />
+      <option name="MAIN_CLASS_NAME" value="nthUglyNumber" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -398,19 +400,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.findRepeatedDnaSequences" />
-      <item index="1" class="java.lang.String" itemvalue="Application.trie" />
-      <item index="2" class="java.lang.String" itemvalue="Application.reverseBits" />
-      <item index="3" class="java.lang.String" itemvalue="Application.canFinish" />
-      <item index="4" class="java.lang.String" itemvalue="Application.maximumGap" />
+      <item index="0" class="java.lang.String" itemvalue="Application.trie" />
+      <item index="1" class="java.lang.String" itemvalue="Application.reverseBits" />
+      <item index="2" class="java.lang.String" itemvalue="Application.canFinish" />
+      <item index="3" class="java.lang.String" itemvalue="Application.maximumGap" />
+      <item index="4" class="java.lang.String" itemvalue="Application.nthUglyNumber" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.maximumGap" />
-        <item index="1" class="java.lang.String" itemvalue="Application.canFinish" />
-        <item index="2" class="java.lang.String" itemvalue="Application.reverseBits" />
-        <item index="3" class="java.lang.String" itemvalue="Application.trie" />
-        <item index="4" class="java.lang.String" itemvalue="Application.findRepeatedDnaSequences" />
+        <item index="0" class="java.lang.String" itemvalue="Application.nthUglyNumber" />
+        <item index="1" class="java.lang.String" itemvalue="Application.maximumGap" />
+        <item index="2" class="java.lang.String" itemvalue="Application.canFinish" />
+        <item index="3" class="java.lang.String" itemvalue="Application.reverseBits" />
+        <item index="4" class="java.lang.String" itemvalue="Application.trie" />
       </list>
     </recent_temporary>
   </component>
@@ -490,12 +492,12 @@
       <workItem from="1535507222485" duration="5274000" />
       <workItem from="1535593459641" duration="23771000" />
       <workItem from="1535948956177" duration="5576000" />
-      <workItem from="1536036010757" duration="4075000" />
+      <workItem from="1536036010757" duration="4311000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="432204000" />
+    <option name="totallyTimeSpent" value="432440000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -519,8 +521,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3126935" sideWeight="0.5217048" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26006192" sideWeight="0.48776639" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25851393" sideWeight="0.47829518" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26006192" sideWeight="0.48776639" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25851393" sideWeight="0.47829518" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14601421" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -965,9 +967,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/nthUglyNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="128">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="29" selection-end-column="27" />
+          <folding>
+            <element signature="e#950#951#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
