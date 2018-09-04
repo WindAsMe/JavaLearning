@@ -29,7 +29,7 @@ public class findOrder {
     }
 
     private static void dfs(int start, int[] ans, List<Integer> list, int[] helper, int[][] prerequisites) {
-
+        // System.out.println("start: " + start);
         if (list.size() == ans.length) {
             for (int i = 0; i < ans.length; i++)
                 ans[i] = list.get(i);
@@ -41,9 +41,10 @@ public class findOrder {
                 if (i[1] == start)
                     copy[i[0]]--;
             }
+            // System.out.println(Arrays.toString(copy));
             for (int i = 0; i < copy.length; i++) {
                 if (copy[i] == 0)
-                    dfs(i, ans, list, helper, prerequisites);
+                    dfs(i, ans, list, copy, prerequisites);
             }
         }
     }
