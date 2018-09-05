@@ -3,7 +3,7 @@
  * File       : deleteNode.java
  * Time       : Create on 18-9-5
  * Location   : ../Home/JavaForLeeCode2/deleteNode.java
- * Function   :
+ * Function   : LeetCode No.237
  */
 public class deleteNode {
 

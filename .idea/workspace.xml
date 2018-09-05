@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/deleteNode.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/firstBadVersion.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,16 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="numMagicSquaresInside.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/numMagicSquaresInside.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="numSquares.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/numSquares.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -117,15 +106,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deleteNode.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="deleteNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/deleteNode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="172">
-              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-              <folding>
-                <element signature="e#373#374#0" expanded="true" />
-                <element signature="e#397#398#0" expanded="true" />
-              </folding>
+              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="17" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="firstBadVersion.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/firstBadVersion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -150,7 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/isRectangleOverlap.java" />
         <option value="$PROJECT_DIR$/src/backspaceCompare.java" />
         <option value="$PROJECT_DIR$/src/largeGroupPositions.java" />
         <option value="$PROJECT_DIR$/src/numTrees.java" />
@@ -201,6 +196,7 @@
         <option value="$PROJECT_DIR$/src/findSubsequences.java" />
         <option value="$PROJECT_DIR$/src/findOrder.java" />
         <option value="$PROJECT_DIR$/src/deleteNode.java" />
+        <option value="$PROJECT_DIR$/src/firstBadVersion.java" />
       </list>
     </option>
   </component>
@@ -525,12 +521,12 @@
       <workItem from="1535593459641" duration="23771000" />
       <workItem from="1535948956177" duration="5576000" />
       <workItem from="1536036010757" duration="9816000" />
-      <workItem from="1536138586282" duration="139000" />
+      <workItem from="1536138586282" duration="339000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="438084000" />
+    <option name="totallyTimeSpent" value="438284000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -616,16 +612,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="18">
-            <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaForLeeCode2.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1014,11 +1000,16 @@
     <entry file="file://$PROJECT_DIR$/src/deleteNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
-          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding>
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-          </folding>
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="17" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/firstBadVersion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
