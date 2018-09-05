@@ -13,7 +13,8 @@ public class containsNearbyDuplicate {
             int right = -1;
             int max;
             int num = nums[i];
-            for (int j = 0; j < i; i++) {
+            System.out.println("num: " + num);
+            for (int j = 0; j < i; j++) {
                 if (nums[j] == num) {
                     left = i - j;
                     break;
@@ -33,7 +34,7 @@ public class containsNearbyDuplicate {
     }
 
     public static void main(String[] args) {
-        int[] nums = {1,2,3,1};
-        System.out.println(containsNearbyDuplicateResult(nums, 3));
+        int[] nums = {1,0,1,1};
+        System.out.println(containsNearbyDuplicateResult(nums, 1));
     }
 }
