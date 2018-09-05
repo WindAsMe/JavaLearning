@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * Author     : WindAsMe
  * File       : containsNearbyDuplicate.java
@@ -8,27 +11,11 @@
 public class containsNearbyDuplicate {
 
     private static boolean containsNearbyDuplicateResult(int[] nums, int k) {
-        for (int i = 0; i < nums.length; i++) {
-            int left = -1;
-            int right = -1;
-            int max;
-            int num = nums[i];
-            System.out.println("num: " + num);
-            for (int j = 0; j < i; j++) {
-                if (nums[j] == num) {
-                    left = i - j;
-                    break;
-                }
-            }
-            for (int j = nums.length - 1; j > i; j--) {
-                if (nums[j] == num) {
-                    right = j - i;
-                    break;
-                }
-            }
-            max = Math.max(left, right);
-            if (max > 0 && max <= k)
+        Map<Integer, Integer> map = new HashMap<>();
+        for(int i = 0; i < nums.length; i++) {
+            if(map.containsKey(nums[i]) && (i - map.get(nums[i])) <= k)
                 return true;
+            map.put(nums[i], i);
         }
         return false;
     }
