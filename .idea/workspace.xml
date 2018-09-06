@@ -29,14 +29,11 @@
       <file leaf-file-name="WordDictionaryResult.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/WordDictionaryResult.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="53" column="8" lean-forward="false" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+            <state relative-caret-position="-666">
+              <caret line="55" column="16" lean-forward="false" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#470#471#0" expanded="true" />
-                <element signature="e#515#516#0" expanded="true" />
-                <element signature="e#611#612#0" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -438,12 +435,12 @@
       <workItem from="1535948956177" duration="5576000" />
       <workItem from="1536036010757" duration="9816000" />
       <workItem from="1536138586282" duration="4685000" />
-      <workItem from="1536204638425" duration="2101000" />
+      <workItem from="1536204638425" duration="3418000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="444731000" />
+    <option name="totallyTimeSpent" value="446048000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -466,9 +463,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3126935" sideWeight="0.5217048" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28328174" sideWeight="0.48776639" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28328174" sideWeight="0.48776639" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36532506" sideWeight="0.47829518" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3637771" sideWeight="0.47829518" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1673244" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -933,14 +930,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WordDictionaryResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="53" column="8" lean-forward="false" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+        <state relative-caret-position="-666">
+          <caret line="55" column="16" lean-forward="false" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
           </folding>
         </state>
       </provider>
