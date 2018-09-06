@@ -42,7 +42,14 @@ public class WordDictionaryResult {
     }
 
     public static void main(String[] args) {
-
+        WordDictionary dict = new WordDictionary();
+        dict.addWord("bad");
+        dict.addWord("dad");
+        dict.addWord("mad");
+        System.out.println(dict.search("pad")); // false
+        System.out.println(dict.search("bad")); // true
+        System.out.println(dict.search(".ad")); // true
+        System.out.println(dict.search("b..")); // true
     }
 
 /**
