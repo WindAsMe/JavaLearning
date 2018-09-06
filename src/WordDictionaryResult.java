@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -26,11 +27,13 @@ public class WordDictionaryResult {
 
         /** Returns if the word is in the data structure. A word could contain the dot character '.' to represent any one letter. */
         public boolean search(String word) {
+            System.out.println("word: " + word);
             char[] help = word.toCharArray();
+            System.out.println(Arrays.toString(help));
             for (int i = 0; i < help.length; i++) {
-                if (i == '.') {
-                    StringBuilder s = new StringBuilder(word.substring(0, i));
+                if (help[i] == '.') {
                     for (char c = 'a'; c <= 'z'; c++) {
+                        StringBuilder s = new StringBuilder(word.substring(0, i));
                         s.append(c).append(word.substring(i + 1, help.length));
                         if (search(s.toString()))
                             return true;
@@ -46,8 +49,8 @@ public class WordDictionaryResult {
         dict.addWord("bad");
         dict.addWord("dad");
         dict.addWord("mad");
-        System.out.println(dict.search("pad")); // false
-        System.out.println(dict.search("bad")); // true
+        // System.out.println(dict.search("pad")); // false
+        // System.out.println(dict.search("bad")); // true
         System.out.println(dict.search(".ad")); // true
         System.out.println(dict.search("b..")); // true
     }
