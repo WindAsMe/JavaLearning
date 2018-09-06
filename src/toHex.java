@@ -3,7 +3,7 @@
  * File       : toHex.java
  * Time       : Create on 18-9-6
  * Location   : ../Home/JavaForLeeCode2/toHex.java
- * Function   :
+ * Function   : LeetCode No.405
  */
 public class toHex {
 
