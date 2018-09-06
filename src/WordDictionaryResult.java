@@ -52,17 +52,19 @@ public class WordDictionaryResult {
                         if (search(s.toString()))
                             return true;
                     }
+
+                    return false;
                 }
             }
-
             // Must the certain String
             TrieNode node = root;
             for (char aHelper : helper) {
-                node = node.son[aHelper - 'a'];
-                if (node == null)
+                if (node.son[aHelper - 'a'] != null)
+                    node = node.son[aHelper - 'a'];
+                else
                     return false;
             }
-            return node.valid;
+            return node != null && node.valid;
         }
     }
 
@@ -102,13 +104,15 @@ public class WordDictionaryResult {
 
     public static void main(String[] args) {
         WordDictionary dict = new WordDictionary();
-        dict.addWord("bad");
-        dict.addWord("dad");
+        dict.addWord("a");
+        dict.addWord("a");
         //.addWord("mad");
-        System.out.println(dict.search("pad")); // false
-        // System.out.println(dict.search("bad")); // true
-        System.out.println(dict.search(".ad")); // true
-        System.out.println(dict.search("...")); // true
+//        System.out.println(dict.search(".")); // true
+//        System.out.println(dict.search("a")); // true
+//        System.out.println(dict.search("aa")); // false
+//        System.out.println(dict.search("a")); // true
+        System.out.println(dict.search(".a")); // false
+        System.out.println(dict.search("a.")); // false
     }
 
 /**
