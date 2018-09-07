@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/ListSolution.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/RandomizedSetResult.java" afterPath="$PROJECT_DIR$/src/RandomizedSetResult.java" />
+      <change beforePath="$PROJECT_DIR$/src/ListSolution.java" afterPath="$PROJECT_DIR$/src/ListSolution.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RandomizedSetResult.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RandomizedSetResult.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RandomizedSetResult.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -71,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListSolution.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ListSolution.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ListSolution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="182">
+              <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="20" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -150,8 +148,8 @@
         <option value="$PROJECT_DIR$/src/containsNearbyDuplicate.java" />
         <option value="$PROJECT_DIR$/src/WordDictionaryResult.java" />
         <option value="$PROJECT_DIR$/src/toHex.java" />
-        <option value="$PROJECT_DIR$/src/ListSolution.java" />
         <option value="$PROJECT_DIR$/src/RandomizedSetResult.java" />
+        <option value="$PROJECT_DIR$/src/ListSolution.java" />
       </list>
     </option>
   </component>
@@ -230,13 +228,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RandomizedSetResult">
+  <component name="RunManager" selected="Application.ListSolution">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="ListSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ListSolution" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaForLeeCode2" />
+      <envs />
     </configuration>
     <configuration name="RandomizedSetResult" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -283,20 +295,6 @@
     <configuration name="containsNearbyDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="containsNearbyDuplicate" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaForLeeCode2" />
-      <envs />
-    </configuration>
-    <configuration name="firstBadVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="firstBadVersion" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -383,19 +381,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.firstBadVersion" />
-      <item index="1" class="java.lang.String" itemvalue="Application.containsNearbyDuplicate" />
-      <item index="2" class="java.lang.String" itemvalue="Application.WordDictionaryResult" />
-      <item index="3" class="java.lang.String" itemvalue="Application.toHex" />
-      <item index="4" class="java.lang.String" itemvalue="Application.RandomizedSetResult" />
+      <item index="0" class="java.lang.String" itemvalue="Application.containsNearbyDuplicate" />
+      <item index="1" class="java.lang.String" itemvalue="Application.WordDictionaryResult" />
+      <item index="2" class="java.lang.String" itemvalue="Application.toHex" />
+      <item index="3" class="java.lang.String" itemvalue="Application.RandomizedSetResult" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ListSolution" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.RandomizedSetResult" />
-        <item index="1" class="java.lang.String" itemvalue="Application.toHex" />
-        <item index="2" class="java.lang.String" itemvalue="Application.WordDictionaryResult" />
-        <item index="3" class="java.lang.String" itemvalue="Application.containsNearbyDuplicate" />
-        <item index="4" class="java.lang.String" itemvalue="Application.firstBadVersion" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ListSolution" />
+        <item index="1" class="java.lang.String" itemvalue="Application.RandomizedSetResult" />
+        <item index="2" class="java.lang.String" itemvalue="Application.toHex" />
+        <item index="3" class="java.lang.String" itemvalue="Application.WordDictionaryResult" />
+        <item index="4" class="java.lang.String" itemvalue="Application.containsNearbyDuplicate" />
       </list>
     </recent_temporary>
   </component>
@@ -478,12 +476,12 @@
       <workItem from="1536036010757" duration="9816000" />
       <workItem from="1536138586282" duration="4685000" />
       <workItem from="1536204638425" duration="9881000" />
-      <workItem from="1536293811357" duration="1003000" />
+      <workItem from="1536293811357" duration="1458000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="453514000" />
+    <option name="totallyTimeSpent" value="453969000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -964,14 +962,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ListSolution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/toHex.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -992,6 +982,14 @@
             <element signature="e#1402#1403#0" expanded="true" />
             <element signature="e#1477#1478#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ListSolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="20" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
