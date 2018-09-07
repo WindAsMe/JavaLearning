@@ -20,7 +20,9 @@ public class RandomSolution {
             this.map = new HashMap<>();
             for (int i = 0; i < nums.length; i++) {
                 if (map.get(nums[i]) == null) {
-                    map.put(i, new ArrayList<>(i));
+                    List<Integer> list = new ArrayList<>();
+                    list.add(i);
+                    map.put(nums[i], list);
                 } else {
                     List<Integer> list = map.get(nums[i]);
                     list.add(i);
@@ -44,7 +46,7 @@ public class RandomSolution {
     public static void main(String[] args) {
         int[] nums = {1,2,3,3,3};
         Solution s = new Solution(nums);
-        s.occur();
+        System.out.println(s.pick(3));
     }
 
 }
