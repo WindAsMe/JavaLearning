@@ -8,7 +8,7 @@ import java.util.Set;
  * File       : RandomizedSetResult.java
  * Time       : Create on 18-9-7
  * Location   : ../Home/JavaForLeeCode2/RandomizedSetResult.java
- * Function   :
+ * Function   : LeetCode No.380
  */
 public class RandomizedSetResult {
 
