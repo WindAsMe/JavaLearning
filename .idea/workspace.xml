@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/findMaximumXOR.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/findMaximumXOR.java" afterPath="$PROJECT_DIR$/src/findMaximumXOR.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -109,9 +108,11 @@
       <file leaf-file-name="findMaximumXOR.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/findMaximumXOR.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-              <folding />
+            <state relative-caret-position="336">
+              <caret line="34" column="52" lean-forward="false" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -265,7 +266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.countBattleships">
+  <component name="RunManager" selected="Application.findMaximumXOR">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -301,20 +302,6 @@
       <module name="JavaForLeeCode2" />
       <envs />
     </configuration>
-    <configuration name="RandomizedSetResult" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="RandomizedSetResult" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaForLeeCode2" />
-      <envs />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -332,6 +319,20 @@
     <configuration name="countBattleships" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="countBattleships" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaForLeeCode2" />
+      <envs />
+    </configuration>
+    <configuration name="findMaximumXOR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="findMaximumXOR" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -418,19 +419,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.RandomizedSetResult" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ListSolution" />
-      <item index="2" class="java.lang.String" itemvalue="Application.RandomSolution" />
-      <item index="3" class="java.lang.String" itemvalue="Application.lexicalOrder" />
-      <item index="4" class="java.lang.String" itemvalue="Application.countBattleships" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ListSolution" />
+      <item index="1" class="java.lang.String" itemvalue="Application.RandomSolution" />
+      <item index="2" class="java.lang.String" itemvalue="Application.lexicalOrder" />
+      <item index="3" class="java.lang.String" itemvalue="Application.countBattleships" />
+      <item index="4" class="java.lang.String" itemvalue="Application.findMaximumXOR" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.countBattleships" />
-        <item index="1" class="java.lang.String" itemvalue="Application.lexicalOrder" />
-        <item index="2" class="java.lang.String" itemvalue="Application.RandomSolution" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ListSolution" />
-        <item index="4" class="java.lang.String" itemvalue="Application.RandomizedSetResult" />
+        <item index="0" class="java.lang.String" itemvalue="Application.findMaximumXOR" />
+        <item index="1" class="java.lang.String" itemvalue="Application.countBattleships" />
+        <item index="2" class="java.lang.String" itemvalue="Application.lexicalOrder" />
+        <item index="3" class="java.lang.String" itemvalue="Application.RandomSolution" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ListSolution" />
       </list>
     </recent_temporary>
   </component>
@@ -514,12 +515,12 @@
       <workItem from="1536138586282" duration="4685000" />
       <workItem from="1536204638425" duration="9881000" />
       <workItem from="1536293811357" duration="2690000" />
-      <workItem from="1536397348268" duration="3164000" />
+      <workItem from="1536397348268" duration="3342000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="458365000" />
+    <option name="totallyTimeSpent" value="458543000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1032,9 +1033,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/findMaximumXOR.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="336">
+          <caret line="34" column="52" lean-forward="false" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
