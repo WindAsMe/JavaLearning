@@ -15,10 +15,10 @@ public class countBattleships {
         int column = board[0].length;
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < column; j++) {
-                if (board[i][j] == 'X' && board[i + 1][j] == 'X') {
+                if (board[i][j] == 'X' && i + 1 < row && board[i + 1][j] == 'X') {
                     count++;
                     fill(board, i, j, false);
-                } else if (board[i][j] == 'X' && board[i][j + 1] == 'X') {
+                } else if (board[i][j] == 'X' && j + 1 < column && board[i][j + 1] == 'X') {
                     count++;
                     fill(board, i, j, true);
                 }  else if (board[i][j] == 'X') {
