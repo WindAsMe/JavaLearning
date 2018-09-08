@@ -10,6 +10,9 @@ import java.util.List;
  */
 public class lexicalOrder {
 
+    // 10 > 2
+    // 101 > 11
+    // ...
     private static List<Integer> lexicalOrderResult(int n) {
         List<Integer> res = new ArrayList<>();
         int cur = 1;
