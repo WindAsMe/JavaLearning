@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/countBattleships.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/countBattleships.java" afterPath="$PROJECT_DIR$/src/countBattleships.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,8 +98,8 @@
       <file leaf-file-name="countBattleships.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/countBattleships.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+            <state relative-caret-position="159">
+              <caret line="45" column="21" lean-forward="false" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -255,7 +254,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.lexicalOrder">
+  <component name="RunManager" selected="Application.countBattleships">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -319,9 +318,9 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="lexicalOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="countBattleships" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="lexicalOrder" />
+      <option name="MAIN_CLASS_NAME" value="countBattleships" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -333,9 +332,9 @@
       <module name="JavaForLeeCode2" />
       <envs />
     </configuration>
-    <configuration name="toHex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="lexicalOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="toHex" />
+      <option name="MAIN_CLASS_NAME" value="lexicalOrder" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -408,19 +407,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.toHex" />
-      <item index="1" class="java.lang.String" itemvalue="Application.RandomizedSetResult" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ListSolution" />
-      <item index="3" class="java.lang.String" itemvalue="Application.RandomSolution" />
-      <item index="4" class="java.lang.String" itemvalue="Application.lexicalOrder" />
+      <item index="0" class="java.lang.String" itemvalue="Application.RandomizedSetResult" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ListSolution" />
+      <item index="2" class="java.lang.String" itemvalue="Application.RandomSolution" />
+      <item index="3" class="java.lang.String" itemvalue="Application.lexicalOrder" />
+      <item index="4" class="java.lang.String" itemvalue="Application.countBattleships" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.lexicalOrder" />
-        <item index="1" class="java.lang.String" itemvalue="Application.RandomSolution" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ListSolution" />
-        <item index="3" class="java.lang.String" itemvalue="Application.RandomizedSetResult" />
-        <item index="4" class="java.lang.String" itemvalue="Application.toHex" />
+        <item index="0" class="java.lang.String" itemvalue="Application.countBattleships" />
+        <item index="1" class="java.lang.String" itemvalue="Application.lexicalOrder" />
+        <item index="2" class="java.lang.String" itemvalue="Application.RandomSolution" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ListSolution" />
+        <item index="4" class="java.lang.String" itemvalue="Application.RandomizedSetResult" />
       </list>
     </recent_temporary>
   </component>
@@ -504,12 +503,12 @@
       <workItem from="1536138586282" duration="4685000" />
       <workItem from="1536204638425" duration="9881000" />
       <workItem from="1536293811357" duration="2690000" />
-      <workItem from="1536397348268" duration="2309000" />
+      <workItem from="1536397348268" duration="2672000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="457510000" />
+    <option name="totallyTimeSpent" value="457873000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1021,8 +1020,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/countBattleships.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+        <state relative-caret-position="159">
+          <caret line="45" column="21" lean-forward="false" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
           <folding />
         </state>
       </provider>

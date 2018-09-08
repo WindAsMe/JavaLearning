@@ -33,19 +33,17 @@ public class countBattleships {
 
     private static void fill(char[][] board, int row, int column, boolean right) {
         if (right) {
-            for (int j = column; board[row][j] == 'X'; j++)
+            for (int j = column; j < board[0].length && board[row][j] == 'X'; j++)
                 board[row][j] = '.';
         } else {
-            for (int i = row; board[i][column] == 'X'; i++)
-                board[row][i] = '.';
+            for (int i = row; i < board.length && board[i][column] == 'X'; i++)
+                board[i][column] = '.';
         }
     }
 
     public static void main(String[] args) {
         char[][] c = {
-                {'X', '.', '.'},
-                {'X', '.', 'X'},
-                {'X', '.', 'X'}
+                {'X'}
         };
         System.out.println(countBattleshipsResult(c));
     }
