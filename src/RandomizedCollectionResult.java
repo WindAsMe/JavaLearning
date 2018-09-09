@@ -56,9 +56,10 @@ public class RandomizedCollectionResult {
         /** Get a random element from the collection. */
         public int getRandom() {
             int ran = (int) (Math.random() * count);
+            System.out.println("ran: " + ran + map.toString());
             for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
                 ran = ran - entry.getValue();
-                if (ran <= 0)
+                if (ran < 0)
                     return entry.getKey();
             }
             return 1;
