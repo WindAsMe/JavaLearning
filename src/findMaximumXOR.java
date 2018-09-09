@@ -19,7 +19,7 @@ public class findMaximumXOR {
             for(int num : nums)
                 set.add(num & mask);
             int tmp = max | (1 << i);
-            // System.out.println(mask+"  "+tmp+"  "+max);
+            // System.out.println(mask + " " + tmp + " " + max);
             for(int prefix : set){
                 if(set.contains(tmp ^ prefix)) {
                     max = tmp;
