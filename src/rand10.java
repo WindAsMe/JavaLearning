@@ -13,7 +13,16 @@ public class rand10 {
  * @return a random integer in the range 1 to 7
  */
     private static int rand10Result() {
-        return Math.abs(2 * rand7() - 4);
+        int a = rand7();
+        int b = rand7();
+        while(true) {
+            if(b <= 4)
+                return a;
+            else if(a <= 4)
+                return b + 3;
+            a = rand7();
+            b = rand7();
+        }
     }
 
     private static int rand7() {
