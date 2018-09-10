@@ -11,7 +11,7 @@ public class reverseStr {
         char[] chs = s.toCharArray();
         int i = 0;
         while(i < chs.length){
-            if(i + 2 * k < chs.length){
+            if(i + 2 * k < chs.length) {
                 reverse(chs, i, i + k - 1);
                 i = i + 2 * k;
             } else if(i + k < chs.length) {
@@ -28,13 +28,18 @@ public class reverseStr {
         return str.toString();
     }
 
-    private static void reverse(char[] chs, int i, int j){//反转字符串中下标i到j的子串
+    private static void reverse(char[] chs, int i, int j) {
         for(int start = i; start < (j + i + 1) / 2; start++)
             swap(chs, start, j - (start - i));
     }
-    private static void swap(char[] chs,int i,int j){
+
+    private static void swap(char[] chs,int i,int j) {
         char temp = chs[i];
         chs[i] = chs[j];
         chs[j] = temp;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(reverseStrResult( "abcdefg", 2));
     }
 }
