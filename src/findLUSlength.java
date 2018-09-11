@@ -12,6 +12,6 @@ public class findLUSlength {
     }
 
     public static void main(String[] args) {
-        System.out.println(findLUSlengthResult("aba", "cdc"));
+        System.out.println(findLUSlengthResult("aba", "cdsc"));
     }
 }
