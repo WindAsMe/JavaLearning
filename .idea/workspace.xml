@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/zhongrui.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/zhongrui.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/rotateRight.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,20 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RandomizedSetResult.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RandomizedSetResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1402#1403#0" expanded="true" />
-                <element signature="e#1477#1478#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RandomSolution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RandomSolution.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -140,15 +127,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="findLUSlength.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="findLUSlength.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/findLUSlength.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="252">
+              <caret line="14" column="58" lean-forward="false" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
               <folding>
                 <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rotateRight.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/rotateRight.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -173,7 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/islandPerimeter.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/missingNumber.java" />
         <option value="$PROJECT_DIR$/src/replaceWords.java" />
@@ -224,6 +220,7 @@
         <option value="$PROJECT_DIR$/src/rand10.java" />
         <option value="$PROJECT_DIR$/src/reverseStr.java" />
         <option value="$PROJECT_DIR$/src/findLUSlength.java" />
+        <option value="$PROJECT_DIR$/src/rotateRight.java" />
       </list>
     </option>
   </component>
@@ -555,12 +552,12 @@
       <workItem from="1536459568716" duration="6098000" />
       <workItem from="1536555285519" duration="1948000" />
       <workItem from="1536577865309" duration="34000" />
-      <workItem from="1536661476320" duration="369000" />
+      <workItem from="1536661476320" duration="542000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="467083000" />
+    <option name="totallyTimeSpent" value="467256000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -646,13 +643,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/multiply.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/insertIntoBST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
@@ -1088,12 +1078,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/findLUSlength.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="252">
+          <caret line="14" column="58" lean-forward="false" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
           <folding>
             <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rotateRight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
