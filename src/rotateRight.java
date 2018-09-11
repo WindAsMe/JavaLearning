@@ -45,7 +45,7 @@ public class rotateRight {
         head.next.next.next.next.next = new ListNode(6);
         head.next.next.next.next.next.next = new ListNode(7);
         head.next.next.next.next.next.next.next = new ListNode(8);
-        ListNode ans = rotateRightResult(head, 1);
+        ListNode ans = rotateRightResult(head, 3);
         while (ans != null) {
             System.out.print(ans.val + " ");
             ans = ans.next;
