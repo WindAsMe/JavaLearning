@@ -17,7 +17,7 @@ public class diameterOfBinaryTree {
     private static int diameterOfBinaryTreeResult(TreeNode root) {
         if (root == null)
             return 0;
-        return Math.max(Math.max(diameterOfBinaryTreeResult(root.left), diameterOfBinaryTreeResult(root.right)), diameterOfBinaryTreeResult(root));
+        return Math.max(Math.max(diameterOfBinaryTreeResult(root.left), diameterOfBinaryTreeResult(root.right)), nodeDiameter(root));
     }
 
     private static int nodeDiameter(TreeNode node) {
@@ -35,5 +35,9 @@ public class diameterOfBinaryTree {
         if (node == null)
             return 0;
         return 1 + Math.max(height(node.left), height(node.right));
+    }
+
+    public static void main(String[] args) {
+
     }
 }
