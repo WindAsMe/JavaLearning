@@ -14,14 +14,38 @@ public class convertBST {
         TreeNode(int x) { val = x; }
     }
 
-    private static TreeNode convertBSTResult(TreeNode root) {
-
+    private int sum = 0;
+    private TreeNode convertBSTResult(TreeNode root) {
+        dfs(root);
+        return root;
     }
 
-    private static void dfs(TreeNode node) {
+    private void dfs(TreeNode node) {
+        if (node == null)
+            return;
+        dfs(node.right);
+        node.val += sum;
+        sum = node.val;
+        dfs(node.left);
+    }
+
+    private static void print(TreeNode node) {
         if (node != null) {
-            dfs(node.right);
-            dfs(node.left);
+            System.out.print(node.val + " ");
+            print(node.left);
+            print(node.right);
         }
+    }
+
+
+    public static void main(String[] args) {
+        TreeNode node = new TreeNode(5);
+        node.left = new TreeNode(2);
+        node.left.left = new TreeNode(1);
+        node.left.right = new TreeNode(3);
+
+        node.right = new TreeNode(12);
+        node.right.left = new TreeNode(7);
+        node.right.right = new TreeNode(13);
     }
 }
