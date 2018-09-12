@@ -3,7 +3,7 @@
  * File       : diameterOfBinaryTree.java
  * Time       : Create on 18-9-12
  * Location   : ../Home/JavaForLeeCode2/diameterOfBinaryTree.java
- * Function   :
+ * Function   : LeetCode No.543
  */
 public class diameterOfBinaryTree {
 
