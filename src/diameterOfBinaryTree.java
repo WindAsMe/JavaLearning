@@ -17,10 +17,10 @@ public class diameterOfBinaryTree {
     private static int diameterOfBinaryTreeResult(TreeNode root) {
         if (root == null)
             return 0;
-        return Math.max(Math.max(diameterOfBinaryTreeResult(root.left), diameterOfBinaryTreeResult(root.right)), nodeDiameter(root));
+        return Math.max(Math.max(diameterOfBinaryTreeResult(root.left), diameterOfBinaryTreeResult(root.right)), diameter(root));
     }
 
-    private static int nodeDiameter(TreeNode node) {
+    private static int diameter(TreeNode node) {
         if (node == null)
             return 0;
         int sum = 0;
