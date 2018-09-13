@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * Author     : WindAsMe
  * File       : findCircleNum.java
@@ -12,7 +14,6 @@ public class findCircleNum {
             return 0;
         int count = 0;
         boolean[] flag = new boolean[M.length];
-        flag[0] = true;
         for (int i = 0; i < M.length; i++) {
             if (!flag[i]) {
                 dfs(M, i, flag);
@@ -33,10 +34,9 @@ public class findCircleNum {
 
     public static void main(String[] args) {
         int[][] nums = {
-                {1,0,0,1},
-                {0,1,1,0},
-                {0,1,1,1},
-                {1,0,1,1}
+                {1,0,0},
+                {0,1,0},
+                {0,0,1}
         };
         System.out.println(findCircleNumResult(nums));
     }
