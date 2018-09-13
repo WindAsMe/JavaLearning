@@ -14,6 +14,7 @@ public class findCircleNum {
         for (int i = 0; i < M.length; i++) {
             for (int j = 0; j < M[0].length; j++) {
                 if (M[i][j] == 0) {
+                    System.out.println("row: " + i + " column: " + j);
                     count++;
                     dfs(M, i, j);
                 }
@@ -23,7 +24,8 @@ public class findCircleNum {
     }
 
     private static void dfs(int[][] M, int row, int column) {
-        if (M[row][column] == 1) {
+        if (row < M.length && column < M[0].length && M[row][column] == 1) {
+            System.out.println("row: " + row + " column: " + column);
             M[row][column] = 0;
             dfs(M,row + 1, column);
             dfs(M, row, column + 1);
