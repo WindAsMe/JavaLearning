@@ -20,26 +20,27 @@ public class CodecResult {
                 post.append(factor[(int) (Math.random() * 15)]);
 
             int mid = longUrl.length() - 1;
-            for (; mid >= 0; mid++) {
+            for (; mid >= 0; mid--) {
                 if (helper[mid] == '/')
                     break;
             }
             pre = longUrl.substring(0, mid);
-            ans = new StringBuilder("http://" + longUrl.substring(mid, longUrl.length()) + post);
+            ans = new StringBuilder("http://" + longUrl.substring(mid + 1, longUrl.length()) + "/" + post);
             return ans.toString();
         }
 
         // Decodes a shortened URL to its original URL.
         public String decode(String shortUrl) {
-            return pre + ans.substring(7, ans.length() - 6);
+            return pre + ans.substring(6, ans.length() - 7);
         }
     }
 
 // Your Codec object will be instantiated and called as such:
 // Codec codec = new Codec();
 // codec.decode(codec.encode(url));
-     public static void main(String[] args) {
+    public static void main(String[] args) {
         Codec c = new Codec();
-         System.out.println(c.decode("https://leetcode.com/problems/design-tinyurl"));
-     }
+        System.out.println(c.encode("https://leetcode.com/problems/design-tinyurl"));
+        System.out.println(c.decode(c.ans.toString()));
+    }
 }
