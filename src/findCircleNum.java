@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 /**
  * Author     : WindAsMe
  * File       : findCircleNum.java

@@ -59,15 +59,12 @@ public class frequencySort {
             }
         }
 
-        list.sort(new Comparator<char[]>() {
-            @Override
-            public int compare(char[] o1, char[] o2) {
-                int temp = o2[1] - o1[1];
-                if (temp >= 0) {
-                    return 1;
-                } else {
-                    return -1;
-                }
+        list.sort((o1, o2) -> {
+            int temp = o2[1] - o1[1];
+            if (temp >= 0) {
+                return 1;
+            } else {
+                return -1;
             }
         });
 
