@@ -30,15 +30,18 @@ public class splitListToParts {
         len = list.size();
         while (list.size() != 0) {
             ListNode temp = new ListNode(list.remove(0));
+            ListNode point = temp;
             int average = len / k;
             if (average * k < len)
                 average++;
-            while (average > 1) {
+            len -= average;
+            k--;
+            while (list.size() != 0 && average > 1) {
                 temp.next = new ListNode(list.remove(0));
                 temp = temp.next;
                 average--;
             }
-            ans[index] = temp;
+            ans[index] = point;
             index++;
         }
         return ans;
@@ -46,7 +49,7 @@ public class splitListToParts {
 
     public static void print(ListNode node) {
         while (node != null) {
-            System.out.println(node.val + " ");
+            System.out.print(node.val + " ");
             node = node.next;
         }
     }
@@ -65,6 +68,7 @@ public class splitListToParts {
         ListNode[] ans = splitListToPartsResult(node,3);
         for (ListNode node1 : ans) {
             print(node1);
+            System.out.println();
         }
     }
 }
