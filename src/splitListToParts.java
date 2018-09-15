@@ -23,7 +23,7 @@ public class splitListToParts {
         int index = 0;
         int len;
         List<Integer> list = new ArrayList<>();
-        while (root != null) {
+        while (node!= null) {
             list.add(node.val);
             node = node.next;
         }
@@ -33,9 +33,10 @@ public class splitListToParts {
             int average = len / k;
             if (average * k < len)
                 average++;
-            while (average > 0) {
+            while (average > 1) {
                 temp.next = new ListNode(list.remove(0));
                 temp = temp.next;
+                average--;
             }
             ans[index] = temp;
             index++;
@@ -54,7 +55,14 @@ public class splitListToParts {
         ListNode node = new ListNode(1);
         node.next = new ListNode(2);
         node.next.next = new ListNode(3);
-        ListNode[] ans = splitListToPartsResult(node,5);
+        node.next.next.next = new ListNode(4);
+        node.next.next.next.next = new ListNode(5);
+        node.next.next.next.next.next = new ListNode(6);
+        node.next.next.next.next.next.next = new ListNode(7);
+        node.next.next.next.next.next.next.next = new ListNode(8);
+        node.next.next.next.next.next.next.next.next = new ListNode(9);
+        node.next.next.next.next.next.next.next.next.next = new ListNode(10);
+        ListNode[] ans = splitListToPartsResult(node,3);
         for (ListNode node1 : ans) {
             print(node1);
         }
