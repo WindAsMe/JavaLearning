@@ -65,7 +65,7 @@ public class splitListToParts {
         node.next.next.next.next.next.next.next = new ListNode(8);
         node.next.next.next.next.next.next.next.next = new ListNode(9);
         node.next.next.next.next.next.next.next.next.next = new ListNode(10);
-        ListNode[] ans = splitListToPartsResult(node,3);
+        ListNode[] ans = splitListToPartsResult(node,5);
         for (ListNode node1 : ans) {
             print(node1);
             System.out.println();
