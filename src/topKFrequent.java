@@ -15,7 +15,14 @@ public class topKFrequent {
             map.merge(word, 1, (a, b) -> a + b);
         List<Map.Entry<String, Integer>> list = new ArrayList<>(map.entrySet());
         List<String> ans = new ArrayList<>();
-        list.sort(Comparator.comparingInt(Map.Entry::getValue));
+        list.sort((o1, o2) -> {
+            if (o2.getValue() > o1.getValue())
+                return 1;
+            else if (o2.getValue() < o1.getValue())
+                return -1;
+            else
+                return o1.getKey().compareTo(o2.getKey());
+        });
         for (int i = 0; i < k; i++)
             ans.add(list.get(i).getKey());
         return ans;

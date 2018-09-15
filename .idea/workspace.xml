@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/topKFrequent.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/topKFrequent.java" afterPath="$PROJECT_DIR$/src/topKFrequent.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,12 +91,9 @@
       <file leaf-file-name="topKFrequent.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/topKFrequent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-              <folding>
-                <element signature="e#793#794#0" expanded="true" />
-                <element signature="e#829#830#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="184">
+              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="27" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -271,7 +267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.splitListToParts">
+  <component name="RunManager" selected="Application.topKFrequent">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -335,9 +331,9 @@
       <module name="JavaForLeeCode2" />
       <envs />
     </configuration>
-    <configuration name="rotateRight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="splitListToParts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="rotateRight" />
+      <option name="MAIN_CLASS_NAME" value="splitListToParts" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -349,9 +345,9 @@
       <module name="JavaForLeeCode2" />
       <envs />
     </configuration>
-    <configuration name="splitListToParts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="topKFrequent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="splitListToParts" />
+      <option name="MAIN_CLASS_NAME" value="topKFrequent" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -424,19 +420,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.rotateRight" />
-      <item index="1" class="java.lang.String" itemvalue="Application.convertBST" />
-      <item index="2" class="java.lang.String" itemvalue="Application.CodecResult" />
-      <item index="3" class="java.lang.String" itemvalue="Application.findCircleNum" />
-      <item index="4" class="java.lang.String" itemvalue="Application.splitListToParts" />
+      <item index="0" class="java.lang.String" itemvalue="Application.convertBST" />
+      <item index="1" class="java.lang.String" itemvalue="Application.CodecResult" />
+      <item index="2" class="java.lang.String" itemvalue="Application.findCircleNum" />
+      <item index="3" class="java.lang.String" itemvalue="Application.splitListToParts" />
+      <item index="4" class="java.lang.String" itemvalue="Application.topKFrequent" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.splitListToParts" />
-        <item index="1" class="java.lang.String" itemvalue="Application.findCircleNum" />
-        <item index="2" class="java.lang.String" itemvalue="Application.CodecResult" />
-        <item index="3" class="java.lang.String" itemvalue="Application.convertBST" />
-        <item index="4" class="java.lang.String" itemvalue="Application.rotateRight" />
+        <item index="0" class="java.lang.String" itemvalue="Application.topKFrequent" />
+        <item index="1" class="java.lang.String" itemvalue="Application.splitListToParts" />
+        <item index="2" class="java.lang.String" itemvalue="Application.findCircleNum" />
+        <item index="3" class="java.lang.String" itemvalue="Application.CodecResult" />
+        <item index="4" class="java.lang.String" itemvalue="Application.convertBST" />
       </list>
     </recent_temporary>
   </component>
@@ -529,12 +525,12 @@
       <workItem from="1536756269044" duration="366000" />
       <workItem from="1536817581869" duration="3686000" />
       <workItem from="1536903108971" duration="696000" />
-      <workItem from="1536998692883" duration="3503000" />
+      <workItem from="1536998692883" duration="4194000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="478736000" />
+    <option name="totallyTimeSpent" value="479427000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -558,8 +554,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3126935" sideWeight="0.5217048" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32817337" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24767801" sideWeight="0.48776639" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29411766" sideWeight="0.47829518" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24767801" sideWeight="0.48776639" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29411766" sideWeight="0.47829518" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17363852" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1024,12 +1020,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/topKFrequent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-          <folding>
-            <element signature="e#793#794#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="184">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="27" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
