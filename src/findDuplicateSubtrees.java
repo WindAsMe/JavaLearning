@@ -47,7 +47,9 @@ public class findDuplicateSubtrees {
 
 
     private static boolean treeEqual(TreeNode node1, TreeNode node2) {
-        return node1 != null && node2 != null && node1.val == node2.val && treeEqual(node1.left, node2.left) && treeEqual(node1.right, node2.right);
+        if (node1 != null && node2 != null && node1.val == node2.val)
+            return treeEqual(node1.left, node2.left) && treeEqual(node1.right, node2.right);
+        return (node1 == null || node2 == null) && (node1 != null || node2 == null) && node1 == null;
     }
 
 
@@ -70,6 +72,7 @@ public class findDuplicateSubtrees {
         root.right.left.left = new TreeNode(4);
 
         List<TreeNode> list = findDuplicateSubtreesResult(root);
+        System.out.println("size: " + list.size());
         for (TreeNode node : list)
             dfs(node);
     }
