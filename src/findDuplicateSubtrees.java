@@ -1,5 +1,7 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Author     : WindAsMe
@@ -18,50 +20,19 @@ public class findDuplicateSubtrees {
     }
 
     private static List<TreeNode> findDuplicateSubtreesResult(TreeNode root) {
-        List<TreeNode> list = new ArrayList<>();
-        if (root == null)
-            return list;
-        dfs1(root.left, root, list);
-        dfs1(root.right, root, list);
-        for (int i = 0; i < list.size(); i++) {
-            for (int j = i + 1; j < list.size(); j++) {
-                if (treeEqual(list.get(i), list.get(j))) {
-                    list.remove(j);
-                    j--;
-                }
-            }
-        }
-        return list;
+        List<TreeNode> res = new ArrayList<>();
+        create(root,new HashMap<>(),res);
+        return res;
+
     }
-
-    private static void dfs1(TreeNode node, TreeNode root, List<TreeNode> list) {
-        if (node != null && root != null) {
-            if (node.val == root.val)
-                dfs2(node, root, list);
-            else {
-                dfs1(node, root.left, list);
-                dfs1(node, root.right, list);
-            }
-            dfs1(node.left, root, list);
-            dfs1(node.right, root, list);
-        }
-    }
-
-    private static void dfs2(TreeNode node1, TreeNode node2, List<TreeNode> list) {
-        if (node1 != node2 && node1.val == node2.val && treeEqual(node1, node2) && !list.contains(node1) && !list.contains(node2))
-            list.add(node1);
-        else if (node2.left != null)
-            dfs2(node1, node2.left, list);
-        else if (node2.right != null)
-            dfs2(node1, node2.right, list);
-    }
-
-
-
-    private static boolean treeEqual(TreeNode node1, TreeNode node2) {
-        if (node1 != null && node2 != null && node1.val == node2.val)
-            return treeEqual(node1.left, node2.left) && treeEqual(node1.right, node2.right);
-        return (node1 == null || node2 == null) && (node1 != null || node2 == null) && node1 == null;
+    private static String create(TreeNode cur, Map<String,Integer> map, List<TreeNode> res){
+        if (cur == null)
+            return "#";
+        String serial = cur.val + "," + create(cur.left,map,res) + create(cur.right,map,res);
+        if(map.getOrDefault(serial, 0) == 1)
+            res.add(cur);
+        map.put(serial,map.getOrDefault(serial, 0) + 1);
+        return serial;
     }
 
 
