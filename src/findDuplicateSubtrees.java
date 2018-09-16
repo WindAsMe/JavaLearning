@@ -8,7 +8,7 @@ import java.util.Map;
  * File       : findDuplicateSubtrees.java
  * Time       : Create on 18-9-16
  * Location   : ../Home/JavaForLeeCode2/findDuplicateSubtrees.java
- * Function   :
+ * Function   : LeetCode No.652
  */
 public class findDuplicateSubtrees {
 
