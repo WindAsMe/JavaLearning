@@ -28,7 +28,7 @@ public class findDuplicateSubtrees {
     private static String create(TreeNode cur, Map<String,Integer> map, List<TreeNode> res){
         if (cur == null)
             return "#";
-        String serial = cur.val + "," + create(cur.left,map,res) + create(cur.right,map,res);
+        String serial = cur.val + "," + create(cur.left, map, res) + create(cur.right, map, res);
         if(map.getOrDefault(serial, 0) == 1)
             res.add(cur);
         map.put(serial,map.getOrDefault(serial, 0) + 1);
