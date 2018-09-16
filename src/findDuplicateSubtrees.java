@@ -23,20 +23,32 @@ public class findDuplicateSubtrees {
             return list;
         dfs1(root.left, root, list);
         dfs1(root.right, root, list);
+        for (int i = 0; i < list.size(); i++) {
+            for (int j = i + 1; j < list.size(); j++) {
+                if (treeEqual(list.get(i), list.get(j))) {
+                    list.remove(j);
+                    j--;
+                }
+            }
+        }
         return list;
     }
 
     private static void dfs1(TreeNode node, TreeNode root, List<TreeNode> list) {
         if (node != null && root != null) {
-            dfs2(node, root.left, list);
-            dfs2(node, root.right, list);
+            if (node.val == root.val)
+                dfs2(node, root, list);
+            else {
+                dfs1(node, root.left, list);
+                dfs1(node, root.right, list);
+            }
             dfs1(node.left, root, list);
             dfs1(node.right, root, list);
         }
     }
 
     private static void dfs2(TreeNode node1, TreeNode node2, List<TreeNode> list) {
-        if (node1.val == node2.val && treeEqual(node1, node2) && !list.contains(node1) && !list.contains(node2))
+        if (node1 != node2 && node1.val == node2.val && treeEqual(node1, node2) && !list.contains(node1) && !list.contains(node2))
             list.add(node1);
         else if (node2.left != null)
             dfs2(node1, node2.left, list);
@@ -54,7 +66,7 @@ public class findDuplicateSubtrees {
 
 
     private static void dfs(TreeNode node) {
-        while (node != null) {
+        if (node != null) {
             System.out.print(node.val + " ");
             dfs(node.left);
             dfs(node.right);
@@ -73,7 +85,9 @@ public class findDuplicateSubtrees {
 
         List<TreeNode> list = findDuplicateSubtreesResult(root);
         System.out.println("size: " + list.size());
-        for (TreeNode node : list)
+        for (TreeNode node : list) {
             dfs(node);
+            System.out.println();
+        }
     }
 }
