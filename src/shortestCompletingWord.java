@@ -49,8 +49,8 @@ public class shortestCompletingWord {
     }
 
     public static void main(String[] args) {
-        String licensePlate = "1s3 456";
-        String[] words = {"looks", "pest", "stew", "show"};
+        String licensePlate = "1s3 PSt";
+        String[] words = {"step", "steps", "stripe", "stepple"};
         System.out.println(shortestCompletingWordResult(licensePlate, words));
     }
 }
