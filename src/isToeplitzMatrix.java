@@ -3,7 +3,7 @@
  * File       : isToeplitzMatrix.java
  * Time       : Create on 18-9-21
  * Location   : ../Home/JavaForLeeCode2/isToeplitzMatrix.java
- * Function   :
+ * Function   : LeetCode No.766
  */
 public class isToeplitzMatrix {
 
