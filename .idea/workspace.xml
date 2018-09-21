@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/numJewelsInStones.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/isToeplitzMatrix.java" afterPath="$PROJECT_DIR$/src/isToeplitzMatrix.java" />
+      <change beforePath="$PROJECT_DIR$/src/numJewelsInStones.java" afterPath="$PROJECT_DIR$/src/numJewelsInStones.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,22 +98,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="isToeplitzMatrix.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="isToeplitzMatrix.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/isToeplitzMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+              <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="numJewelsInStones.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="numJewelsInStones.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/numJewelsInStones.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="449">
+              <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -209,8 +209,8 @@
         <option value="$PROJECT_DIR$/src/minSteps.java" />
         <option value="$PROJECT_DIR$/src/shortestCompletingWord.java" />
         <option value="$PROJECT_DIR$/src/myPow.java" />
-        <option value="$PROJECT_DIR$/src/numJewelsInStones.java" />
         <option value="$PROJECT_DIR$/src/isToeplitzMatrix.java" />
+        <option value="$PROJECT_DIR$/src/numJewelsInStones.java" />
       </list>
     </option>
   </component>
@@ -550,12 +550,12 @@
       <workItem from="1536998692883" duration="4340000" />
       <workItem from="1537092444907" duration="7759000" />
       <workItem from="1537418512777" duration="3309000" />
-      <workItem from="1537503701302" duration="1549000" />
+      <workItem from="1537503701302" duration="1751000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="492190000" />
+    <option name="totallyTimeSpent" value="492392000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1031,19 +1031,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/numJewelsInStones.java">
+    <entry file="file://$PROJECT_DIR$/src/isToeplitzMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="90">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/isToeplitzMatrix.java">
+    <entry file="file://$PROJECT_DIR$/src/numJewelsInStones.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="449">
+          <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
