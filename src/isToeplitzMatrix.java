@@ -16,19 +16,23 @@ public class isToeplitzMatrix {
         int j = 0;
         while (i >= 0 && j <= matrix[0].length - 2) {
             if (i == 0) {
+                int flag = matrix[i][j];
+                for (int row = i, column = j; row < matrix.length && column < matrix[0].length; row++, column++) {
+                    System.out.print("flag: " + flag + " matrix: " + matrix[row][column] + " ");
+                    if (matrix[row][column] != flag)
+                        return false;
+                }
+                System.out.println();
                 j++;
-                int flag = matrix[i][j];
-                for (int row = i, column = j; row < matrix.length && column < matrix[0].length; row++, column++) {
-                    if (matrix[row][column] != flag)
-                        return false;
-                }
             } else {
-                i--;
                 int flag = matrix[i][j];
                 for (int row = i, column = j; row < matrix.length && column < matrix[0].length; row++, column++) {
+                    System.out.print("flag: " + flag + " matrix: " + matrix[row][column] + " ");
                     if (matrix[row][column] != flag)
                         return false;
                 }
+                System.out.println();
+                i--;
             }
         }
         return true;
@@ -39,7 +43,7 @@ public class isToeplitzMatrix {
                 {1,2,3,4},
                 {5,1,2,3},
                 {9,5,1,2}
-                };
+        };
         System.out.println(isToeplitzMatrixResult(matrix));
     }
 }
