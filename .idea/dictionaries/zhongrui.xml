@@ -31,6 +31,7 @@
       <w>subarray</w>
       <w>subsequence</w>
       <w>subsequences</w>
+      <w>toeplitz</w>
     </words>
   </dictionary>
 </component>
