@@ -15,21 +15,22 @@ public class minDiffInBST {
     }
 
     private static int minDiffInBSTResult(TreeNode root) {
-        return dfs1(root, root);
+        int[] min = {Integer.MAX_VALUE};
+        dfs1(root, root, min);
+        return min[0];
     }
 
-    private static int dfs1(TreeNode node, TreeNode root) {
-        int[] min = {Integer.MAX_VALUE};
+    private static void dfs1(TreeNode node, TreeNode root, int[] min) {
         if (node != null) {
             dfs2(node, min, root);
-            dfs1(node.left, root);
-            dfs1(node.right, root);
+            dfs1(node.left, root, min);
+            dfs1(node.right, root, min);
         }
-        return min[0];
     }
 
     private static void dfs2(TreeNode node, int[] min, TreeNode root) {
         if (root != null && root != node) {
+            System.out.println("node: " + node.val + " min[0]: " + min[0] + " deduct: " + Math.abs(node.val - root.val));
             min[0] = Math.min(min[0], Math.abs(node.val - root.val));
             dfs2(node, min, root.left);
             dfs2(node, min, root.right);
@@ -40,12 +41,12 @@ public class minDiffInBST {
     }
 
     public static void main(String[] args) {
-        TreeNode node = new TreeNode(4);
-        node.left = new TreeNode(2);
-        node.left.left = new TreeNode(1);
-        node.left.right = new TreeNode(3);
+        TreeNode node = new TreeNode(27);
+        node.right = new TreeNode(34);
+        node.right.right = new TreeNode(58);
+        node.right.right.left = new TreeNode(50);
+        node.right.right.left.right = new TreeNode(44);
 
-        node.right = new TreeNode(6);
         System.out.println(minDiffInBSTResult(node));
     }
 }
