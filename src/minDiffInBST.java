@@ -45,7 +45,6 @@ public class minDiffInBST {
         node.right = new TreeNode(34);
         node.right.right = new TreeNode(58);
         node.right.right.left = new TreeNode(50);
-        node.right.right.left.right = new TreeNode(44);
 
         System.out.println(minDiffInBSTResult(node));
     }
