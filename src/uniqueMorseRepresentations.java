@@ -23,6 +23,7 @@ public class uniqueMorseRepresentations {
         StringBuilder builder = new StringBuilder();
         for (char c : chars)
             builder.append(salt[c - 97]);
+        // System.out.println(builder.toString());
         set.add(builder.toString());
     }
 
