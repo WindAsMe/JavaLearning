@@ -14,6 +14,7 @@
       <w>abcdefg</w>
       <w>abcdefghijklmnopqrstuvwxyz</w>
       <w>bbbcccdddaaa</w>
+      <w>cpdomains</w>
       <w>deadends</w>
       <w>inend</w>
       <w>inindex</w>
@@ -31,6 +32,7 @@
       <w>slength</w>
       <w>stringbuilder</w>
       <w>subarray</w>
+      <w>subdomain</w>
       <w>subsequence</w>
       <w>subsequences</w>
       <w>toeplitz</w>
