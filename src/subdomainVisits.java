@@ -34,6 +34,6 @@ public class subdomainVisits {
 
     public static void main(String[] args) {
         String[] s = {"900 google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org"};
-        subdomainVisitsResult(s);
+        System.out.println(subdomainVisitsResult(s).toString());
     }
 }
