@@ -25,8 +25,8 @@ public class numberOfLines {
     }
 
     public static void main(String[] args) {
-        int[] widths = {10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10};
-        System.out.println(Arrays.toString(numberOfLinesResult(widths, "abcdefghijklmnopqrstuvwxyz")));
+        int[] widths = {4,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10};
+        System.out.println(Arrays.toString(numberOfLinesResult(widths, "bbbcccdddaaa")));
 
     }
 }
