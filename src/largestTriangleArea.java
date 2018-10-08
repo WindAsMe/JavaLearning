@@ -26,7 +26,7 @@ public class largestTriangleArea {
     }
 
     private static boolean isTriangle(int[] p1, int[] p2, int[] p3) {
-        return (p3[1] - p2[1]) / (p3[0] - p2[0]) != (p2[1] - p1[1]) / (p2[0] - p1[0]);
+        return (p2[0] - p1[0] != 0 || p3[0] - p2[0] != 0) && (p2[0] - p1[0] == 0 || p3[0] - p2[0] == 0 || (p3[1] - p2[1]) / (p3[0] - p2[0]) != (p2[1] - p1[1]) / (p2[0] - p1[0]));
     }
 
     public static void main(String[] args) {
