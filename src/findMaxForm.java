@@ -16,11 +16,10 @@ public class findMaxForm {
             int zeros = 0, ones = 0;
             // Get the corresponding str and initiate the variable
             for (int i = 0 ; i < str.length() ; i ++) {
-                if (str.charAt(i) == '0') {
+                if (str.charAt(i) == '0')
                     zeros ++;
-                } else {
+                else
                     ones ++;
-                }
             }
 
             for (int i = m; i >= zeros; -- i) {
@@ -30,9 +29,9 @@ public class findMaxForm {
                 }
             }
 
-            for (int[] arr : dp)
-                System.out.println(Arrays.toString(arr));
-            System.out.println("-----------------------------");
+//            for (int[] arr : dp)
+//                System.out.println(Arrays.toString(arr));
+//            System.out.println("-----------------------------");
         }
         return dp[m][n];
     }
