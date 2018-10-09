@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/largestTriangleArea.java" afterPath="$PROJECT_DIR$/src/largestTriangleArea.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/middleNode.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,16 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="findDuplicateSubtrees.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/findDuplicateSubtrees.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="29" column="23" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="minSteps.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/minSteps.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -105,11 +96,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="largestTriangleArea.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="largestTriangleArea.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/largestTriangleArea.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="17" selection-end-column="20" />
+            <state relative-caret-position="432">
+              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="middleNode.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/middleNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="41" column="31" lean-forward="false" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -155,7 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/countPrimes.java" />
         <option value="$PROJECT_DIR$/src/BSTIterator.java" />
         <option value="$PROJECT_DIR$/src/findRepeatedDnaSequences.java" />
         <option value="$PROJECT_DIR$/src/TrieSolution.java" />
@@ -206,6 +206,7 @@
         <option value="$PROJECT_DIR$/src/subdomainVisits.java" />
         <option value="$PROJECT_DIR$/src/findMaxForm.java" />
         <option value="$PROJECT_DIR$/src/largestTriangleArea.java" />
+        <option value="$PROJECT_DIR$/src/middleNode.java" />
       </list>
     </option>
   </component>
@@ -284,7 +285,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.largestTriangleArea">
+  <component name="RunManager" selected="Application.middleNode">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -320,9 +321,9 @@
       <module name="JavaForLeeCode2" />
       <envs />
     </configuration>
-    <configuration name="letterCasePermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="middleNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="letterCasePermutation" />
+      <option name="MAIN_CLASS_NAME" value="middleNode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -437,19 +438,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.letterCasePermutation" />
-      <item index="1" class="java.lang.String" itemvalue="Application.uniqueMorseRepresentations" />
-      <item index="2" class="java.lang.String" itemvalue="Application.numberOfLines" />
-      <item index="3" class="java.lang.String" itemvalue="Application.subdomainVisits" />
-      <item index="4" class="java.lang.String" itemvalue="Application.largestTriangleArea" />
+      <item index="0" class="java.lang.String" itemvalue="Application.uniqueMorseRepresentations" />
+      <item index="1" class="java.lang.String" itemvalue="Application.numberOfLines" />
+      <item index="2" class="java.lang.String" itemvalue="Application.subdomainVisits" />
+      <item index="3" class="java.lang.String" itemvalue="Application.largestTriangleArea" />
+      <item index="4" class="java.lang.String" itemvalue="Application.middleNode" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.largestTriangleArea" />
-        <item index="1" class="java.lang.String" itemvalue="Application.subdomainVisits" />
-        <item index="2" class="java.lang.String" itemvalue="Application.numberOfLines" />
-        <item index="3" class="java.lang.String" itemvalue="Application.uniqueMorseRepresentations" />
-        <item index="4" class="java.lang.String" itemvalue="Application.letterCasePermutation" />
+        <item index="0" class="java.lang.String" itemvalue="Application.middleNode" />
+        <item index="1" class="java.lang.String" itemvalue="Application.largestTriangleArea" />
+        <item index="2" class="java.lang.String" itemvalue="Application.subdomainVisits" />
+        <item index="3" class="java.lang.String" itemvalue="Application.numberOfLines" />
+        <item index="4" class="java.lang.String" itemvalue="Application.uniqueMorseRepresentations" />
       </list>
     </recent_temporary>
   </component>
@@ -550,12 +551,12 @@
       <workItem from="1537788380500" duration="60000" />
       <workItem from="1538709795702" duration="4306000" />
       <workItem from="1538804827195" duration="2751000" />
-      <workItem from="1538977261446" duration="3339000" />
+      <workItem from="1538977261446" duration="4195000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="505206000" />
+    <option name="totallyTimeSpent" value="506062000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -580,7 +581,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32817337" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23993808" sideWeight="0.48776639" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3111455" sideWeight="0.47829518" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3111455" sideWeight="0.47829518" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13812155" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -641,13 +642,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/WordDictionaryResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/toHex.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1019,8 +1013,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/largestTriangleArea.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="432">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/middleNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="41" column="31" lean-forward="false" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
           <folding />
         </state>
       </provider>
