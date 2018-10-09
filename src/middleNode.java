@@ -17,6 +17,8 @@ public class middleNode {
     }
 
     private static ListNode middleNodeResult(ListNode head) {
+        if (head == null)
+            return null;
         int len = 0;
         ListNode node = head;
         while (node != null) {
@@ -36,6 +38,6 @@ public class middleNode {
         ListNode head = new ListNode(1);
         head.next = new ListNode(2);
         head.next.next = new ListNode(3);
-        System.out.println(middleNodeResult(head).val);
+        System.out.println(middleNodeResult(null).val);
     }
 }
