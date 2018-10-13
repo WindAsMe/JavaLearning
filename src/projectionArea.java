@@ -12,14 +12,14 @@ public class projectionArea {
             return 0;
         int hang = grid.length;
         int lie = grid[0].length;
-        int down =0;
+        int down = 0;
         int main = 0;
         int left = 0;
         for (int i = 0; i < hang; i++) {
             int main_mid = 0;
             int left_mid = 0;
             for (int j = 0; j < lie; j++) {
-                if(grid[i][j]>0)
+                if(grid[i][j] > 0)
                     down++;
                 if (grid[i][j] > main_mid)
                     main_mid = grid[i][j];
