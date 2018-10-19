@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef864283-3298-4c3d-a707-9c6bfbe86420" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/uncommonFromSentences.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaForLeeCode2/middleNode.class" afterPath="$PROJECT_DIR$/out/production/JavaForLeeCode2/middleNode.class" />
+      <change beforePath="$PROJECT_DIR$/src/uncommonFromSentences.java" afterPath="$PROJECT_DIR$/src/uncommonFromSentences.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -120,8 +118,8 @@
       <file leaf-file-name="uncommonFromSentences.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/uncommonFromSentences.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="63">
+              <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -547,12 +545,12 @@
       <workItem from="1538977261446" duration="4613000" />
       <workItem from="1539429588890" duration="689000" />
       <workItem from="1539847571506" duration="50000" />
-      <workItem from="1539948452424" duration="845000" />
+      <workItem from="1539948452424" duration="1088000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="508064000" />
+    <option name="totallyTimeSpent" value="508307000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1017,8 +1015,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/uncommonFromSentences.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="63">
+          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -19,17 +19,26 @@ public class uncommonFromSentences {
         List<String> bList = Arrays.asList(b);
 
         for (String s : aList) {
-            if (!bList.contains(s))
+            if (!bList.contains(s) && getTimes(s, aList))
                 list.add(s);
         }
         for (String s : bList) {
-            if (!aList.contains(s))
+            if (!aList.contains(s) && getTimes(s, bList))
                 list.add(s);
         }
         return list.toArray(new String[list.size()]);
     }
 
+    private static boolean getTimes(String s, List<String> list) {
+        int count = 0;
+        for (String s1 : list) {
+            if (s.equals(s1))
+                count++;
+        }
+        return count < 2;
+    }
+
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(uncommonFromSentencesResult("this apple is sweet", "this apple is sour")));
+        System.out.println(Arrays.toString(uncommonFromSentencesResult("this apple is sweet sweet", "this apple is sour")));
     }
 }
