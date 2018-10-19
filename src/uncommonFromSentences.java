@@ -39,6 +39,6 @@ public class uncommonFromSentences {
     }
 
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(uncommonFromSentencesResult("this apple is sweet sweet", "this apple is sour")));
+        System.out.println(Arrays.toString(uncommonFromSentencesResult("this apple is sweet", "this apple is sour")));
     }
 }
