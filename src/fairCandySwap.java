@@ -10,14 +10,14 @@ import java.util.Arrays;
 public class fairCandySwap {
 
     private static int[] fairCandySwapResult(int[] A, int[] B) {
+        int aSum = arraySum(A);
+        int bSum = arraySum(B);
         int[] ans = new int[2];
-        for (int i = 0; i < A.length; i++) {
-            int aSum = arraySum(A, i);
-            for (int j = 0; j < B.length; j++) {
-                int bSum = arraySum(B, j);
-                if (aSum + B[j] == bSum + A[i]) {
-                    ans[0] = A[i];
-                    ans[1] = B[j];
+        for (int a : A) {
+            for (int b :B) {
+                if (aSum - a + b == bSum - b + a) {
+                    ans[0] = a;
+                    ans[1] = b;
                     return ans;
                 }
             }
@@ -25,16 +25,16 @@ public class fairCandySwap {
         return null;
     }
 
-    private static int arraySum(int[] Candies, int index) {
+    private static int arraySum(int[] Candies) {
         int sum = 0;
         for (int i : Candies)
             sum += i;
-        return sum - Candies[index];
+        return sum;
     }
 
     public static void main(String[] args) {
-        int[] A = {1, 1};
-        int[] B = {2, 2};
+        int[] A = {1, 2};
+        int[] B = {2, 3};
         System.out.println(Arrays.toString(fairCandySwapResult(A, B)));
     }
 }
